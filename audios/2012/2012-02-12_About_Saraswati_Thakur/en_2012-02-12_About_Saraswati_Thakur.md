@@ -10,7 +10,7 @@ tags:
   - Saraswati Thakur
 ---
 
-## The favorite preparation of Srila Saraswati Thakur
+<h2>The favorite preparation of Srila Saraswati Thakur</h2>
 
 #00:00:00# I remember… maybe the first time for me, celebrating the appearance day of Srila Saraswati Thakur, with Srila Guru Maharaj and Srila Gurudev at Sri Chaitanya Saraswat Math, in Nabadwip Dham, and …how things would be approached, because we'd done this before, but how they would observe there… and when it was time for <i>prasadam</i>, they were serving one mango preparation and saying, &quot;This was Prabhupada's favourite,&rdquo; so, we were a little shocked, taken aback we are thinking…, we'd always heard this famous story that when he was a child he once ate the mango <i>bhog</i> of the deity, means the unoffered mango, and he was apparently 4 or 5 years old, and Bhaktivinod Thakur told the young Bimala Prasad that this should be offered to the deity and explained the situation, and he felt some great remorse in his heart. This intense devotional heart, even at the age of 4 or 5 years old, so serious. So, he vowed never to eat mango, and maintained this vow his whole life.
 
