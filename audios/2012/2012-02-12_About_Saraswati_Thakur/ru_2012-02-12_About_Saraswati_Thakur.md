@@ -5,7 +5,7 @@ title: О Сарасвати Тхакуре
 date: 2012-02-12
 lang: ru
 location: Чианг Май, Тайланд
-audio: ru_2012-02-12_About_Saraswati_Thakur.mp3
+audio: https://archive.org/download/ru_2012-02-12_About_Saraswati_Thakur/ru_2012-02-12_About_Saraswati_Thakur.mp3
 translators:
   - Амия Синдху Дас
 transcribers:
