@@ -10,7 +10,10 @@ This is an archive of lectures of Bhakti Sudhir Goswami.
 
 ## Contribution
 1. Fork this repository.
-1. Make a contribution. Add transcription or translation. Visit [Documnetation](https://goswami-audio.gitlab.io/docs/) site for the details on how to markup content.
+1. Make a contribution: add transcription or translation. Visit [documnetation](https://goswami-audio.gitlab.io/docs/) site for the details on how to markup content.
 1. Create pull request and wait for it to be merged.
+
+---
+Licensed under [CC BY-NC-SA 4.0](LICENSE).
 
 
