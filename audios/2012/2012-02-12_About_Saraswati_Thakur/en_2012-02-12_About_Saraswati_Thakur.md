@@ -5,7 +5,7 @@ title: About Saraswati Thakur
 date: 2012-02-12
 lang: en
 location: Chiang Mai, Thailand
-audio: https://archive.org/download/en_2012-02-12_About_Saraswati_Thakur/en_2012-02-12_About_Saraswati_Thakur.mp3
+audio: https://archive.org/download/en_2012-02-12_about_saraswati_thakur_202305/en_2012-02-12_About_Saraswati_Thakur.mp3
 tags:
   - Saraswati Thakur
 ---
