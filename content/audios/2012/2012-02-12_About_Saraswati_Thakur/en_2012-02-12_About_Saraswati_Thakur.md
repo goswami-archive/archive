@@ -1,7 +1,7 @@
 ---
+title: About Saraswati Thakur
 authors: 
   - Bhakti Sudhir Goswami
-title: About Saraswati Thakur
 date: 2012-02-12
 lang: en
 location: Chiang Mai, Thailand
