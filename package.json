@@ -1,0 +1,20 @@
+{
+  "name": "goswami-archive",
+  "version": "0.1.0",
+  "description": "Archive of lectures of Bhakti Sudhir Goswami",
+  "author": "goswami.archive@gmail.com",
+  "license": "CC-BY-NC-SA-4.0",
+  "scripts": {
+    "prepare": "husky install",
+    "lint": "node tools/lint-markdown.js -p content/**/*.md"
+  },
+  "devDependencies": {
+    "cheerio": "1.0.0-rc.12",
+    "commander": "11.1.0",
+    "glob": "10.3.10",
+    "gray-matter": "4.0.3",
+    "husky": "8.0.3",
+    "lint-staged": "15.0.2",
+    "revalidator": "0.3.1"
+  }
+}

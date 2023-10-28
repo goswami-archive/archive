@@ -1,0 +1,6 @@
+{
+  "*.md": [
+    "node tools/lint-front-matter.js -f",
+    "node tools/lint-markdown.js -f"
+  ]
+}
