@@ -1,7 +1,8 @@
 ---
+title: Бхога-Арати
 authors:
   - Бхакти Судхир Госвами
-title: Бхога-Арати
+lang: ru
 audio: bhoga-arati.mp3
 ---
 

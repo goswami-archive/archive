@@ -1,7 +1,8 @@
 ---
+title: Bhoga Arati
 authors:
   - Bhakti Sudhir Goswami
-title: Bhoga Arati
+lang: en
 audio: bhoga-arati.mp3
 ---
 
