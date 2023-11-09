@@ -2,6 +2,7 @@ name: Lint markdown
 
 on:
   pull_request:
+    types: [opened, synchronize]
     branches: [main]
 
 jobs:
