@@ -1,4 +1,5 @@
 ---
+type: post
 title: About Saraswati Thakur
 authors: 
   - Bhakti Sudhir Goswami

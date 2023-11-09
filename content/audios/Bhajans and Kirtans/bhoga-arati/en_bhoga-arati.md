@@ -1,4 +1,5 @@
 ---
+type: post
 title: Bhoga Arati
 authors:
   - Bhakti Sudhir Goswami

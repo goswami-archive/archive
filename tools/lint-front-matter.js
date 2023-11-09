@@ -1,12 +1,14 @@
 const matter = require("gray-matter");
 const revalidator = require("revalidator");
-const frontMatterSchema = require("./schema/front-matter");
+const categorySchema = require("./schema/front-matter/category");
+const postSchema = require("./schema/front-matter/post");
 
 function lintFrontMatter(file) {
   const messages = [];
-
   const yamlObj = matter.read(file, { language: "yaml" }).data;
-  const { valid, errors } = revalidator.validate(yamlObj, frontMatterSchema, {
+  const schema = yamlObj.type === "post" ? postSchema : categorySchema;
+
+  const { valid, errors } = revalidator.validate(yamlObj, schema, {
     additionalProperties: false,
   });
 

@@ -1,4 +1,5 @@
 ---
+type: post
 title: A Copernican Revolution of Theism
 authors:
   - Bhakti Sudhir Goswami

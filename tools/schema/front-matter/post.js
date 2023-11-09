@@ -1,11 +1,17 @@
 module.exports = {
   properties: {
+    type: {
+      type: "string",
+      enum: ["post"],
+      required: true,
+    },
     title: {
       type: ["string", "integer"],
       required: true,
     },
     authors: {
       type: "array",
+      required: true,
     },
     date: {
       conform: (value) => {

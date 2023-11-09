@@ -1,4 +1,5 @@
 ---
+type: post
 title: What’s Hot in Eternity
 authors: 
   - Bhakti Sudhir Goswami
