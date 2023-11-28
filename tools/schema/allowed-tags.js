@@ -10,4 +10,9 @@ module.exports = [
   "h4",
   "br",
   "anno",
+  "abbr",
+  "time",
+  "anno",
+  "idea",
+  "nowrap"
 ];
