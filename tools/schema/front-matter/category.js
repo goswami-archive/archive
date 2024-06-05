@@ -18,11 +18,20 @@ module.exports = {
       type: "string",
       maxLength: 200,
     },
-    image: {
-      type: "string",
-    },
     slug: {
       type: "string",
+    },
+    image: {
+      type: "object",
+      properties: {
+        desktop: {
+          type: "string",
+          required: true,
+        },
+        mobile: {
+          type: "string",
+        },
+      },
     },
   },
 };

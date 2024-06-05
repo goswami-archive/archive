@@ -56,7 +56,16 @@ module.exports = {
       type: "array",
     },
     image: {
-      type: "string",
+      type: "object",
+      properties: {
+        desktop: {
+          type: "string",
+          required: true,
+        },
+        mobile: {
+          type: "string",
+        },
+      },
     },
   },
 };
