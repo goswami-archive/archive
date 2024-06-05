@@ -8,6 +8,7 @@ function lintFrontMatter(file) {
   const yamlObj = matter.read(file, { language: "yaml" }).data;
   const schema = yamlObj.type === "post" ? postSchema : categorySchema;
 
+  //[a-z]{2}_\d{4}-\d{2}-\d{2}(_p\d+)?(_[A-Z]\w+)+
   const { valid, errors } = revalidator.validate(yamlObj, schema, {
     additionalProperties: false,
   });
