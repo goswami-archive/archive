@@ -8,3 +8,5 @@ image:
   mobile: image.jpg
 slug: your-category-slug
 ---
+
+Your text here...
