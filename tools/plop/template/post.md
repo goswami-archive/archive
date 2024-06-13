@@ -1,0 +1,51 @@
+---
+type: post
+title: {{title}}
+{{#if description}}
+description: {{description}}
+{{/if}}
+authors: 
+{{#each authors}}
+  - {{this}}
+{{/each}}
+date: {{date}}
+lang: {{lang}}
+{{#if location}}
+location: {{location}}
+{{/if}}
+audio: {{audio}}
+{{#if draft}}
+draft: true
+{{/if}}
+{{#if translators.length}}
+translators:
+{{#each translators}}
+  - {{this}}
+{{/each}}
+{{/if}}
+{{#if transcribers.length}}
+transcribers:
+{{#each transcribers}}
+  - {{this}}
+{{/each}}
+{{/if}}
+{{#if editors.length}}
+editors:
+ {{#each editors}}
+  - {{this}}
+{{/each}}
+{{/if}}
+{{#if tags.length}}
+tags:
+{{#each tags}}
+  - {{this}}
+{{/each}}
+{{/if}}
+{{#if slug}}
+slug: {{slug}}
+{{/if}}
+{{#if image.desktop}}
+image:
+  desktop: {{image.desktop}}
+{{/if}}
+---
