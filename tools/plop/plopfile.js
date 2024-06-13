@@ -129,7 +129,6 @@ module.exports = function (plop) {
     ],
     actions: (answers) => {
       const filename = getFileName(answers) + ".md";
-      console.log(answers);
 
       const action = {
         type: "add",
