@@ -134,7 +134,7 @@ module.exports = function (plop) {
       const action = {
         type: "add",
         path: `${outDir}/${filename}`,
-        templateFile: `template/${answers.type}.md`,
+        templateFile: `template/${answers.type}.hbs`,
       };
 
       return [action];
