@@ -9,10 +9,9 @@ module.exports = [
   "h3",
   "h4",
   "br",
-  "anno",
   "abbr",
   "time",
-  "anno",
   "idea",
-  "nowrap"
+  "nowrap",
+  "excerpt"
 ];
