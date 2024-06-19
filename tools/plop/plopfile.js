@@ -1,15 +1,11 @@
 const toKebabCase = require("lodash.kebabcase");
+const { getDefaults } = require("./getDefaults");
 
 module.exports = function (plop) {
-  const outDir = `./../../${process.argv[5] ?? 'generated'}`;
+  const outDirArg = process.argv[5];
+  const defaults = getDefaults(outDirArg);
 
-  const defaults = {
-    type: "post",
-    lang: "en",
-    authors: "Bhakti Sudhir Goswami",
-    date: new Date().toISOString().split("T")[0],
-    draft: true,
-  };
+  const outDir = `./../../${outDirArg ?? "generated"}`;
 
   const whenPost = (answers) => answers.type === "post";
 
@@ -46,7 +42,7 @@ module.exports = function (plop) {
         type: "input",
         message: "Title:",
         default: (input) =>
-          input.type === "post" ? "New Post" : "New Category",
+          input.type === "post" ? defaults.title : "New Category",
       },
       {
         name: "part",
@@ -59,7 +55,7 @@ module.exports = function (plop) {
         type: "input",
         message: "Authors (comma separated):",
         filter: commaSeparatedListFilter,
-        default: defaults.authors,
+        default: (input) => defaults.authors[input.lang],
         when: whenPost,
       },
       {
