@@ -4,11 +4,12 @@ title: Human Calculation vs. Intuition of Devotion
 authors:
   - Bhakti Sudhir Goswami
 lang: en
-image: sridhar-mhrj.jpg
+image: 
+  desktop: sridhar-mhrj.jpg
 slug: en-human-calculation-vs-intuition-of-devotion
 ---
 
-<anno>Srila Sridhar Maharaja in response to the question why Srila Saraswati Thakur (Surya Siddhanta Saraswati), the expert astrologer, would defer to Bhaktivinode Thakur, who followed the calculations of P.N. Bachi.</anno>
+<excerpt>Srila Sridhar Maharaja in response to the question why Srila Saraswati Thakur (Surya Siddhanta Saraswati), the expert astrologer, would defer to Bhaktivinode Thakur, who followed the calculations of P.N. Bachi.</excerpt>
 
 <i>Sraddha</i> is more than calculative truth. Through faith, <i>sraddha</i>, we can know the truth. The practice of great souls, <i>mahajanas</i> is more valuable than human calculation. Physical truth, material truth does not have so much value. After all, it is based on false attitude of mind. So this truth should not be given greater respect than the intuitive practices of a pure devotee. The intuition of a pure devotee should be given preference over the calculation of the ordinary persons here.
 
