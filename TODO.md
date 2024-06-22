@@ -1,5 +1,4 @@
 - lint file name format
 - check if linting fails for incorrect yaml format
-- script for generating templates (from mp3?)
 - archive script
-  - npm run archive [--stats] [--fetch]
+  - npm run archive [stats|fetch|drafts]
