@@ -1,3 +1,5 @@
+const fs = require("fs");
+
 function getDefaults(dirName) {
   const defaults = {
     type: "post",
@@ -24,19 +26,12 @@ function getDefaults(dirName) {
 }
 
 function getInfoFromPath(path) {
-  const directory = getDirectoryName(path);
-  return parseDirectoryPath(directory);
+  return parseDirectoryName(fs.dirName(path));
 }
 
-function getDirectoryName(path) {
-  const normalizedPath = path.replace(/\\/g, "/");
-  const parts = normalizedPath.split("/");
-  return parts.pop();
-}
-
-function parseDirectoryPath(path) {
-  const regex = /(\d{4}-\d{2}-\d{2})(?:_p(\d+))?_(.+)$/;
-  const match = path.match(regex);
+function parseDirectoryName(dirName) {
+  const regex = /^(\d{4}-\d{2}-\d{2})(?:_p(\d+))?_(.+)/;
+  const match = dirName.match(regex);
   if (!match) {
     return null;
   }
