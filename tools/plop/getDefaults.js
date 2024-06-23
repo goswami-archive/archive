@@ -33,7 +33,7 @@ function getDefaultsFromDir(pathInfo) {
   return {
     date: match[1],
     part: match[2],
-    title: match[3].replace(/_/g, " "),
+    title: titleFromFileName(match[3]),
   };
 }
 
@@ -46,7 +46,7 @@ function getDefaultsFromMd(pathInfo) {
     lang: match[1],
     date: match[2],
     part: match[3],
-    title: match[4].replace(/_/g, " "),
+    title: titleFromFileName(match[4]),
     slug,
   };
 }
@@ -62,10 +62,23 @@ async function getDefaultsFromAudio(pathInfo) {
     lang: match[1],
     date: match[2],
     part: match[3],
-    title: title ?? match[4].replace(/_/g, " "),
+    title: title ?? titleFromFileName(match[4]),
     lyrics,
     slug,
   };
+}
+
+function titleFromFileName(filename) {
+  return filename
+    .split("_")
+    .map((word) => {
+      if ([1,2].includes(word.length)) {
+        return word;
+      }
+
+      return word.charAt(0).toUpperCase() + word.slice(1)
+    })
+    .join(" ");
 }
 
 function getSlug(pathInfo) {
