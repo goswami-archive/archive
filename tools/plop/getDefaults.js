@@ -78,7 +78,7 @@ async function getMediaTags(audioPath) {
     new mediaTags.Reader(audioPath).setTagsToRead(["title", "lyrics"]).read({
       onSuccess: (id3v2) => {
         resolve({
-          title: id3v2.tags.title,
+          title: removeDate(id3v2.tags.title), // often title contains date
           lyrics: id3v2.tags.lyrics ? id3v2.tags.lyrics.lyrics : "",
         });
       },
@@ -87,6 +87,10 @@ async function getMediaTags(audioPath) {
       },
     });
   });
+}
+
+function removeDate(string) {
+  return string.replace(/\d{4}-\d{2}-\d{2}/, "").trim();
 }
 
 module.exports = {
