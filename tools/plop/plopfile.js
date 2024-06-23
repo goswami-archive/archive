@@ -1,11 +1,22 @@
+const fs = require("fs");
+const pathModule = require("path");
 const toKebabCase = require("lodash.kebabcase");
 const { getDefaults } = require("./getDefaults");
+const { FILE_NAME_REGEX, DIR_NAME_REGEX } = require("../common/regex");
 
-module.exports = function (plop) {
-  const outDirArg = process.argv[5];
-  const defaults = getDefaults(outDirArg);
+module.exports = async function (plop) {
+  const filePath = process.argv[5];
 
-  const outDir = `./../../${outDirArg ?? "generated"}`;
+  const pathInfo = getPathInfo(filePath);
+
+  if (!filePath || !validateFileName(pathInfo)) {
+    console.log(
+      "Please specify a valid file or directory path (see details: https://goswami-archive.gitbook.io/docs/archive-structure/naming)"
+    );
+    process.exit(1);
+  }
+
+  const defaults = await getDefaults(pathInfo);
 
   const whenPost = (answers) => answers.type === "post";
 
@@ -28,7 +39,7 @@ module.exports = function (plop) {
         name: "lang",
         type: "input",
         message: "Language:",
-        default: "en",
+        default: defaults.lang,
       },
       {
         name: "date",
@@ -73,7 +84,7 @@ module.exports = function (plop) {
         name: "audio",
         type: "input",
         message: "Audio URL or local path:",
-        default: (input) => getFileName(input) + ".mp3",
+        default: (input) => getAudioPath(input.lang, pathInfo),
         when: whenPost,
       },
       {
@@ -115,7 +126,7 @@ module.exports = function (plop) {
         name: "slug",
         type: "input",
         message: "Slug:",
-        default: getSlug,
+        default: defaults.slug ?? getSlug,
       },
       {
         name: "image.desktop",
@@ -124,11 +135,9 @@ module.exports = function (plop) {
       },
     ],
     actions: (answers) => {
-      const filename = getFileName(answers) + ".md";
-
       const action = {
         type: "add",
-        path: `${outDir}/${filename}`,
+        path: getOutputPath(pathInfo, answers),
         templateFile: `template/${answers.type}.hbs`,
       };
 
@@ -137,11 +146,13 @@ module.exports = function (plop) {
   });
 };
 
-function getFileName(answers) {
-  const partNumber = answers.part ? `_p${answers.part}` : "";
-  const title = answers.title.replace(/\s+/g, "_");
-  const date = answers.date ? `_${answers.date}` : "";
-  return `${answers.lang}${date}${partNumber}_${title}`;
+function getAudioPath(lang, pathInfo) {
+  const { isDir, fileName } = pathInfo;
+  if (isDir) {
+    return `${lang}_${fileName}.mp3`;
+  }
+
+  return `${fileName}.mp3`;
 }
 
 function getSlug(answers) {
@@ -149,4 +160,57 @@ function getSlug(answers) {
   const date = answers.date ? `-${answers.date}` : "";
 
   return `${answers.lang}${date}${partNumber}-${toKebabCase(answers.title)}`;
+}
+
+function getOutputPath(pathInfo, answers) {
+  const { isDir, fileName, path } = pathInfo;
+  if (isDir) {
+    return `${path}/${answers.lang}_${fileName}.md`;
+  }
+
+  return path.replace(".mp3", ".md");
+}
+
+function validateFileName(pathInfo) {
+  if (pathInfo.isDir) {
+    return DIR_NAME_REGEX.test(pathInfo.fileName);
+  } else {
+    return FILE_NAME_REGEX.test(pathInfo.fileName);
+  }
+}
+
+function getPathInfo(relativePath) {
+  const filePath = pathModule.join(process.cwd(), relativePath);
+
+  if (relativePath.endsWith(".md")) {
+    createMarkdownFile(relativePath);
+  }
+
+  const stat = fs.statSync(filePath);
+  const isDir = stat.isDirectory();
+
+  const { base, name, ext, dir } = pathModule.parse(filePath);
+
+  if (relativePath.endsWith(".md")) {
+    fs.unlinkSync(filePath);
+  }
+
+  return {
+    isDir,
+    path: filePath,
+    baseName: base, // with extension
+    fileName: name,
+    extension: ext,
+    dirName: dir,
+  };
+}
+
+function createMarkdownFile(relativePath) {
+  const filePath = pathModule.join(process.cwd(), relativePath);
+
+  if (fs.existsSync(filePath)) {
+    throw new Error(`File already exists: ${filePath}`);
+  }
+
+  fs.writeFileSync(filePath, '');
 }
