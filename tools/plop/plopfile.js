@@ -2,6 +2,7 @@ const fs = require("fs");
 const pathModule = require("path");
 const toKebabCase = require("lodash.kebabcase");
 const { getDefaults } = require("./getDefaults");
+const { getPathInfo: pathInfoUtils } = require("../common/file-utis");
 const { FILE_NAME_REGEX, DIR_NAME_REGEX } = require("../common/regex");
 
 module.exports = async function (plop) {
@@ -180,29 +181,19 @@ function validateFileName(pathInfo) {
 }
 
 function getPathInfo(relativePath) {
-  const filePath = pathModule.join(process.cwd(), relativePath);
+  const filePath = pathModule.resolve(process.cwd(), relativePath);
 
   if (relativePath.endsWith(".md")) {
     createMarkdownFile(relativePath);
   }
 
-  const stat = fs.statSync(filePath);
-  const isDir = stat.isDirectory();
-
-  const { base, name, ext, dir } = pathModule.parse(filePath);
+  const info = pathInfoUtils(filePath);
 
   if (relativePath.endsWith(".md")) {
     fs.unlinkSync(filePath);
   }
 
-  return {
-    isDir,
-    path: filePath,
-    baseName: base, // with extension
-    fileName: name,
-    extension: ext,
-    dirName: dir,
-  };
+  return info;
 }
 
 function createMarkdownFile(relativePath) {
