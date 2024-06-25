@@ -6,7 +6,7 @@
   "license": "CC-BY-NC-SA-4.0",
   "scripts": {
     "prepare": "husky",
-    "lint": "node tools/lint-markdown.js -p content/**/*.md",
+    "lint": "node tools/lint/lint-markdown.js -p content/**/*.md",
     "genmd": "plop --plopfile tools/plop/plopfile.js --path"
   },
   "devDependencies": {
