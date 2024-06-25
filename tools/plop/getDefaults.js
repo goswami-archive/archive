@@ -2,7 +2,6 @@ const { slugify } = require("../common/slagify");
 const {
   parseDirName,
   parseFileName,
-  getSlug,
   getMediaTags,
 } = require("../common/file-utis");
 
@@ -46,7 +45,7 @@ function getDefaultsFromMd(pathInfo) {
 async function getDefaultsFromAudio(pathInfo) {
   const { fileName, path } = pathInfo;
   const info = parseFileName(fileName);
-  const slug = getSlug(fileName);
+  const slug = slugify(fileName);
   const { title, lyrics } = await getMediaTags(path);
 
   return {
