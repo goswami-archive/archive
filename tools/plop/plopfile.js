@@ -1,9 +1,9 @@
 const fs = require("fs");
 const pathModule = require("path");
-const toKebabCase = require("lodash.kebabcase");
 const { getDefaults } = require("./getDefaults");
 const { getPathInfo: pathInfoUtils } = require("../common/file-utis");
 const { FILE_NAME_REGEX, DIR_NAME_REGEX } = require("../common/regex");
+const slugify = require('slugify');
 
 module.exports = async function (plop) {
   const filePath = process.argv[5];
@@ -160,7 +160,7 @@ function getSlug(answers) {
   const partNumber = answers.part ? `-p${answers.part}` : "";
   const date = answers.date ? `-${answers.date}` : "";
 
-  return `${answers.lang}${date}${partNumber}-${toKebabCase(answers.title)}`;
+  return slugify(`${answers.lang}${date}${partNumber}-${answers.title}`);
 }
 
 function getOutputPath(pathInfo, answers) {

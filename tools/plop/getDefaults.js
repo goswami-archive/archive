@@ -1,3 +1,4 @@
+const slugify = require("slugify");
 const {
   parseDirName,
   parseFileName,
@@ -38,7 +39,7 @@ function getDefaultsFromDir(pathInfo) {
 function getDefaultsFromMd(pathInfo) {
   return {
     ...parseFileName(pathInfo),
-    slug: getSlug(pathInfo.fileName),
+    slug: slugify(pathInfo.fileName),
   };
 }
 

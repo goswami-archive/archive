@@ -1,8 +1,9 @@
 // find . -type f -name "*.md" -mmin -10 -exec rm -f {} \;
 const fs = require("fs");
 const pathModule = require("path");
+const slugify = require("slugify");
 const { FILE_NAME_REGEX } = require("../common/regex");
-const { getMediaTags, parseFileName, getSlug } = require("../common/file-utis");
+const { getMediaTags, parseFileName } = require("../common/file-utis");
 
 const dirPath = process.argv[2];
 
@@ -42,7 +43,7 @@ async function getMarkdown(mp3Path) {
   const fileName = pathModule.basename(mp3Path, ".mp3");
   const { lang, date } = parseFileName(fileName);
   const { title, lyrics } = await getMediaTags(mp3Path);
-  const slug = getSlug(fileName);
+  const slug = slugify(fileName);
 
   const postTemplate = `---
 type: post

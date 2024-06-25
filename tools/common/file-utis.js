@@ -53,10 +53,6 @@ function titleFromFileName(filename) {
     .join(" ");
 }
 
-function getSlug(fileName) {
-  return fileName.replace(/_/g, "-").toLocaleLowerCase();
-}
-
 async function getMediaTags(audioPath) {
   return new Promise((resolve, reject) => {
     new mediaTags.Reader(audioPath).setTagsToRead(["title", "lyrics"]).read({
@@ -81,6 +77,5 @@ module.exports = {
   getPathInfo,
   parseDirName,
   parseFileName,
-  getSlug,
   getMediaTags,
 };
