@@ -1,7 +1,7 @@
 // find . -type f -name "*.md" -mmin -10 -exec rm -f {} \;
 const fs = require("fs");
 const pathModule = require("path");
-const slugify = require("slugify");
+const { slugify } = require("../common/slagify");
 const { FILE_NAME_REGEX } = require("../common/regex");
 const { getMediaTags, parseFileName } = require("../common/file-utis");
 

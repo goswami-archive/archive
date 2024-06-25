@@ -3,7 +3,7 @@ const pathModule = require("path");
 const { getDefaults } = require("./getDefaults");
 const { getPathInfo: pathInfoUtils } = require("../common/file-utis");
 const { FILE_NAME_REGEX, DIR_NAME_REGEX } = require("../common/regex");
-const slugify = require('slugify');
+const { slugify } = require("../common/slagify");
 
 module.exports = async function (plop) {
   const filePath = process.argv[5];

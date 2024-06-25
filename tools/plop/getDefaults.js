@@ -1,4 +1,4 @@
-const slugify = require("slugify");
+const { slugify } = require("../common/slagify");
 const {
   parseDirName,
   parseFileName,
