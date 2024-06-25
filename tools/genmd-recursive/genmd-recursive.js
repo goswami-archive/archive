@@ -48,7 +48,7 @@ async function getMarkdown(mp3Path) {
   const postTemplate = `---
 type: post
 lang: ${lang}
-title: ${title}
+title: "${title}"
 authors:
   - ${lang === "en" ? "Bhakti Sudhir Goswami" : "Бхакти Судхир Госвами"}
 date: ${date}
