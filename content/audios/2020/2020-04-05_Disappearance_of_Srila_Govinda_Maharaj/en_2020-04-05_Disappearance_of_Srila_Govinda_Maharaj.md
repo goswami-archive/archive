@@ -6,7 +6,7 @@ authors:
 date: 2020-04-05
 lang: en
 location: Chiang Mai
-audio: https://mahamandala.com/uploads/audio/new_file/1580/f8ef2ec9c2.mp3
+audio: en_2020-04-05_Disappearance_of_Srila_Govinda_Maharaj.mp3
 transcribers:
   - Enakshi Devi Dasi
   - Radha Raman Prabhu
