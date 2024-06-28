@@ -2,6 +2,9 @@ const kebabCase = require("lodash.kebabcase");
 
 module.exports = {
   slugify(text) {
-    return kebabCase(text);
+    let kebabed = kebabCase(text);
+    // do not treat part number digit as separate word
+    kebabed = kebabed.replace(/-p-(\d+)-/, "-p$1-");
+    return kebabed;
   },
 };
