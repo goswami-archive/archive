@@ -4,7 +4,7 @@ title: Bhoga Arati
 authors:
   - Bhakti Sudhir Goswami
 lang: en
-audio: bhoga-arati.mp3
+audio: Bhoga-Arati.mp3
 ---
 
 #00:00:20# <b>bhaja bhakata-vatsala śrī-gaurahari
