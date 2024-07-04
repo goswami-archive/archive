@@ -7,18 +7,22 @@
   "scripts": {
     "prepare": "husky",
     "lint": "node tools/lint/lint-markdown.js -p content/**/*.md",
-    "genmd": "plop --plopfile tools/plop/plopfile.js --path"
+    "genmd": "plop --plopfile tools/plop/plopfile.js --path",
+    "archive": "node tools/archive/archive.js -- ",
+    "drafts": "node tools/archive/archive.js search content/ draft=true"
   },
   "devDependencies": {
+    "axios": "1.7.2",
     "cheerio": "1.0.0-rc.12",
     "commander": "12.1.0",
     "glob": "10.4.2",
     "gray-matter": "4.0.3",
     "husky": "9.0.11",
-    "jsmediatags": "^3.9.7",
+    "jsmediatags": "3.9.7",
     "lint-staged": "15.2.7",
     "lodash.kebabcase": "4.1.1",
     "plop": "4.0.1",
+    "progress": "2.0.3",
     "revalidator": "0.3.1"
   }
 }

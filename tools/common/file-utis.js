@@ -73,9 +73,19 @@ function removeDate(string) {
   return string.replace(/\d{4}-\d{2}-\d{2}/, "").trim();
 }
 
+/**
+ * Get file path relative to archive root
+ * @param {string} absPath
+ * @returns
+ */
+function getRelativePath(absPath) {
+  return absPath.replace(process.cwd(), "");
+}
+
 module.exports = {
   getPathInfo,
   parseDirName,
   parseFileName,
   getMediaTags,
+  getRelativePath,
 };
