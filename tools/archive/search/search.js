@@ -33,16 +33,30 @@ function testCriteria(markdown, criteria) {
     }
 
     const query = String(criteria[field]).toLowerCase().trim();
-    const fieldValue = String(mergedData[field]).toLowerCase().trim();
+    const fieldValue = stringifyValue(mergedData[field]).toLowerCase().trim();
 
     if (query === "") {
       return fieldValue === "";
     } else {
-      fieldValue.includes(query);
+      return fieldValue.includes(query);
     }
   }
 
   return true;
+}
+
+function stringifyValue(value) {
+  if (typeof value === "string") {
+    return value;
+  } else if (typeof value === "number") {
+    return String(value);
+  } else if (typeof value === "boolean") {
+    return value ? "true" : "false";
+  } else if (Array.isArray(value)) {
+    return value.join(",");
+  } else {
+    return "";
+  }
 }
 
 function getSearchCriteria(propertyValues) {
