@@ -4,6 +4,10 @@ title: The Body—Biological Expression of the Soul’s Illusion
 authors:
   - Bhakti Sudhir Goswami
 lang: en
+image: 
+  desktop: Body.jpg
+  alt: "Vitruvian Man - man in two superimposed positions with his arms and legs apart and inscribed in both a circle and square."
+slug: en-the-body-biological-expression-of-the-souls-illusion
 ---
 
 ## Philosophy with a scientific basis

@@ -4,9 +4,10 @@ title: Human Calculation vs. Intuition of Devotion
 authors:
   - Bhakti Sudhir Goswami
 lang: en
+slug: en-human-calculation-vs-intuition-of-devotion
 image: 
   desktop: sridhar-mhrj.jpg
-slug: en-human-calculation-vs-intuition-of-devotion
+  alt: "Srila Sridhar Maharaj with both his hands articulating"
 ---
 
 <excerpt>Srila Sridhar Maharaja in response to the question why Srila Saraswati Thakur (Surya Siddhanta Saraswati), the expert astrologer, would defer to Bhaktivinode Thakur, who followed the calculations of P.N. Bachi.</excerpt>

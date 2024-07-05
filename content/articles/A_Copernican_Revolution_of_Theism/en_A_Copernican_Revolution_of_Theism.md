@@ -4,7 +4,10 @@ title: A Copernican Revolution of Theism
 authors:
   - Bhakti Sudhir Goswami
 lang: en
-image: solar.jpg
+image: 
+  desktop: solar.jpg
+  alt: "Planets with their orbits around the sun"
+slug: en-a-copernican-revolution-of-theism
 ---
 
 It’s the old unanswerable question: The Beatles or The Stones, Jesus or Jehovah, Allah or Yahweh, Vishnu or Shiva?
