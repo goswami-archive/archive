@@ -79,7 +79,7 @@ function removeDate(string) {
  * @returns
  */
 function getRelativePath(absPath) {
-  return absPath.replace(process.cwd(), "");
+  return absPath.replace(process.cwd() + '/', "");
 }
 
 module.exports = {

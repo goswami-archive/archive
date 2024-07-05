@@ -6,12 +6,14 @@ module.exports = {
       required: true,
     },
     title: {
-      type: ["string", "integer"],
+      type: ["string"],
       required: true,
+      allowEmpty: false
     },
     authors: {
       type: "array",
       required: true,
+      allowEmpty: false
     },
     date: {
       conform: (value) => {
@@ -27,18 +29,22 @@ module.exports = {
     description: {
       type: "string",
       maxLength: 200,
+      allowEmpty: false
     },
     draft: {
       type: "boolean",
     },
     location: {
       type: "string",
+      allowEmpty: false
     },
     audio: {
       type: "string",
+      allowEmpty: false
     },
     video: {
       type: "string",
+      allowEmpty: false
     },
     editors: {
       type: "array",
@@ -51,6 +57,7 @@ module.exports = {
     },
     slug: {
       type: "string",
+      allowEmpty: false
     },
     tags: {
       type: "array",
@@ -61,9 +68,16 @@ module.exports = {
         desktop: {
           type: "string",
           required: true,
+          allowEmpty: false
         },
         mobile: {
           type: "string",
+          allowEmpty: false
+        },
+        alt: {
+          type: "string",
+          required: true,
+          allowEmpty: false
         },
       },
     },

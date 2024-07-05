@@ -1,5 +1,6 @@
 #!/usr/bin/env node
-const { program } = require("commander");
+const { program, Option } = require("commander");
+const { lint } = require("./lint/lint");
 const { fetch } = require("./fetch/fetch");
 const { search } = require("./search/search");
 
@@ -7,6 +8,19 @@ program
   .name("archive")
   .description("CLI tool for archive management")
   .version("0.1.0");
+
+program
+  .command("lint")
+  .description("Lint markdown files")
+  .option("-f, --files [files...]", "space separated list of files to validate")
+  .addOption(
+    new Option("-p, --path <path>", "directory path to validate").conflicts(
+      "file"
+    )
+  )
+  .action((options) => {
+    lint(options);
+  });
 
 program
   .command("fetch")
@@ -21,26 +35,18 @@ program
   });
 
 program
-  .command("stats")
-  .description("Get statistics")
-  .option("-f, --file <file>", "Specify the file to get stats from")
-  .option("-v, --verbose", "Output detailed stats")
-  .action((options) => {
-    console.log(`Getting stats from ${options.file}...`);
-    if (options.verbose) {
-      console.log("Verbose mode enabled.");
-    }
-  });
-
-program
   .command("search")
   .description("Search throught markdown content")
   .arguments("<path> <property=value...>")
-  // .argument("<path>", "Path to search in")
-  // .argument("<query>", "Query to search")
-  // .option("[-field], --field <field>", "Field to search")
   .action((path, propertyValues) => {
     search(path, propertyValues);
+  });
+
+program
+  .command("stats")
+  .description("Get statistics")
+  .action((options) => {
+    // TODO: Implement
   });
 
 program.parse();

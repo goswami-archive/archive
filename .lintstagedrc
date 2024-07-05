@@ -1,5 +1,5 @@
 {
   "content/**/*.md": [
-    "node tools/lint/lint-markdown.js -f"
+    "node tools/archive/archive.js lint -f"
   ]
 }

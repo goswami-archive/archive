@@ -6,7 +6,7 @@ module.exports = {
       required: true,
     },
     title: {
-      type: ["string", "integer"],
+      type: ["string"],
       required: true,
     },
     lang: {
@@ -30,6 +30,10 @@ module.exports = {
         },
         mobile: {
           type: "string",
+        },
+        alt: {
+          type: "string",
+          required: true,
         },
       },
     },

@@ -2,7 +2,7 @@ const cheerio = require("cheerio");
 const fs = require("fs");
 const allowedTags = require("./schema/allowed-tags.js");
 
-function lintHtml(file) {
+function lintContent(file) {
   const messages = [];
   const $ = cheerio.load(fs.readFileSync(file), null, false);
 
@@ -10,11 +10,11 @@ function lintHtml(file) {
     const tagName = element.tagName;
 
     if (!allowedTags.includes(tagName)) {
-      messages.push(`Tag <${tagName}> not allowed in markdown.`);
+      messages.push(`Tag <${tagName}> not allowed in content.`);
     }
   });
 
-  return messages.length === 0 ? null : messages;
+  return messages;
 }
 
-module.exports = { lintHtml };
+module.exports = { lintContent };
