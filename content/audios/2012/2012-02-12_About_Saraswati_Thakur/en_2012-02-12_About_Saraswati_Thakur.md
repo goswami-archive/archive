@@ -1,12 +1,13 @@
 ---
 type: post
-title: About Saraswati Thakur
+title: "About Saraswati Thakur"
 authors: 
   - Bhakti Sudhir Goswami
 date: 2012-02-12
 lang: en
 location: Chiang Mai, Thailand
 audio: https://archive.org/download/en_2012-02-12_about_saraswati_thakur_202305/en_2012-02-12_About_Saraswati_Thakur.mp3
+slug: en-2012-02-12-about-saraswati-thakur
 tags:
   - Saraswati Thakur
 ---
