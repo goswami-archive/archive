@@ -1,6 +1,6 @@
 ---
 type: post
-title: The Body—Biological Expression of the Soul’s Illusion
+title: "The Body—Biological Expression of the Soul’s Illusion"
 authors:
   - Bhakti Sudhir Goswami
 lang: en

@@ -1,6 +1,6 @@
 ---
 type: post
-title: Human Calculation vs. Intuition of Devotion
+title: "Human Calculation vs. Intuition of Devotion"
 authors:
   - Bhakti Sudhir Goswami
 lang: en

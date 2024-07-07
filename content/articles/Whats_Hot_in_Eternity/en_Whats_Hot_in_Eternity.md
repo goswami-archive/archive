@@ -1,12 +1,12 @@
 ---
 type: post
-title: What’s Hot in Eternity
+title: "What’s Hot in Eternity"
 authors: 
   - Bhakti Sudhir Goswami
 lang: en
 image: 
   desktop: hot.jpg
-  alt: "Om inside a sun with flaming rays"
+  alt: "Om symbol inside a sun with flaming rays"
 ---
 
 Some years ago, Andrew Sullivan was asked by Tina Brown of the New Yorker to write an article about “religion.” His description and observations:
