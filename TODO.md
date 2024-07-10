@@ -1,2 +1,4 @@
+- audio fetching
+- timecodes list format
 - lint file name format
 - check if linting fails for incorrect yaml format
