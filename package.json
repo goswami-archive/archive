@@ -4,13 +4,15 @@
   "description": "Archive of lectures of Bhakti Sudhir Goswami",
   "author": "goswami.archive@gmail.com",
   "license": "CC-BY-NC-SA-4.0",
+  "type": "module",
   "scripts": {
     "prepare": "husky",
-    "lint": "node tools/lint/lint-markdown.js -p content/**/*.md",
-    "genmd": "plop --plopfile tools/plop/plopfile.js --path",
-    "archive": "node tools/archive/archive.js -- ",
+    "archive": "node tools/archive/archive.js",
+    "lint": "node tools/archive/archive.js lint -p content/",
     "drafts": "node tools/archive/archive.js search content/ draft=true",
-    "notext": "node tools/archive/archive.js search content/ content=''"
+    "notext": "node tools/archive/archive.js search content/ content=''",
+    "genmeta": "node tools/archive/archive.js -- genmeta content/",
+    "genmd": "plop --plopfile tools/plop/plopfile.js --path"
   },
   "devDependencies": {
     "axios": "1.7.2",
@@ -19,9 +21,11 @@
     "glob": "10.4.2",
     "gray-matter": "4.0.3",
     "husky": "9.0.11",
+    "js-yaml": "4.1.0",
     "jsmediatags": "3.9.7",
     "lint-staged": "15.2.7",
     "lodash.kebabcase": "4.1.1",
+    "music-metadata": "8.3.0",
     "plop": "4.0.1",
     "progress": "2.0.3",
     "revalidator": "0.3.1"

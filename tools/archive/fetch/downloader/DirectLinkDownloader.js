@@ -1,9 +1,9 @@
-const axios = require("axios");
-const fs = require("fs");
-const ProgressBar = require("progress");
-const os = require("os");
+import axios from "axios";
+import fs from "node:fs";
+import ProgressBar from "progress";
+import os from "os";
 
-class DirectLinkDownloader {
+export class DirectLinkDownloader {
   /**
    * @public
    * @param {string} url
@@ -77,7 +77,3 @@ class DirectLinkDownloader {
     }
   }
 }
-
-module.exports = {
-  DirectLinkDownloader,
-};

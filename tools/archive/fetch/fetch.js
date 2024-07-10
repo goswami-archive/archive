@@ -1,11 +1,10 @@
-const fs = require("fs");
-const pathModule = require("path");
-const grayMatter = require("gray-matter");
-const { scanDir } = require("../../common/traverse-files");
-const { formatSize } = require("../../common/format-size");
-// const { YoutubeDownloader } = require("./downloader/YoutubeDownloader");
-const { DirectLinkDownloader } = require("./downloader/DirectLinkDownloader");
-const { Downloader } = require("./downloader/Downloader");
+import fs from "node:fs";
+import pathModule from "node:path";
+import grayMatter from "gray-matter";
+import { traverseFiles } from "../../common/traverse-files.js";
+import { formatSize } from "../../common/format-size.js";
+import { DirectLinkDownloader } from "./downloader/DirectLinkDownloader.js";
+import { Downloader } from "./downloader/Downloader.js";
 
 const downloader = new Downloader([
   // new YoutubeDownloader(),
@@ -28,7 +27,7 @@ async function fetch({ path }) {
   const absPath = pathModule.resolve(process.cwd(), path);
   // await scanDirectory(absPath);
 
-  await scanDir(absPath, async (file) => {
+  await traverseFiles(absPath, async (file) => {
     if (file.endsWith(".md")) {
       await processMarkdownFile(file);
     }
@@ -174,7 +173,7 @@ async function downloadFile(url, localPath) {
   }
 }
 
-module.exports = { fetch };
+export { fetch };
 
 // const http = require('http');
 // const fs = require('fs');

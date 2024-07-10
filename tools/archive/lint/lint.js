@@ -1,9 +1,9 @@
-const { globSync } = require("glob");
-const fs = require("fs");
-const pathModule = require("path");
-const { lintContent } = require("./lint-content.js");
-const { lintFrontMatter } = require("./lint-front-matter.js");
-const { getRelativePath } = require("../../common/file-utis.js");
+import fs from "node:fs";
+import nodePath from "node:path";
+import { globSync } from "glob";
+import { lintContent } from "./lint-content.js";
+import { lintFrontMatter } from "./lint-front-matter.js";
+import { getRelativePath } from "../../common/file-utis.js";
 
 function lint({ files, path }) {
   const filePaths = getFiles(files, path);
@@ -32,10 +32,10 @@ function lint({ files, path }) {
  * @returns
  */
 function getFiles(files, path) {
-  const validFiles = []
+  const validFiles = [];
 
   if (path) {
-    return globSync(pathModule.resolve(process.cwd(), path) + "/**/*.md", {
+    return globSync(nodePath.resolve(process.cwd(), path) + "/**/*.md", {
       absolute: true,
     });
   }
@@ -66,4 +66,4 @@ function printMessages(file, messages) {
   });
 }
 
-module.exports = { lint };
+export { lint };

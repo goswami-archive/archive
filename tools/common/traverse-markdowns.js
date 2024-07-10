@@ -1,5 +1,5 @@
-const grayMatter = require("gray-matter");
-const { traverseFiles } = require("./traverse-files");
+import grayMatter from "gray-matter";
+import { traverseFiles } from "./traverse-files.js";
 
 /**
  * @typedef {Object} Markdown
@@ -28,6 +28,4 @@ function traverseMarkdowns(dir, callback) {
   });
 }
 
-module.exports = {
-  traverseMarkdowns,
-};
+export { traverseMarkdowns };

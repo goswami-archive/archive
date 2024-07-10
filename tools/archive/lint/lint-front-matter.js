@@ -1,7 +1,7 @@
-const grayMatter = require("gray-matter");
-const revalidator = require("revalidator");
-const categorySchema = require("./schema/front-matter/category");
-const postSchema = require("./schema/front-matter/post");
+import grayMatter from "gray-matter";
+import revalidator from "revalidator";
+import categorySchema from "./schema/front-matter/category.js";
+import postSchema from "./schema/front-matter/post.js";
 
 function lintFrontMatter(file) {
   const messages = [];
@@ -21,4 +21,4 @@ function lintFrontMatter(file) {
   return messages;
 }
 
-module.exports = { lintFrontMatter };
+export { lintFrontMatter };

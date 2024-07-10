@@ -1,8 +1,5 @@
-const fs = require("fs");
-const { join } = require("path");
-// const { promisify } = require("util");
-
-// const readdir = promisify(fs.readdir);
+import fs from "node:fs";
+import { join } from "node:path";
 
 /**
  * @param {string} path
@@ -23,6 +20,4 @@ function traverseFiles(path, callback) {
   }
 }
 
-module.exports = {
-  traverseFiles,
-};
+export { traverseFiles };

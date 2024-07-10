@@ -1,6 +1,6 @@
-const cheerio = require("cheerio");
-const fs = require("fs");
-const allowedTags = require("./schema/allowed-tags.js");
+import fs from "node:fs";
+import cheerio from "cheerio";
+import allowedTags from "./schema/allowed-tags.js";
 
 function lintContent(file) {
   const messages = [];
@@ -17,4 +17,4 @@ function lintContent(file) {
   return messages;
 }
 
-module.exports = { lintContent };
+export { lintContent };

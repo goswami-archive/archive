@@ -1,8 +1,10 @@
 #!/usr/bin/env node
-const { program, Option } = require("commander");
-const { lint } = require("./lint/lint");
-const { fetch } = require("./fetch/fetch");
-const { search } = require("./search/search");
+import { program, Option } from "commander";
+import { lint } from "./lint/lint.js";
+import { fetch } from "./fetch/fetch.js";
+import { search } from "./search/search.js";
+import { genmd } from "./gen-md/gen-md.js";
+import { genMeta } from './gen-meta/gen-meta.js';
 
 program
   .name("archive")
@@ -15,7 +17,7 @@ program
   .option("-f, --files [files...]", "space separated list of files to validate")
   .addOption(
     new Option("-p, --path <path>", "directory path to validate").conflicts(
-      "file"
+      "files"
     )
   )
   .action((options) => {
@@ -30,7 +32,7 @@ program
     "-f, --force <force>",
     "Rewrite local files that are newer than remote"
   )
-  .action((options, command) => {
+  .action((options) => {
     fetch(options);
   });
 
@@ -43,8 +45,29 @@ program
   });
 
 program
-  .command("stats")
-  .description("Get statistics")
+  .command("genmd")
+  .description("Generate markdown files from media files")
+  .argument("<path>", "path to directory or media file")
+  .option(
+    "-l, --langs [langs...]",
+    "space separated list of languages, used if language code is not present in file name (default: en)"
+  )
+  .option("-a, --auto <auto>", "Create markdowns without prompt (applicable when specifying audio file)")
+  .action((path, options) => {
+    genmd(path, options);
+  });
+
+program
+  .command("genmeta")
+  .description("Generate or update media meta-information")
+  .argument("<path>", "path to directory with media files")
+  .action((path) => {
+    genMeta(path);
+  });
+
+program
+  .command("report")
+  .description("Generate archive's content report")
   .action((options) => {
     // TODO: Implement
   });

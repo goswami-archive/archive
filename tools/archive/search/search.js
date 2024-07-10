@@ -1,6 +1,6 @@
-const { traverseMarkdowns } = require("../../common/traverse-markdowns");
-const { getRelativePath } = require("../../common/file-utis");
-const pathModule = require("path");
+import { traverseMarkdowns } from "../../common/traverse-markdowns.js";
+import { getRelativePath } from "../../common/file-utis.js";
+import pathModule from "node:path";
 
 /**
  * @param {string} path - Path to search
@@ -69,6 +69,4 @@ function getSearchCriteria(propertyValues) {
   return criteria;
 }
 
-module.exports = {
-  search,
-};
+export { search };

@@ -1,4 +1,4 @@
-module.exports = [
+export default [
   "i",
   "em",
   "b",
@@ -13,5 +13,5 @@ module.exports = [
   "time",
   "idea",
   "nowrap",
-  "excerpt"
+  "excerpt",
 ];

@@ -1,4 +1,4 @@
-class Downloader {
+export class Downloader {
 
   constructor(downloaders){
     this.downloaders = downloaders;
@@ -37,7 +37,3 @@ class Downloader {
     return downloaders.length > 0 ? downloaders[0] : null;
   }
 }
-
-module.exports = {
-  Downloader,
-};

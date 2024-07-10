@@ -1,4 +1,4 @@
-class YoutubeDownloader {
+export class YoutubeDownloader {
   /**
    * @public
    * @param {string} url
@@ -32,7 +32,3 @@ class YoutubeDownloader {
     }
   }
 }
-
-module.exports = {
-  YoutubeDownloader,
-};

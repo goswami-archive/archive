@@ -1,9 +1,9 @@
-const fs = require("fs");
-const pathModule = require("path");
-const { getDefaults } = require("./getDefaults");
-const { getPathInfo: pathInfoUtils } = require("../common/file-utis");
-const { FILE_NAME_REGEX, DIR_NAME_REGEX } = require("../common/regex");
-const { slugify } = require("../common/slagify");
+import fs from "node:fs";
+import pathModule from "node:path";
+import { getDefaults } from "./getDefaults.js";
+import { getPathInfo as pathInfoUtils } from "../common/file-utis.js";
+import { FILE_NAME_REGEX, DIR_NAME_REGEX } from "../common/regex.js";
+import { slugify } from "../common/slugify.js";
 
 module.exports = async function (plop) {
   const filePath = process.argv[5];
@@ -26,7 +26,7 @@ module.exports = async function (plop) {
     return input.split(",").map((item) => item.trim());
   };
 
-  plop.setGenerator("Markdown", {
+  plop.setGenerator("markdown", {
     prompts: [
       {
         name: "type",
@@ -183,15 +183,15 @@ function validateFileName(pathInfo) {
 function getPathInfo(relativePath) {
   const filePath = pathModule.resolve(process.cwd(), relativePath);
 
-  if (relativePath.endsWith(".md")) {
-    createMarkdownFile(relativePath);
-  }
+  // if (relativePath.endsWith(".md")) {
+  //   createMarkdownFile(relativePath);
+  // }
 
   const info = pathInfoUtils(filePath);
 
-  if (relativePath.endsWith(".md")) {
-    fs.unlinkSync(filePath);
-  }
+  // if (relativePath.endsWith(".md")) {
+  //   fs.unlinkSync(filePath);
+  // }
 
   return info;
 }
@@ -203,5 +203,5 @@ function createMarkdownFile(relativePath) {
     throw new Error(`File already exists: ${filePath}`);
   }
 
-  fs.writeFileSync(filePath, '');
+  fs.writeFileSync(filePath, "");
 }

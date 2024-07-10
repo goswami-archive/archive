@@ -1,7 +1,6 @@
-const pathModule = require("path");
-const fs = require("fs");
-const mediaTags = require("jsmediatags");
-const { FILE_NAME_REGEX, DIR_NAME_REGEX } = require("./regex");
+import fs from "node:fs";
+import pathModule from "node:path";
+import mediaTags from "jsmediatags";
 
 function getPathInfo(path) {
   const stat = fs.statSync(path);
@@ -19,31 +18,11 @@ function getPathInfo(path) {
   };
 }
 
-function parseDirName(pathInfo) {
-  const match = pathInfo.fileName.match(DIR_NAME_REGEX);
-
-  return {
-    date: match[1],
-    part: match[2],
-    title: titleFromFileName(match[3]),
-  };
-}
-
-function parseFileName(fileName) {
-  const match = fileName.match(FILE_NAME_REGEX);
-
-  return {
-    lang: match[1],
-    date: match[2],
-    part: match[3],
-    title: titleFromFileName(match[4]),
-  };
-}
-
 function titleFromFileName(filename) {
   return filename
     .split("_")
     .map((word) => {
+      // naive check to not uppercase adverbs
       if ([1, 2].includes(word.length)) {
         return word;
       }
@@ -79,13 +58,7 @@ function removeDate(string) {
  * @returns
  */
 function getRelativePath(absPath) {
-  return absPath.replace(process.cwd() + '/', "");
+  return absPath.replace(process.cwd() + "/", "");
 }
 
-module.exports = {
-  getPathInfo,
-  parseDirName,
-  parseFileName,
-  getMediaTags,
-  getRelativePath,
-};
+export { getPathInfo, titleFromFileName, getMediaTags, getRelativePath };

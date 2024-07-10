@@ -1,9 +1,6 @@
-const { slugify } = require("../common/slagify");
-const {
-  parseDirName,
-  parseFileName,
-  getMediaTags,
-} = require("../common/file-utis");
+import { slugify } from "../common/slugify.js";
+import { getMediaTags } from "../common/file-utis.js";
+import { parseDirName, parseFileName } from "../common/regex.js";
 
 const DEFAULTS = {
   lang: "en",
@@ -44,18 +41,29 @@ function getDefaultsFromMd(pathInfo) {
 
 async function getDefaultsFromAudio(pathInfo) {
   const { fileName, path } = pathInfo;
-  const info = parseFileName(fileName);
+  const { lang, date, part, title } = parseFileName(fileName);
   const slug = slugify(fileName);
-  const { title, lyrics } = await getMediaTags(path);
+  const { title: id3Title, lyrics } = await getMediaTags(path);
 
-  return {
-    ...info,
-    title: title ?? info.title,
+  const defaults = {
+    title: id3Title ?? title,
     slug,
     lyrics,
   };
+
+  if (lang) {
+    defaults.lang = lang;
+  }
+
+  if (date) {
+    defaults.date = date;
+  }
+
+  if (part) {
+    defaults.part = part;
+  }
+
+  return defaults;
 }
 
-module.exports = {
-  getDefaults,
-};
+export { getDefaults };
