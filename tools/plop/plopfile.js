@@ -5,7 +5,7 @@ import { getPathInfo as pathInfoUtils } from "../common/file-utis.js";
 import { FILE_NAME_REGEX, DIR_NAME_REGEX } from "../common/regex.js";
 import { slugify } from "../common/slugify.js";
 
-module.exports = async function (plop) {
+export default async function (plop) {
   const filePath = process.argv[5];
 
   const pathInfo = getPathInfo(filePath);
