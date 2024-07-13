@@ -9,7 +9,6 @@ const DEFAULTS = {
     en: "Bhakti Sudhir Goswami",
     ru: "Бхакти Судхир Госвами",
   },
-  date: new Date().toISOString().split("T")[0],
   draft: true,
 };
 
