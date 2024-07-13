@@ -28,10 +28,7 @@ program
   .command("fetch")
   .description("Download media referenced in markdown files")
   .option("-p, --path <path>", "Path to scan for markdown files")
-  .option(
-    "-f, --force <force>",
-    "Rewrite local files that are newer than remote"
-  )
+  .option("-f, --force", "Rewrite local files that are newer than remote")
   .action((options) => {
     fetch(options);
   });
@@ -52,7 +49,7 @@ program
     "-l, --langs [langs...]",
     "space separated list of languages, used if language code is not present in file name (default: en)"
   )
-  .option("-a, --auto <auto>", "Create markdowns without prompt (applicable when specifying audio file)")
+  .option("-a, --auto", "Create markdowns without prompt (applicable when specifying audio file)")
   .action((path, options) => {
     genmd(path, options);
   });
