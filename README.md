@@ -33,27 +33,18 @@ Website: [GOSWAMI.app](https://goswami.app)
 | `npm run genmeta` | Generates `.meta.yaml` files with media information.
 
 ### <a id="archive-script"></a>`archive` script
-Use `archive` script to perform various tasks on archive. 
-
-```sh
-npm run archive -- <command> [options]
-
-# or
-node tools/archive/archive.js <command> [options]
-
-# Display help
-npm run archive -- --help
-
-# Display help for specific command
-npm run archive -- <command> --help
-```
-
-It has folowing options:
+Use `archive` script to perform various tasks on archive. It has folowing options:
 
 | Option | Description |
 | --- | --- |
 | `-h, --help` | Displays help.
 | `-V, --version` | Displays version information.
+
+```sh
+# Display help
+npm run archive -- --help
+
+```
 
 Next commands are available:
 
@@ -64,6 +55,16 @@ Next commands are available:
 | [search](#archive-search) | Searches throught markdown content.
 | [genmd](#archive-genmd) | Generates markdown files from media files.
 | [genmeta](#archive-genmeta) | Generates or updates media meta-information.
+
+```sh
+npm run archive -- <command> [options]
+
+# or
+node tools/archive/archive.js <command> [options]
+
+# Display help for specific command
+npm run archive -- <command> --help
+```
 
 ### <a id="archive-lint"></a>`lint`
 | Option | Description |
@@ -105,19 +106,6 @@ npm run archive -- search content/ type=post draft=true
 
 ```
 
-### <a id="archive-genmd"></a>`genmd`
-Generates markdown files from media files.
-
-### <a id="archive-genmeta"></a>`genmeta`
-Generates or updates media meta-information stored in `.meta.yaml` files.
-| Argument | Description |
-| --- | --- |
-| `<path>` | Path to directory with media files.
-
-```sh
-npm run archive -- genmeta content/
-```
-
 ### genmd
 Use `genmd` script to generate markdown files from prompts. 
 ```sh
@@ -138,7 +126,16 @@ npm run genmd content/audios/2011/2011-11-23_Positive_Self_Denial/ru_2011-11-23_
 
 # Specify markdown file name
 npm run genmd content/audios/2011/2011-11-23_Positive_Self_Denial/ru_2011-11-23_Positive_Self_Denial.md
+```
 
+### <a id="archive-genmeta"></a>`genmeta`
+Generates or updates media meta-information stored in `.meta.yaml` files.
+| Argument | Description |
+| --- | --- |
+| `<path>` | Path to directory with media files.
+
+```sh
+npm run archive -- genmeta content/
 ```
 
 ---
