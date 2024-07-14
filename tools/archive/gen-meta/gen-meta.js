@@ -1,8 +1,8 @@
 import nodePath from "node:path";
 import fs from "node:fs";
 import yaml from "js-yaml";
-import { traverseFiles } from "../../common/traverse-files.js";
 import { parseFile } from "music-metadata";
+import { traverseFiles } from "#common/traverse-files.js";
 
 function genMeta(path) {
   const resolvedPath = nodePath.resolve(process.cwd(), path);
@@ -19,13 +19,17 @@ function genMeta(path) {
   });
 }
 
+/**
+ * @param {string} mp3Path
+ * @return {Promise<void>}
+ */
 async function createMetaYaml(mp3Path) {
   const metaPath = mp3Path.replace(/\.mp3$/, ".meta.yaml");
 
   const metadata = await getMediaMetadata(mp3Path);
   const content = yaml.dump(metadata, {
     quotingType: '"',
-    forceQuotes: true
+    forceQuotes: true,
   });
 
   fs.writeFile(metaPath, content, (err) => {});
@@ -67,6 +71,13 @@ async function getMp3Metadata(file) {
   };
 
   return meta;
+}
+
+function updateDuration(meta) {
+  const duration = meta.audio.duration;
+  const fileName = nodePath.basename(meta.file);
+  const newFileName = fileName.replace(/\.mp3$/, `.${duration}.mp3`);
+  meta.file = newFileName;
 }
 
 export { genMeta };

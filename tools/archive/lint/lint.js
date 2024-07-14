@@ -3,7 +3,7 @@ import nodePath from "node:path";
 import { globSync } from "glob";
 import { lintContent } from "./lint-content.js";
 import { lintFrontMatter } from "./lint-front-matter.js";
-import { getRelativePath } from "../../common/file-utis.js";
+import { getRelativePath } from "#common/file-utils.js";
 
 function lint({ files, path }) {
   const filePaths = getFiles(files, path);

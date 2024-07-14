@@ -1,8 +1,8 @@
 import fs from "node:fs";
-import pathModule from "node:path";
+import nodePath from "node:path";
 import grayMatter from "gray-matter";
-import { traverseFiles } from "../../common/traverse-files.js";
-import { formatSize } from "../../common/format-size.js";
+import { traverseFiles } from "#common/traverse-files.js";
+import { formatSize } from "#common/format-size.js";
 import { DirectLinkDownloader } from "./downloader/DirectLinkDownloader.js";
 import { Downloader } from "./downloader/Downloader.js";
 
@@ -24,7 +24,7 @@ const stats = {
 
 async function fetch({ path }) {
   console.log("Collecting stats...");
-  const absPath = pathModule.resolve(process.cwd(), path);
+  const absPath = nodePath.resolve(process.cwd(), path);
   // await scanDirectory(absPath);
 
   await traverseFiles(absPath, async (file) => {
@@ -69,12 +69,12 @@ function showStats(stats) {
 //   const files = await readdir(directory);
 
 //   for (const file of files) {
-//     const fullPath = pathModule.join(directory, file);
+//     const fullPath = nodePath.join(directory, file);
 //     const stats = fs.statSync(fullPath);
 
 //     if (stats.isDirectory()) {
 //       await scanDirectory(fullPath);
-//     } else if (pathModule.extname(file) === ".md") {
+//     } else if (nodePath.extname(file) === ".md") {
 //       await processMarkdownFile(fullPath);
 //     }
 //   }
@@ -84,12 +84,12 @@ function showStats(stats) {
 //   const files = await readdir(directory);
 
 //   for (const file of files) {
-//     const fullPath = pathModule.join(directory, file);
+//     const fullPath = nodePath.join(directory, file);
 //     const stats = fs.statSync(fullPath);
 
 //     if (stats.isDirectory()) {
 //       await collectStats(fullPath);
-//     } else if (pathModule.extname(file) === ".md") {
+//     } else if (nodePath.extname(file) === ".md") {
 //       await processMarkdownFile(fullPath);
 //     }
 //   }

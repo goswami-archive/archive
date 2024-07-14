@@ -1,13 +1,12 @@
-import fs from "node:fs";
-import pathModule from "node:path";
+import nodePath from "node:path";
 import { getDefaults } from "./getDefaults.js";
-import { getPathInfo as pathInfoUtils } from "../common/file-utis.js";
-import { FILE_NAME_REGEX, DIR_NAME_REGEX } from "../common/regex.js";
-import { slugify } from "../common/slugify.js";
+import { getPathInfo as pathInfoUtils } from "#common/file-utils.js";
+import { FILE_NAME_REGEX, DIR_NAME_REGEX } from "#common/regex.js";
+import { slugify } from "#common/slugify.js";
+import { writePost, writeCategory } from "#common/markdown/markdown.js";
 
 export default async function (plop) {
-  const filePath = process.argv[5];
-
+  const filePath = process.argv[4];
   const pathInfo = getPathInfo(filePath);
 
   if (!filePath || !validateFileName(pathInfo)) {
@@ -25,6 +24,8 @@ export default async function (plop) {
     if (input === "") return [];
     return input.split(",").map((item) => item.trim());
   };
+
+  plop.setActionType("nunjucksRender", plopActionNunjucksRender);
 
   plop.setGenerator("markdown", {
     prompts: [
@@ -56,12 +57,13 @@ export default async function (plop) {
         default: (input) =>
           input.type === "post" ? defaults.title : "New Category",
       },
-      {
-        name: "part",
-        type: "input",
-        message: "Part number:",
-        when: whenPost,
-      },
+      // {
+      //   name: "part",
+      //   type: "input",
+      //   message: "Part number:",
+      //   default: defaults.part,
+      //   when: whenPost,
+      // },
       {
         name: "authors",
         type: "input",
@@ -137,7 +139,8 @@ export default async function (plop) {
     ],
     actions: (answers) => {
       const action = {
-        type: "add",
+        // type: "add",
+        type: "nunjucksRender",
         path: getOutputPath(pathInfo, answers),
         templateFile: `template/${answers.type}.hbs`,
       };
@@ -145,7 +148,22 @@ export default async function (plop) {
       return [action];
     },
   });
-};
+}
+
+function plopActionNunjucksRender(answers, config, plop) {
+  return new Promise((resolve, reject) => {
+    try {
+      if (answers.type === "post") {
+        writePost(config.path, { frontMatter: answers, content: null });
+      } else {
+        writeCategory(config.path, { frontMatter: answers, content: null });
+      }
+      resolve();
+    } catch (error) {
+      return reject(error);
+    }
+  });
+}
 
 function getAudioPath(lang, pathInfo) {
   const { isDir, fileName } = pathInfo;
@@ -181,7 +199,7 @@ function validateFileName(pathInfo) {
 }
 
 function getPathInfo(relativePath) {
-  const filePath = pathModule.resolve(process.cwd(), relativePath);
+  const filePath = nodePath.resolve(process.cwd(), relativePath);
 
   // if (relativePath.endsWith(".md")) {
   //   createMarkdownFile(relativePath);
@@ -194,14 +212,4 @@ function getPathInfo(relativePath) {
   // }
 
   return info;
-}
-
-function createMarkdownFile(relativePath) {
-  const filePath = pathModule.join(process.cwd(), relativePath);
-
-  if (fs.existsSync(filePath)) {
-    throw new Error(`File already exists: ${filePath}`);
-  }
-
-  fs.writeFileSync(filePath, "");
 }

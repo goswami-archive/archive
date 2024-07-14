@@ -1,6 +1,6 @@
-import { slugify } from "../common/slugify.js";
-import { getMediaTags } from "../common/file-utis.js";
-import { parseDirName, parseFileName } from "../common/regex.js";
+import { slugify } from "#common/slugify.js";
+import { getMediaTags } from "#common/file-utils.js";
+import { parseDirName, parseFileName } from "#common/regex.js";
 
 const DEFAULTS = {
   lang: "en",

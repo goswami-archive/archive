@@ -1,11 +1,5 @@
-import grayMatter from "gray-matter";
 import { traverseFiles } from "./traverse-files.js";
-
-/**
- * @typedef {Object} Markdown
- * @property {Object} frontMatter - Front matter
- * @property {string} content - Content
- */
+import {getMarkdownContent} from "./markdown/markdown.js";
 
 /**
  * Traverse callback
@@ -22,8 +16,8 @@ import { traverseFiles } from "./traverse-files.js";
 function traverseMarkdowns(dir, callback) {
   traverseFiles(dir, (filePath) => {
     if (filePath.endsWith(".md")) {
-      const { data, content } = grayMatter.read(filePath, { language: "yaml" });
-      callback({ frontMatter: data, content }, filePath);
+      const markdown = getMarkdownContent(filePath);
+      callback(markdown, filePath);
     }
   });
 }

@@ -1,10 +1,15 @@
-import fs from "node:fs";
 import cheerio from "cheerio";
 import allowedTags from "./schema/allowed-tags.js";
+import { getMarkdownContent } from "#common/markdown/markdown.js";
 
+/**
+ * @param {string} file path to file
+ * @returns {string[]} error messages if any
+ */
 function lintContent(file) {
   const messages = [];
-  const $ = cheerio.load(fs.readFileSync(file), null, false);
+  const { content } = getMarkdownContent(file);
+  const $ = cheerio.load(content, null, false);
 
   $("*").each((index, element) => {
     const tagName = element.tagName;

@@ -1,14 +1,18 @@
-import grayMatter from "gray-matter";
 import revalidator from "revalidator";
 import categorySchema from "./schema/front-matter/category.js";
 import postSchema from "./schema/front-matter/post.js";
+import { getMarkdownContent } from "#common/markdown/markdown.js";
 
+/**
+ * @param {string} file - file path
+ * @returns {string[]} error messages
+ */
 function lintFrontMatter(file) {
   const messages = [];
-  const matter = grayMatter.read(file, { language: "yaml" }).data;
-  const schema = matter.type === "post" ? postSchema : categorySchema;
+  const { frontMatter } = getMarkdownContent(file);
+  const schema = frontMatter.type === "post" ? postSchema : categorySchema;
 
-  const { valid, errors } = revalidator.validate(matter, schema, {
+  const { valid, errors } = revalidator.validate(frontMatter, schema, {
     additionalProperties: false,
   });
 

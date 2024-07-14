@@ -1,6 +1,6 @@
-import { traverseMarkdowns } from "../../common/traverse-markdowns.js";
-import { getRelativePath } from "../../common/file-utis.js";
-import pathModule from "node:path";
+import nodePath from "node:path";
+import { traverseMarkdowns } from "#common/traverse-markdowns.js";
+import { getRelativePath } from "#common/file-utils.js";
 
 /**
  * @param {string} path - Path to search
@@ -8,7 +8,7 @@ import pathModule from "node:path";
  */
 function search(path, propertyValues) {
   const criteria = getSearchCriteria(propertyValues);
-  const absPath = pathModule.resolve(process.cwd(), path);
+  const absPath = nodePath.resolve(process.cwd(), path);
 
   const results = [];
 

@@ -4,7 +4,7 @@ import { lint } from "./lint/lint.js";
 import { fetch } from "./fetch/fetch.js";
 import { search } from "./search/search.js";
 import { genmd } from "./gen-md/gen-md.js";
-import { genMeta } from './gen-meta/gen-meta.js';
+import { genMeta } from "./gen-meta/gen-meta.js";
 
 program
   .name("archive")
@@ -49,7 +49,10 @@ program
     "-l, --langs [langs...]",
     "space separated list of languages, used if language code is not present in file name (default: en)"
   )
-  .option("-a, --auto", "Create markdowns without prompt (applicable when specifying audio file)")
+  .option(
+    "-a, --auto",
+    "When specifying media file, create markdowns without prompts"
+  )
   .action((path, options) => {
     genmd(path, options);
   });

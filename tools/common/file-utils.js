@@ -1,12 +1,12 @@
 import fs from "node:fs";
-import pathModule from "node:path";
+import nodePath from "node:path";
 import mediaTags from "jsmediatags";
 
 function getPathInfo(path) {
   const stat = fs.statSync(path);
   const isDir = stat.isDirectory();
 
-  const { base, name, ext, dir } = pathModule.parse(path);
+  const { base, name, ext, dir } = nodePath.parse(path);
 
   return {
     isDir,
