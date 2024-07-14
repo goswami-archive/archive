@@ -1,0 +1,55 @@
+---
+type: post
+lang: {{ lang }}
+title: "{{ title }}"
+{% if description %}
+description: "{{ description }}"
+{% endif %}
+authors:
+{% for author in authors %}
+  - {{ author }}
+{% endfor %}
+{% if date %}
+date: {{ date }}
+{% endif %}
+{% if location %}
+location: {{ location }}
+{% endif %}
+audio: {{ audio }}
+{% if draft %}
+draft: true
+{% endif %}
+{% if translators | length %}
+translators:
+{% for translator in translators %}
+  - {{ translator }}
+{% endfor %}
+{% endif %}
+{% if transcribers | length %}
+transcribers:
+{% for transcriber in transcribers %}
+  - {{ transcriber }}
+{% endfor %}
+{% endif %}
+{% if editors | length %}
+editors:
+{% for editor in editors %}
+  - {{ editor }}
+{% endfor %}
+{% endif %}
+{% if tags | length %}
+tags:
+{% for tag in tags %}
+  - {{ tag }}
+{% endfor %}
+{% endif %}
+{% if slug %}
+slug: {{ slug }}
+{% endif %}
+{% if image.desktop %}
+image:
+  desktop: {{ image.desktop }}
+{% endif %}
+---
+
+{{ content }}
