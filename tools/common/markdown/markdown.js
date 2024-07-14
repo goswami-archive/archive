@@ -61,15 +61,3 @@ function render(template, markdown) {
 }
 
 export { getMarkdownContent, writePost, writeCategory };
-
-// const data = {
-//   frontMatter: {
-//     title: "Hello World",
-//     description: "This is a post",
-//     date: "2022-01-01",
-//     tags: ["foo", "bar"],
-//   },
-//   content: "Hello World"
-// };
-
-// writePost("test.md", data);
