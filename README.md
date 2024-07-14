@@ -107,25 +107,26 @@ npm run archive -- search content/ type=post draft=true
 ```
 
 ### genmd
-Use `genmd` script to generate markdown files from prompts. 
-```sh
-npm run genmd <directory|audio_file|markdown_file>
-```
-It requires single parameter:
-- `directory` - directory to output markdown file.
-- `audio_file` - mp3 that will be used as source of data (title, lyrics, etc).
-- `markdown_file` - new markdown file name.
+Use `genmd` script to generate markdown files from media files. Generation could be done in automatic mode or in interactive mode. Markdown files will be created in the same directory as media file.
+
+| Option | Description |
+| --- | --- |
+| `-l, --langs [langs...]` | Space separated list of languages, used if language code is not present in file name (default: en).
+| `-a, --auto` | When specifying media file, create markdowns without prompts.
 
 ```sh
-# Generated markdown will be put in scpecified directory
-npm run genmd content/audios/2011/2011-11-23_Positive_Self_Denial
+# Generate markdown files in content/audios/ directory
+npm run archive -- genmd content/audios/
 
-# Specify audio that will be used as source of data.
-# Markdown will be created in same directory
-npm run genmd content/audios/2011/2011-11-23_Positive_Self_Denial/ru_2011-11-23_Positive_Self_Denial.mp3
+# Specify audio as source of data, using interactive mode
+npm run archive -- genmd content/audios/2011/2011-11-23_Positive_Self_Denial/ru_2011-11-23_Positive_Self_Denial.mp3
 
-# Specify markdown file name
-npm run genmd content/audios/2011/2011-11-23_Positive_Self_Denial/ru_2011-11-23_Positive_Self_Denial.md
+# ...using automatic mode
+npm run archive -- genmd content/audios/2011/2011-11-23_Positive_Self_Denial/ru_2011-11-23_Positive_Self_Denial.mp3 -a
+
+# Generate multiple markdown files for specific languages (referencing same audio file)
+npm run archive -- genmd content/audios/Bhajans_and_Kirtans/Bhoga_Arati/Bhoga_Arati.mp3 -l en ru
+
 ```
 
 ### <a id="archive-genmeta"></a>`genmeta`
