@@ -30,17 +30,15 @@ export default Joi.object({
   location: Joi.string(),
 
   audio: Joi.string(),
-    //   when("duration", {
-    //   is: Joi.exist(),
-    //   then: Joi.required(),
-    // })
 
-  duration: Joi.string()
-    .pattern(/^[0-9]{2}:[0-9]{2}:[0-9]{2}$/, "HH:MM:SS")
-    // .when("audio", {
-    //   is: Joi.exist(),
-    //   then: Joi.required(),
-    // })
+  duration: Joi.alternatives()
+    .conditional("audio", {
+      is: Joi.exist(),
+      then: Joi.string()
+        .pattern(/^[0-9]{2}:[0-9]{2}:[0-9]{2}$/, "HH:MM:SS")
+        .required(),
+      otherwise: Joi.forbidden(),
+    })
     .messages({
       "string.pattern.base":
         "'duration' must be a string in the format HH:MM:SS",
