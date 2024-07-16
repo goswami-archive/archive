@@ -1,5 +1,5 @@
 import cheerio from "cheerio";
-import allowedTags from "./schema/allowed-tags.js";
+import allowedTags from "./allowed-tags.js";
 import { getMarkdownContent } from "#common/markdown/markdown.js";
 
 /**

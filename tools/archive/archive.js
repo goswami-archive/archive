@@ -5,6 +5,7 @@ import { fetch } from "./fetch/fetch.js";
 import { search } from "./search/search.js";
 import { genmd } from "./gen-md/gen-md.js";
 import { genMeta } from "./gen-meta/gen-meta.js";
+import { updateDuration } from "./update-duration/update-duration.js";
 
 program
   .name("archive")
@@ -49,6 +50,7 @@ program
     "-l, --langs [langs...]",
     "space separated list of languages, used if language code is not present in file name (default: en)"
   )
+  .option("-f, --force", "Rewrite existing markdown files when using auto mode")
   .option(
     "-a, --auto",
     "When specifying media file, create markdowns without prompts"
@@ -63,6 +65,14 @@ program
   .argument("<path>", "path to directory with media files")
   .action((path) => {
     genMeta(path);
+  });
+
+program
+  .command("update-duration")
+  .description("Update duration field in markdown files")
+  .argument("<path>", "path to directory with markdown files")
+  .action((path) => {
+    updateDuration(path);
   });
 
 program

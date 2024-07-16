@@ -3,6 +3,8 @@ import nodePath from "node:path";
 import grayMatter from "gray-matter";
 import { traverseFiles } from "#common/traverse-files.js";
 import { formatSize } from "#common/format-size.js";
+import { isLocalFile } from '#common/file-utils.js';
+import { getMarkdownContent } from "#common/markdown/markdown.js";
 import { DirectLinkDownloader } from "./downloader/DirectLinkDownloader.js";
 import { Downloader } from "./downloader/Downloader.js";
 
@@ -100,7 +102,7 @@ function showStats(stats) {
 // Total download size: 10 MB
 
 function getAudioUrl(mdFile) {
-  const frontMatter = grayMatter.read(mdFile, { language: "yaml" }).data;
+  const { frontMatter } = getFrontMatter(mdFile);
   return frontMatter.audio || null;
 }
 
@@ -113,17 +115,13 @@ async function processMarkdownFile(mdPath) {
 
   stats.totalFiles++;
 
-  if (isLocalPath(audioUrl)) {
+  if (isLocalFile(audioUrl)) {
     stats.notDownloadedFiles++;
     return;
   }
 
   const localAudio = mdPath.replace(".md", ".mp3");
   await addForDownload(audioUrl, localAudio);
-}
-
-function isLocalPath(path) {
-  return !path.includes("://");
 }
 
 async function addForDownload(url, localPath) {

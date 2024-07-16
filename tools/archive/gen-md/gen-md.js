@@ -5,12 +5,13 @@ import { Plop, run } from "plop";
 import { slugify } from "#common/slugify.js";
 import { FILE_NAME_REGEX, parseFileName } from "#common/regex.js";
 import {
-  getMediaTags,
+  getMp3Metadata,
   titleFromFileName,
   getPathInfo,
 } from "#common/file-utils.js";
 import { traverseFiles } from "#common/traverse-files.js";
 import { writePost } from "#common/markdown/markdown.js";
+import { formatDuration } from "#common/format-duration.js";
 
 let scriptOptions = {};
 
@@ -84,7 +85,7 @@ async function createMarkdown(mp3Path, lang) {
   }
 
   const mdPath = getNewFilePath(mp3Path, lang);
-  if (fs.existsSync(mdPath)) {
+  if (fs.existsSync(mdPath) && !scriptOptions.force) {
     return;
   }
 
@@ -119,24 +120,27 @@ function getNewFilePath(mp3Path, lang) {
 async function getMarkdownContent(mp3Path, lang) {
   const fileName = nodePath.basename(mp3Path, ".mp3");
   const { lang: parsedLang, date, title: fileTitle } = parseFileName(fileName);
-  let { title: id3Title, lyrics } = await getMediaTags(mp3Path);
-  const title = id3Title || titleFromFileName(fileTitle);
+  let metaData = await getMp3Metadata(mp3Path);
+  const title = metaData.tags.title || titleFromFileName(fileTitle);
   const finalLang = lang || parsedLang || "en";
   const slug = slugify(parsedLang ? fileName : `${finalLang}_` + fileName);
+  const duration = formatDuration(metaData.duration);
+  const finalDate = date || metaData.tags.date || metaData.tags.year;
 
   return {
     frontMatter: {
       lang: finalLang,
-      title: title,
+      title,
       authors: [
         lang === "ru" ? "Бхакти Судхир Госвами" : "Bhakti Sudhir Goswami",
       ],
-      date: date,
+      date: finalDate,
       audio: fileName + ".mp3",
+      duration,
       draft: true,
-      slug: slug,
+      slug,
     },
-    content: lyrics,
+    content: metaData.tags.lyrics,
   };
   // const templ = [];
   // templ.push("---");

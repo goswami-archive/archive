@@ -1,6 +1,6 @@
 import nodePath from "node:path";
-import { traverseMarkdowns } from "#common/traverse-markdowns.js";
 import { getRelativePath } from "#common/file-utils.js";
+import { traverseFiles } from '#common/traverse-files.js';
 
 /**
  * @param {string} path - Path to search
@@ -12,12 +12,13 @@ function search(path, propertyValues) {
 
   const results = [];
 
-  traverseMarkdowns(absPath, (markdown, filePath) => {
+  traverseFiles(absPath, (filePath) => {
+    const markdown = getMarkdownContent(filePath);
     const found = testCriteria(markdown, criteria);
     if (found) {
       results.push(getRelativePath(filePath));
     }
-  });
+  }, ".md");
 
   console.log(`Found ${results.length} results.`);
   results.forEach((result) => console.log(result));

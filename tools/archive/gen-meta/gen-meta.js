@@ -4,6 +4,33 @@ import yaml from "js-yaml";
 import { parseFile } from "music-metadata";
 import { traverseFiles } from "#common/traverse-files.js";
 
+/**
+ * @typedef {Object} Mp3Metadata
+ * @property {number} size
+ * @property {number} modtime
+ * @property {AudioMetadata} audio
+ * @property {Id3v2Metadata} id3v2
+ */
+
+/**
+ * @typedef {Object} Id3v2Metadata
+ * @property {string} title
+ * @property {string} artist
+ * @property {string} album
+ * @property {string} year
+ */
+
+/**
+ * @typedef {Object} AudioMetadata
+ * @property {number} duration
+ * @property {number} bitrate
+ * @property {number} sampleRate
+ * @property {number} numberOfChannels
+ */
+
+/**
+ * @param {string} path - path to directory or file
+ */
 function genMeta(path) {
   const resolvedPath = nodePath.resolve(process.cwd(), path);
 
@@ -24,7 +51,7 @@ function genMeta(path) {
  * @return {Promise<void>}
  */
 async function createMetaYaml(mp3Path) {
-  const metaPath = mp3Path.replace(/\.mp3$/, ".meta.yaml");
+  const yamlPath = mp3Path.replace(/\.mp3$/, ".meta.yaml");
 
   const metadata = await getMediaMetadata(mp3Path);
   const content = yaml.dump(metadata, {
@@ -32,9 +59,13 @@ async function createMetaYaml(mp3Path) {
     forceQuotes: true,
   });
 
-  fs.writeFile(metaPath, content, (err) => {});
+  await fs.writeFile(yamlPath, content, (err) => {});
 }
 
+/**
+ * @param {string} file
+ * @returns {Promise<Object>}
+ */
 async function getMediaMetadata(file) {
   if (file.endsWith(".mp3")) {
     return getMp3Metadata(file);
@@ -43,6 +74,10 @@ async function getMediaMetadata(file) {
   return {};
 }
 
+/**
+ * @param {string} file
+ * @returns {Promise<Mp3Metadata>}
+ */
 async function getMp3Metadata(file) {
   let metaData = {};
   try {
@@ -71,13 +106,6 @@ async function getMp3Metadata(file) {
   };
 
   return meta;
-}
-
-function updateDuration(meta) {
-  const duration = meta.audio.duration;
-  const fileName = nodePath.basename(meta.file);
-  const newFileName = fileName.replace(/\.mp3$/, `.${duration}.mp3`);
-  meta.file = newFileName;
 }
 
 export { genMeta };

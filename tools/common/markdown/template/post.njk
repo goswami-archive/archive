@@ -10,12 +10,17 @@ authors:
   - {{ author }}
 {% endfor %}
 {% if date %}
-date: {{ date }}
+date: "{{ date }}"
 {% endif %}
 {% if location %}
 location: {{ location }}
 {% endif %}
+{% if audio %}
 audio: {{ audio }}
+{% endif %}
+{% if duration %}
+duration: "{{ duration }}"
+{% endif %}
 {% if draft %}
 draft: true
 {% endif %}

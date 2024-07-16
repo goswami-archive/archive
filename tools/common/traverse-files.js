@@ -2,10 +2,17 @@ import fs from "node:fs";
 import { join } from "node:path";
 
 /**
- * @param {string} path
- * @param {fn} callback
+ * @typedef {Function} TraverseFilesCallback
+ * @param {string} fullPath
+ * @returns {void}
  */
-function traverseFiles(path, callback) {
+
+/**
+ * @param {string} path
+ * @param {TraverseFilesCallback} callback
+ * @param {string?} extension
+ */
+function traverseFiles(path, callback, extension) {
   const files = fs.readdirSync(path);
 
   for (const file of files) {
@@ -15,7 +22,11 @@ function traverseFiles(path, callback) {
     if (stats.isDirectory()) {
       traverseFiles(fullPath, callback);
     } else {
-      callback(fullPath);
+      if (!extension) {
+        callback(fullPath);
+      } else if (fullPath.endsWith(extension)) {
+        callback(fullPath);
+      }
     }
   }
 }
