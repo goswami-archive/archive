@@ -107,26 +107,31 @@ npm run archive -- search content/ type=post draft=true
 ```
 
 ### genmd
-Use `genmd` script to generate markdown files from media files. Generation could be done in automatic mode or in interactive mode. Markdown files will be created in the same directory as media file.
+Use `genmd` script to generate markdown files from media files. Generation could be done in automatic mode or interactive mode. Markdown files will be created in the same directory as media file.
 
 | Option | Description |
 | --- | --- |
 | `-l, --langs [langs...]` | Space separated list of languages, used if language code is not present in file name (default: en).
 | `-a, --auto` | When specifying media file, create markdowns without prompts.
 
+Generate markdown files for every mp3-file in `content/audios/` directory.
 ```sh
-# Generate markdown files in content/audios/ directory
 npm run archive -- genmd content/audios/
+```
 
-# Specify audio as source of data, using interactive mode
+You may specify a media file as a source of data. It's name will be parsed and used as source for front matter (language, date, title etc.). Audio's ID3v2 `lyrics` tag will be used as markdown's content. By default interactive mode is used.
+```sh
 npm run archive -- genmd content/audios/2011/2011-11-23_Positive_Self_Denial/ru_2011-11-23_Positive_Self_Denial.mp3
+```
 
-# ...using automatic mode
+Specify `-a` flag to generate markdown without prompts.
+```sh
 npm run archive -- genmd content/audios/2011/2011-11-23_Positive_Self_Denial/ru_2011-11-23_Positive_Self_Denial.mp3 -a
+```
 
-# Generate multiple markdown files for specific languages (referencing same audio file)
-npm run archive -- genmd content/audios/Bhajans_and_Kirtans/Bhoga_Arati/Bhoga_Arati.mp3 -l en ru
-
+If specified media file doesn't contain language code in filename, an English will be used as default. You may also specify a list of languages to generate multiple markdown files. This is only applied to automatic mode.
+```sh
+npm run archive -- genmd content/audios/Bhajans_and_Kirtans/Bhoga_Arati/Bhoga_Arati.mp3 -a -l en ru
 ```
 
 ### <a id="archive-genmeta"></a>`genmeta`
