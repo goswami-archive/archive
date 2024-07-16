@@ -1,3 +1,12 @@
+- regenerate Kirtans and Bhajans (slugs, title quotes)
+- add slugs
+- Rename "Kirtans and Bhajans"
+- script: content autofix
+  - remove multiple spaces
+  - replace proper quotes
+  - replace long dashes
+
+- "duration" field in md
 - audio fetching
 - timecodes list format
 - lint file name format
