@@ -44,6 +44,11 @@ async function updateMarkdownDuration(mdPath) {
   }
 
   const audioPath = nodePath.resolve(nodePath.dirname(mdPath), audio);
+
+  if (!fs.existsSync(audioPath)) {
+    return;
+  }
+
   const metaData = await getMp3Metadata(audioPath);
   const currentDuration = formatDuration(metaData.duration);
 
