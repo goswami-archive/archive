@@ -6,7 +6,7 @@ import { slugify } from "#common/slugify.js";
 import { writePost, writeCategory } from "#common/markdown/markdown.js";
 
 export default async function (plop) {
-  const filePath = process.argv[4];
+  const filePath = getPathArgument(process.argv);
   const pathInfo = getPathInfo(filePath);
 
   if (!filePath || !validateFileName(pathInfo)) {
@@ -33,7 +33,7 @@ export default async function (plop) {
         name: "type",
         type: "list",
         message: "Select type:",
-        default: defaults.type,
+        default: "post",
         choices: ["post", "category"],
         filter: (v) => v.toLowerCase(),
       },
@@ -212,4 +212,9 @@ function getPathInfo(relativePath) {
   // }
 
   return info;
+}
+
+function getPathArgument(args) {
+  const index = args.findIndex((arg) => arg === "genmd");
+  return args[index + 1];
 }
