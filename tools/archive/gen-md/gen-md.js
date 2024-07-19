@@ -8,6 +8,7 @@ import {
   getMp3Metadata,
   titleFromFileName,
   getPathInfo,
+  getMediaTags,
 } from "#common/file-utils.js";
 import { traverseFiles } from "#common/traverse-files.js";
 import { writePost } from "#common/markdown/markdown.js";
@@ -120,12 +121,15 @@ function getNewFilePath(mp3Path, lang) {
 async function getMarkdownContent(mp3Path, lang) {
   const fileName = nodePath.basename(mp3Path, ".mp3");
   const { lang: parsedLang, date, title: fileTitle } = parseFileName(fileName);
-  let metaData = await getMp3Metadata(mp3Path);
-  const title = metaData.tags.title || titleFromFileName(fileTitle);
-  const finalLang = lang || parsedLang || "en";
+  let tags = await getMediaTags(mp3Path);
+  const title = removeDate(tags.title || titleFromFileName(fileTitle));
+  const finalLang = parsedLang || lang || "en";
   const slug = slugify(parsedLang ? fileName : `${finalLang}_` + fileName);
-  const duration = formatDuration(metaData.duration);
-  const finalDate = date || metaData.tags.date || metaData.tags.year;
+
+  const audioData = await getMp3Metadata(mp3Path);
+  const duration = formatDuration(audioData.duration);
+
+  const finalDate = date || tags.date || tags.year;
 
   return {
     frontMatter: {
@@ -140,7 +144,7 @@ async function getMarkdownContent(mp3Path, lang) {
       draft: true,
       slug,
     },
-    content: metaData.tags.lyrics,
+    content: tags.lyrics,
   };
   // const templ = [];
   // templ.push("---");
@@ -162,6 +166,10 @@ async function getMarkdownContent(mp3Path, lang) {
   // templ.push(lyrics);
 
   // return templ.join("\n");
+}
+
+function removeDate(string) {
+  return string.replace(/\d{4}-\d{2}-\d{2}/, "").trim();
 }
 
 export { genmd };

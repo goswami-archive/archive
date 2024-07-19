@@ -1,6 +1,8 @@
 import fs from "node:fs";
 import nodePath from "node:path";
 import { parseFile } from "music-metadata";
+import mediaTags from "jsmediatags";
+import { rejects } from "node:assert";
 
 export function getPathInfo(path) {
   const stat = fs.statSync(path);
@@ -59,10 +61,6 @@ export async function getMp3Metadata(file) {
   return meta;
 }
 
-function removeDate(string) {
-  return string.replace(/\d{4}-\d{2}-\d{2}/, "").trim();
-}
-
 /**
  * @param {string} path
  * @returns {boolean}
@@ -80,19 +78,22 @@ export function getRelativePath(absPath) {
   return absPath.replace(process.cwd() + "/", "");
 }
 
+export async function getMediaTags(audioPath) {
+  const tags = ["title", "date", "year", "lyrics"];
 
-// export async function getMediaTags(audioPath) {
-//   return new Promise((resolve, reject) => {
-//     new mediaTags.Reader(audioPath).setTagsToRead(["title", "lyrics"]).read({
-//       onSuccess: (id3v2) => {
-//         resolve({
-//           title: removeDate(id3v2.tags.title), // often title contains date
-//           lyrics: id3v2.tags.lyrics ? id3v2.tags.lyrics.lyrics : "",
-//         });
-//       },
-//       onError: (error) => {
-//         reject(error);
-//       },
-//     });
-//   });
-// }
+  return new Promise((resolve, reject) => {
+    new mediaTags.Reader(audioPath).setTagsToRead(tags).read({
+      onSuccess: (id3v2) => {
+        resolve({
+          title: id3v2.tags.title,
+          lyrics: id3v2.tags.lyrics ? id3v2.tags.lyrics.lyrics : "",
+          date: id3v2.tags.date,
+          year: id3v2.tags.year,
+        });
+      },
+      onError: (error) => {
+        reject(error);
+      },
+    });
+  });
+}

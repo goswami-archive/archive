@@ -42,12 +42,12 @@ async function getDefaultsFromAudio(pathInfo) {
   const { fileName, path } = pathInfo;
   const { lang, date, part, title } = parseFileName(fileName);
   const slug = slugify(fileName);
-  const { title: id3Title, lyrics } = await getMediaTags(path);
+  const tags = await getMediaTags(path);
 
   const defaults = {
-    title: id3Title ?? title,
+    title: tags.title ?? title,
     slug,
-    lyrics,
+    lyrics: tags.lyrics,
   };
 
   if (lang) {
