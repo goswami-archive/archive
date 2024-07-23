@@ -72,19 +72,14 @@ function genmdFromPath(path) {
     process.exit(1);
   }
 
-  traverseFiles(path, async (file) => {
-    scriptOptions.langs.forEach(async (lang) => {
-      await createMarkdown(file, lang);
+  traverseFiles(path, (file) => {
+    scriptOptions.langs.forEach((lang) => {
+      createMarkdown(file, lang);
     });
-  });
+  }, "mp3");
 }
 
 async function createMarkdown(mp3Path, lang) {
-  const { fileName, extension } = getPathInfo(mp3Path);
-  if (extension !== ".mp3" || !fileName.match(FILE_NAME_REGEX)) {
-    return;
-  }
-
   const mdPath = getNewFilePath(mp3Path, lang);
   if (fs.existsSync(mdPath) && !scriptOptions.force) {
     return;
@@ -103,6 +98,7 @@ function getNewFilePath(mp3Path, lang) {
   const { lang: langInFileName } = parseFileName(
     nodePath.basename(mp3Path, ".mp3")
   );
+
   let mdPath = mp3Path;
   if (!langInFileName) {
     const fileName = nodePath.basename(mp3Path);

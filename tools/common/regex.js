@@ -10,6 +10,15 @@ const DIR_NAME_REGEX = /^(\d{4}-\d{2}-\d{2})(?:_p(\d+))?_(.+)/;
 function parseFileName(fileName) {
   const match = fileName.match(FILE_NAME_REGEX);
 
+  if (!match) {
+    return {
+      lang: null,
+      date: null,
+      part: null,
+      title: null,
+    };
+  }
+
   return {
     lang: match[1],
     date: match[2],
@@ -24,6 +33,14 @@ function parseFileName(fileName) {
  */
 function parseDirName(fileName) {
   const match = fileName.match(DIR_NAME_REGEX);
+
+  if (!match) {
+    return {
+      date: null,
+      part: null,
+      title: null,
+    };
+  }
 
   return {
     date: match[1],
