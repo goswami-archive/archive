@@ -20,7 +20,7 @@ function traverseFiles(path, callback, extension) {
     const stats = fs.statSync(fullPath);
 
     if (stats.isDirectory()) {
-      traverseFiles(fullPath, callback);
+      traverseFiles(fullPath, callback, extension);
     } else {
       if (!extension) {
         callback(fullPath);
