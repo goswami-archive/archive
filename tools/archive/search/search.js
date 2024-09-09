@@ -1,6 +1,7 @@
 import nodePath from "node:path";
 import { getRelativePath } from "#common/file-utils.js";
 import { traverseFiles } from '#common/traverse-files.js';
+import { getMarkdownContent } from "#common/markdown/markdown.js";
 
 /**
  * @param {string} path - Path to search
