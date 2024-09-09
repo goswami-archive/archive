@@ -1,9 +1,11 @@
-import axios from "axios";
 import fs from "node:fs";
+import nodePath from "node:path";
+import axios from "axios";
 import ProgressBar from "progress";
 import os from "os";
 
 export class DirectLinkDownloader {
+
   /**
    * @public
    * @param {string} url
@@ -36,7 +38,7 @@ export class DirectLinkDownloader {
    * @param {string} localPath
    */
   async download(url, localPath) {
-    const fileName = pathModule.basename(localPath);
+    const fileName = nodePath.basename(localPath);
     try {
       const { data, headers } = await axios({
         url: url,
@@ -53,7 +55,7 @@ export class DirectLinkDownloader {
         total: parseInt(totalLength),
       });
 
-      const tmpPath = pathModule.join(os.tmpdir(), fileName);
+      const tmpPath = localPath + ".tmp";
 
       const writer = fs.createWriteStream(tmpPath);
       data.on("data", (chunk) => {
