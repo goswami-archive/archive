@@ -1,9 +1,8 @@
 import fs from "node:fs";
 import nodePath from "node:path";
-import grayMatter from "gray-matter";
 import { traverseFiles } from "#common/traverse-files.js";
 import { formatSize } from "#common/format-size.js";
-import { isLocalFile } from '#common/file-utils.js';
+import { isLocalFile } from "#common/file-utils.js";
 import { getMarkdownContent } from "#common/markdown/markdown.js";
 import { DirectLinkDownloader } from "./downloader/DirectLinkDownloader.js";
 import { Downloader } from "./downloader/Downloader.js";
@@ -29,11 +28,15 @@ async function fetch({ path }) {
   const absPath = nodePath.resolve(process.cwd(), path);
   // await scanDirectory(absPath);
 
-  await traverseFiles(absPath, async (file) => {
-    if (file.endsWith(".md")) {
-      await processMarkdownFile(file);
-    }
-  });
+  await traverseFiles(
+    absPath,
+    async (file) => {
+      if (file.endsWith(".md")) {
+        await processMarkdownFile(file);
+      }
+    },
+    "md"
+  );
 
   showStats(stats);
 
@@ -41,9 +44,9 @@ async function fetch({ path }) {
   //   await updateFiles(filesToUpdate);
   // }
 
-  // if (filesToDownload.length) {
-  //   await downloadFiles(filesToDownload);
-  // }
+  if (filesToDownload.length) {
+    await downloadFiles(filesToDownload);
+  }
 }
 
 function showStats(stats) {
@@ -64,7 +67,6 @@ function showStats(stats) {
   //   tableData[fileInfo.dest] = fileInfo.size;
   // });
   // console.table(tableData);
-
 }
 
 // async function scanDirectory(directory) {
@@ -102,7 +104,7 @@ function showStats(stats) {
 // Total download size: 10 MB
 
 function getAudioUrl(mdFile) {
-  const { frontMatter } = getFrontMatter(mdFile);
+  const { frontMatter } = getMarkdownContent(mdFile);
   return frontMatter.audio || null;
 }
 
@@ -113,7 +115,7 @@ async function processMarkdownFile(mdPath) {
     return;
   }
 
-  stats.totalFiles++;
+  ++stats.totalFiles;
 
   if (isLocalFile(audioUrl)) {
     stats.notDownloadedFiles++;
@@ -146,28 +148,28 @@ async function addForDownload(url, localPath) {
     remoteStats.size !== localStats.size
   ) {
     filesToUpdate.push({ src: url, dest: localPath, size: remoteStats.size });
+  } else {
+    ++stats.downloadedFiles;
   }
 }
 
 async function updateFiles(files) {
-  console.log(`=== Updating ${files.length} files`);
+  console.log(`--- Updating ${files.length} files ---`);
   for (const file of files) {
     await downloadFile(file.src, file.dest);
   }
 }
 
 async function downloadFiles(files) {
-  console.log(`=== Downloading ${files.length} files`);
+  console.log(`--- Downloading ${files.length} files ---`);
   for (const file of files) {
     await downloadFile(file.src, file.dest);
   }
 }
 
 async function downloadFile(url, localPath) {
-  for (const downloader of downloaders) {
-    if (downloader.canDownload(url)) {
-      return downloader.download(url, localPath);
-    }
+  if (downloader.canDownload(url)) {
+    await downloader.download(url, localPath);
   }
 }
 
