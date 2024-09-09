@@ -20,7 +20,7 @@ async function traverseFiles(path, callback, extension) {
     const stats = fs.statSync(fullPath);
 
     if (stats.isDirectory()) {
-      traverseFiles(fullPath, callback, extension);
+      await traverseFiles(fullPath, callback, extension);
     } else {
       if (!extension) {
         await callback(fullPath);
