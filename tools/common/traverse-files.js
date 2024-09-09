@@ -12,7 +12,7 @@ import { join } from "node:path";
  * @param {TraverseFilesCallback} callback
  * @param {string?} extension
  */
-function traverseFiles(path, callback, extension) {
+async function traverseFiles(path, callback, extension) {
   const files = fs.readdirSync(path);
 
   for (const file of files) {
@@ -23,9 +23,9 @@ function traverseFiles(path, callback, extension) {
       traverseFiles(fullPath, callback, extension);
     } else {
       if (!extension) {
-        callback(fullPath);
+        await callback(fullPath);
       } else if (fullPath.endsWith(extension)) {
-        callback(fullPath);
+        await callback(fullPath);
       }
     }
   }
