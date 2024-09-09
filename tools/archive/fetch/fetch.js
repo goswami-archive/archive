@@ -55,11 +55,11 @@ function showStats(stats) {
     filesToDownload.reduce((acc, file) => acc + file.size, 0);
 
   console.table({
-    "Media Files": stats.totalFiles,
+    "Total audio files": stats.totalFiles,
     Downloaded: stats.downloadedFiles,
     New: filesToDownload.length,
     Outdated: filesToUpdate.length,
-    "Download Size": formatSize(downloadSize),
+    "Total download size": formatSize(downloadSize),
   });
 
   // const tableData = {}
@@ -128,7 +128,7 @@ async function processMarkdownFile(mdPath) {
 
 async function addForDownload(url, localPath) {
   if (!downloader.canDownload(url)) {
-    console.log(`Unable to process url ${url}`);
+    console.warn(`Unable to process url ${url}`);
     return;
   }
   const remoteStats = await downloader.getRemoteStats(url);
@@ -154,14 +154,14 @@ async function addForDownload(url, localPath) {
 }
 
 async function updateFiles(files) {
-  console.log(`--- Updating ${files.length} files ---`);
+  console.info(`--- Updating ${files.length} files ---`);
   for (const file of files) {
     await downloadFile(file.src, file.dest);
   }
 }
 
 async function downloadFiles(files) {
-  console.log(`--- Downloading ${files.length} files ---`);
+  console.info(`--- Downloading ${files.length} files ---`);
   for (const file of files) {
     await downloadFile(file.src, file.dest);
   }
