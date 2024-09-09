@@ -32,6 +32,10 @@ export class Downloader {
     return this.getDownloader(url).download(url, localPath);
   }
 
+  /**
+   * @private
+   * @param {string} url
+   */
   getDownloader(url) {
     const downloaders = this.downloaders.filter((downloader) => downloader.canDownload(url));
     return downloaders.length > 0 ? downloaders[0] : null;
