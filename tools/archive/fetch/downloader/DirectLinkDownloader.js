@@ -47,8 +47,8 @@ export class DirectLinkDownloader {
       });
 
       const totalLength = headers["content-length"];
-      const progressBar = new ProgressBar(`:percent ${fileName}`, {
-        width: 40,
+      const progressBar = new ProgressBar(`:percent\t${fileName}`, {
+        width: 30,
         complete: "=",
         incomplete: " ",
         renderThrottle: 1,
