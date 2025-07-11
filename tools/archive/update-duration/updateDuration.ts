@@ -1,11 +1,11 @@
-import fs from "node:fs";
-import nodePath from "node:path";
-import { getMarkdownContent, writePost } from "#common/markdown/markdown.js";
-import { formatDuration } from "#common/format-duration.js";
-import { traverseFiles } from "#common/traverse-files.js";
-import { getMp3Metadata, isLocalFile } from '#common/file-utils.js';
+import fs from 'node:fs';
+import nodePath from 'node:path';
+import { getMarkdownContent, writePost } from '#common/markdown/markdown.ts';
+import { formatDuration } from '#common/formatDuration.ts';
+import { traverseFiles } from '#common/traverseFiles.ts';
+import { getMp3Metadata, isLocalFile } from '#common/file-utils.ts';
 
-export function updateDuration(path) {
+export function updateDuration(path: string) {
   const resolvedPath = nodePath.resolve(process.cwd(), path);
 
   if (!fs.existsSync(resolvedPath)) {
@@ -16,13 +16,13 @@ export function updateDuration(path) {
   if (fs.statSync(resolvedPath).isDirectory()) {
     traverseFiles(
       resolvedPath,
-      (filePath) => {
+      async (filePath) => {
         updateMarkdownDuration(filePath);
       },
-      ".md"
+      '.md'
     );
   } else {
-    if (resolvedPath.endsWith(".md")) {
+    if (resolvedPath.endsWith('.md')) {
       updateMarkdownDuration(resolvedPath);
     } else {
       console.error(`File ${resolvedPath} is not a markdown file.`);
@@ -32,9 +32,8 @@ export function updateDuration(path) {
 
 /**
  * Update duration field in markdown file from referenced audio file
- * @param {string} mdPath
  */
-async function updateMarkdownDuration(mdPath) {
+async function updateMarkdownDuration(mdPath: string): Promise<void> {
   const markdown = getMarkdownContent(mdPath);
   const { frontMatter } = markdown;
   const { duration, audio } = frontMatter;

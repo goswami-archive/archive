@@ -8,27 +8,34 @@
   "imports": {
     "#*": "./tools/*"
   },
+  "engines": {
+    "node": ">=23.6.0"
+  },
   "scripts": {
     "prepare": "husky",
-    "archive": "node tools/archive/archive.js",
-    "lint": "node tools/archive/archive.js lint -p content/",
-    "drafts": "node tools/archive/archive.js search content/ draft=true",
-    "notext": "node tools/archive/archive.js search content/ content=''",
-    "genmeta": "node tools/archive/archive.js -- genmeta content/"
+    "archive": "node tools/archive/archive.ts",
+    "lint": "node tools/archive/archive.ts lint -p content/",
+    "drafts": "node tools/archive/archive.ts search content/ type=post draft=true",
+    "notext": "node tools/archive/archive.ts search content/ type=post content=''",
+    "genmeta": "node tools/archive/archive.ts -- genmeta content/"
   },
   "devDependencies": {
-    "axios": "1.7.2",
-    "cheerio": "1.0.0-rc.12",
-    "commander": "12.1.0",
-    "glob": "11.0.0",
+    "@types/jsmediatags": "3.9.6",
+    "@types/progress": "2.0.7",
+    "axios": "1.10.0",
+    "cheerio": "1.1.0",
+    "commander": "14.0.0",
+    "glob": "11.0.3",
     "gray-matter": "4.0.3",
-    "husky": "9.0.11",
+    "husky": "9.1.7",
     "joi": "17.13.3",
     "js-yaml": "4.1.0",
     "jsmediatags": "3.9.7",
-    "lint-staged": "15.2.7",
+    "lint-staged": "16.1.2",
+    "lodash.flow": "3.5.0",
     "lodash.kebabcase": "4.1.1",
-    "music-metadata": "9.0.1",
+    "music-metadata": "11.6.0",
+    "node-plop": "0.32.0",
     "nunjucks": "3.2.4",
     "plop": "4.0.1",
     "progress": "2.0.3"

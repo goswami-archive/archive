@@ -1,11 +1,16 @@
-import fs from "node:fs";
-import nodePath from "node:path";
-import { globSync } from "glob";
-import { lintContent } from "./lint-content.js";
-import { lintFrontMatter } from "./lint-front-matter.js";
-import { getRelativePath } from "#common/file-utils.js";
+import fs from 'node:fs';
+import nodePath from 'node:path';
+import { globSync } from 'glob';
+import { lintContent } from './lintContent.ts';
+import { lintFrontMatter } from './lintFrontMatter.ts';
+import { getRelativePath } from '#common/file-utils.ts';
 
-function lint({ files, path }) {
+type LintOptions = {
+  files: string[];
+  path: string;
+};
+
+export function lint({ files, path }: LintOptions) {
   const filePaths = getFiles(files, path);
 
   let hasErrors = false;
@@ -26,16 +31,11 @@ function lint({ files, path }) {
   }
 }
 
-/**
- * @param {string[]} files
- * @param {string} path
- * @returns
- */
-function getFiles(files, path) {
+function getFiles(files: string[], path: string): string[] {
   const validFiles = [];
 
   if (path) {
-    return globSync(nodePath.resolve(process.cwd(), path) + "/**/*.md", {
+    return globSync(nodePath.resolve(process.cwd(), path) + '/**/*.md', {
       absolute: true,
     });
   }
@@ -49,7 +49,7 @@ function getFiles(files, path) {
       console.error(`File ${file} is a directory.`);
       continue;
     }
-    if (!file.endsWith(".md")) {
+    if (!file.endsWith('.md')) {
       console.error(`File ${file} is not a markdown file.`);
       continue;
     }
@@ -60,10 +60,8 @@ function getFiles(files, path) {
   return validFiles;
 }
 
-function printMessages(file, messages) {
+function printMessages(file: string, messages: string[]) {
   messages.forEach((message) => {
     console.error(`${file} \t ${message}`);
   });
 }
-
-export { lint };

@@ -1,8 +1,8 @@
-import nodePath from "node:path";
-import fs from "node:fs";
-import yaml from "js-yaml";
-import { parseFile } from "music-metadata";
-import { traverseFiles } from "#common/traverse-files.js";
+import nodePath from 'node:path';
+import fs from 'node:fs';
+import yaml from 'js-yaml';
+import { parseFile } from 'music-metadata';
+import { traverseFiles } from '#common/traverseFiles.ts';
 
 /**
  * @typedef {Object} Mp3Metadata
@@ -40,7 +40,7 @@ function genMeta(path) {
   }
 
   traverseFiles(resolvedPath, async (file) => {
-    if (file.endsWith(".mp3")) {
+    if (file.endsWith('.mp3')) {
       await createMetaYaml(file);
     }
   });
@@ -51,7 +51,7 @@ function genMeta(path) {
  * @return {Promise<void>}
  */
 async function createMetaYaml(mp3Path) {
-  const yamlPath = mp3Path.replace(/\.mp3$/, ".meta.yaml");
+  const yamlPath = mp3Path.replace(/\.mp3$/, '.meta.yaml');
 
   const metadata = await getMediaMetadata(mp3Path);
   const content = yaml.dump(metadata, {
@@ -67,7 +67,7 @@ async function createMetaYaml(mp3Path) {
  * @returns {Promise<Object>}
  */
 async function getMediaMetadata(file) {
-  if (file.endsWith(".mp3")) {
+  if (file.endsWith('.mp3')) {
     return getMp3Metadata(file);
   }
 

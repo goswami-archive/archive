@@ -61,4 +61,6 @@ export default Joi.object({
     mobile: Joi.string(),
     alt: Joi.string().required(),
   }),
+
+  license: Joi.string().required(),
 });

@@ -1,21 +1,32 @@
-import fs from "node:fs";
-import nodePath from "node:path";
-import { traverseFiles } from "#common/traverse-files.js";
-import { formatSize } from "#common/format-size.js";
-import { isLocalFile } from "#common/file-utils.js";
-import { getMarkdownContent } from "#common/markdown/markdown.js";
-import { DirectLinkDownloader } from "./downloader/DirectLinkDownloader.js";
-import { Downloader } from "./downloader/Downloader.js";
+import fs from 'node:fs';
+import nodePath from 'node:path';
+import { traverseFiles } from '#common/traverseFiles.ts';
+import { formatSize } from '#common/formatSize.ts';
+import { isLocalFile } from '#common/file-utils.ts';
+import { getMarkdownContent } from '#common/markdown/markdown.ts';
+import { DirectLinkDownloader } from './downloader/DirectLinkDownloader.ts';
+import { Downloader } from './downloader/Downloader.ts';
 
-const downloader = new Downloader([
-  // new YoutubeDownloader(),
-  new DirectLinkDownloader(),
-]);
+type FileInfo = {
+  src: string;
+  dest: string;
+  size: number;
+};
 
-const filesToUpdate = [];
-const filesToDownload = [];
+type Stats = {
+  totalFiles: number;
+  totalDownloadSize: number;
+  downloadedFiles: number;
+  notDownloadedFiles: number;
+  outdatedFiles: number;
+};
 
-const stats = {
+const downloader = new Downloader([new DirectLinkDownloader()]);
+
+const filesToUpdate: FileInfo[] = [];
+const filesToDownload: FileInfo[] = [];
+
+const stats: Stats = {
   totalFiles: 0,
   totalDownloadSize: 0,
   downloadedFiles: 0,
@@ -23,19 +34,19 @@ const stats = {
   outdatedFiles: 0,
 };
 
-async function fetch({ path }) {
-  console.log("Collecting stats...");
+export async function fetch({ path }) {
+  console.log('Collecting stats...');
   const absPath = nodePath.resolve(process.cwd(), path);
   // await scanDirectory(absPath);
 
   await traverseFiles(
     absPath,
     async (file) => {
-      if (file.endsWith(".md")) {
+      if (file.endsWith('.md')) {
         await processMarkdownFile(file);
       }
     },
-    "md"
+    'md'
   );
 
   showStats(stats);
@@ -49,17 +60,17 @@ async function fetch({ path }) {
   }
 }
 
-function showStats(stats) {
+function showStats(stats: Stats) {
   const downloadSize =
     filesToUpdate.reduce((acc, file) => acc + file.size, 0) +
     filesToDownload.reduce((acc, file) => acc + file.size, 0);
 
   console.table({
-    "Total audio files": stats.totalFiles,
+    'Total audio files': stats.totalFiles,
     Downloaded: stats.downloadedFiles,
     New: filesToDownload.length,
     Outdated: filesToUpdate.length,
-    "Total download size": formatSize(downloadSize),
+    'Total download size': formatSize(downloadSize),
   });
 
   // const tableData = {}
@@ -122,11 +133,11 @@ async function processMarkdownFile(mdPath) {
     return;
   }
 
-  const localAudio = mdPath.replace(".md", ".mp3");
+  const localAudio = mdPath.replace('.md', '.mp3');
   await addForDownload(audioUrl, localAudio);
 }
 
-async function addForDownload(url, localPath) {
+async function addForDownload(url: string, localPath: string) {
   if (!downloader.canDownload(url)) {
     console.warn(`Unable to process url ${url}`);
     return;
@@ -153,27 +164,25 @@ async function addForDownload(url, localPath) {
   }
 }
 
-async function updateFiles(files) {
+async function updateFiles(files: FileInfo[]) {
   console.info(`--- Updating ${files.length} files ---`);
   for (const file of files) {
     await downloadFile(file.src, file.dest);
   }
 }
 
-async function downloadFiles(files) {
+async function downloadFiles(files: FileInfo[]) {
   console.info(`--- Downloading ${files.length} files ---`);
   for (const file of files) {
     await downloadFile(file.src, file.dest);
   }
 }
 
-async function downloadFile(url, localPath) {
+async function downloadFile(url: string, localPath: string) {
   if (downloader.canDownload(url)) {
     await downloader.download(url, localPath);
   }
 }
-
-export { fetch };
 
 // const http = require('http');
 // const fs = require('fs');

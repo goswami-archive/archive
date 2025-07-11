@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "allowImportingTsExtensions": true,
+    "allowSyntheticDefaultImports": true,
+    "noEmit": true,
+    "module": "ESNext",
+    "skipLibCheck": true,
+    "strict": true,
+    "target": "ESNext",
+    "moduleResolution": "node",
+    "isolatedModules": true,
+    "baseUrl": ".",
+    "paths": {
+      "#*": [
+        "./tools/*"
+      ],
+    }
+  }
+}

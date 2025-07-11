@@ -1,5 +1,5 @@
-import postSchema from "./schema/post.js";
-import categorySchema from "./schema/category.js";
+import postSchema from './schema/post.ts';
+import categorySchema from './schema/category.ts';
 
 export function validate(object) {
   const schema = getSchema(object.type);
@@ -8,7 +8,7 @@ export function validate(object) {
   }
 
   const { error } = schema.validate(object, {
-    abortEarly: false
+    abortEarly: false,
   });
 
   return error ? error.details.map((e) => e.message) : [];
@@ -16,9 +16,12 @@ export function validate(object) {
 
 function getSchema(type) {
   switch (type) {
-    case "post": return postSchema;
-    case "category":
-    case "playlist": return categorySchema;
-    default: return null;
+    case 'post':
+      return postSchema;
+    case 'category':
+    case 'playlist':
+      return categorySchema;
+    default:
+      return null;
   }
 }

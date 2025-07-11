@@ -1,24 +1,25 @@
-import { slugify } from "#common/slugify.js";
-import { getMediaTags } from "#common/file-utils.js";
-import { parseDirName, parseFileName } from "#common/regex.js";
+import { slugify } from '#common/slugify.ts';
+import { getMediaTags, type PathInfo } from '#common/file-utils.js';
+import { parseDirName, parseFileName } from '#common/regex.js';
 
 const DEFAULTS = {
-  lang: "en",
-  title: "New Post",
+  lang: 'en',
+  title: 'New Post',
   authors: {
-    en: "Bhakti Sudhir Goswami",
-    ru: "Бхакти Судхир Госвами",
+    en: 'Bhakti Sudhir Goswami',
+    ru: 'Бхакти Судхир Госвами',
   },
   draft: true,
+  license: 'https://creativecommons.org/licenses/by-nc-sa/4.0/',
 };
 
-async function getDefaults(pathInfo) {
+async function getDefaults(pathInfo: PathInfo) {
   const { isDir, extension } = pathInfo;
   let defaults = {};
 
   if (isDir) {
     defaults = getDefaultsFromDir(pathInfo);
-  } else if (extension === ".mp3") {
+  } else if (extension === '.mp3') {
     defaults = await getDefaultsFromAudio(pathInfo);
   } else {
     defaults = getDefaultsFromMd(pathInfo);
@@ -27,18 +28,18 @@ async function getDefaults(pathInfo) {
   return { ...DEFAULTS, ...defaults };
 }
 
-function getDefaultsFromDir(pathInfo) {
-  return parseDirName(pathInfo);
+function getDefaultsFromDir(pathInfo: PathInfo) {
+  return parseDirName(pathInfo.dirName);
 }
 
-function getDefaultsFromMd(pathInfo) {
+function getDefaultsFromMd(pathInfo: PathInfo) {
   return {
-    ...parseFileName(pathInfo),
+    ...parseFileName(pathInfo.fileName),
     slug: slugify(pathInfo.fileName),
   };
 }
 
-async function getDefaultsFromAudio(pathInfo) {
+async function getDefaultsFromAudio(pathInfo: PathInfo) {
   const { fileName, path } = pathInfo;
   const { lang, date, part, title } = parseFileName(fileName);
   const slug = slugify(fileName);

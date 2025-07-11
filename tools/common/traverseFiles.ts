@@ -1,18 +1,13 @@
-import fs from "node:fs";
-import { join } from "node:path";
+import fs from 'node:fs';
+import { join } from 'node:path';
 
-/**
- * @typedef {Function} TraverseFilesCallback
- * @param {string} fullPath
- * @returns {void}
- */
+type TraverseFilesCallback = (fullPath: string) => Promise<void>;
 
-/**
- * @param {string} path
- * @param {TraverseFilesCallback} callback
- * @param {string?} extension
- */
-async function traverseFiles(path, callback, extension) {
+async function traverseFiles(
+  path: string,
+  callback: TraverseFilesCallback,
+  extension?: string
+) {
   const files = fs.readdirSync(path);
 
   for (const file of files) {

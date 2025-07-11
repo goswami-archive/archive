@@ -1,13 +1,13 @@
-const FILE_NAME_REGEX =
+export const FILE_NAME_REGEX =
   /^(?:([a-z]{2})_)?(?:(\d{4}-\d{2}-\d{2})_)?(?:p(\d+)_)?([a-zA-z0-9_]+)$/;
 
-const DIR_NAME_REGEX = /^(\d{4}-\d{2}-\d{2})(?:_p(\d+))?_(.+)/;
+export const DIR_NAME_REGEX = /^(\d{4}-\d{2}-\d{2})(?:_p(\d+))?_(.+)/;
 
 /**
  * @param {string} fileName
  * @returns
  */
-function parseFileName(fileName) {
+export function parseFileName(fileName: string) {
   const match = fileName.match(FILE_NAME_REGEX);
 
   if (!match) {
@@ -31,7 +31,7 @@ function parseFileName(fileName) {
  * @param {string} fileName
  * @returns
  */
-function parseDirName(fileName) {
+export function parseDirName(fileName: string) {
   const match = fileName.match(DIR_NAME_REGEX);
 
   if (!match) {
@@ -48,5 +48,3 @@ function parseDirName(fileName) {
     title: match[3],
   };
 }
-
-export { FILE_NAME_REGEX, DIR_NAME_REGEX, parseDirName, parseFileName };

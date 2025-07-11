@@ -1,25 +1,18 @@
-export class Downloader {
+import { type DownloaderInterface } from './DownloaderInterface.ts';
 
-  constructor(downloaders){
+export class Downloader {
+  private downloaders: DownloaderInterface[];
+
+  constructor(downloaders: DownloaderInterface[]) {
     this.downloaders = downloaders;
   }
 
-  /**
-   * @public
-   * @param {string} url
-   * @returns boolean
-   */
-  canDownload(url) {
+  public canDownload(url: string): boolean {
     const downloader = this.getDownloader(url);
     return downloader ? downloader.canDownload(url) : false;
   }
 
-  /**
-   * @public
-   * @param {string} url
-   * @returns {Promise<{mtime: Date, size: number}>}
-   */
-  async getRemoteStats(url) {
+  public async getRemoteStats(url: string) {
     return this.getDownloader(url).getRemoteStats(url);
   }
 
@@ -32,12 +25,10 @@ export class Downloader {
     return this.getDownloader(url).download(url, localPath);
   }
 
-  /**
-   * @private
-   * @param {string} url
-   */
-  getDownloader(url) {
-    const downloaders = this.downloaders.filter((downloader) => downloader.canDownload(url));
+  private getDownloader(url: string): DownloaderInterface | null {
+    const downloaders = this.downloaders.filter((downloader) =>
+      downloader.canDownload(url)
+    );
     return downloaders.length > 0 ? downloaders[0] : null;
   }
 }
