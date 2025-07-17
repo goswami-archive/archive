@@ -13,7 +13,8 @@
     {
       "files": [
         "**/*.css",
-        "**/*.html"
+        "**/*.html",
+        "**/*.md"
       ],
       "options": {
         "singleQuote": false
