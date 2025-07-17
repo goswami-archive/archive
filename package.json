@@ -19,25 +19,30 @@
     "notext": "node tools/archive/archive.ts search content/ type=post content=''",
     "genmeta": "node tools/archive/archive.ts -- genmeta content/"
   },
-  "devDependencies": {
-    "@types/jsmediatags": "3.9.6",
-    "@types/progress": "2.0.7",
+  "dependencies": {
+    "@dotenvx/dotenvx": "1.47.6",
     "axios": "1.10.0",
     "cheerio": "1.1.0",
     "commander": "14.0.0",
     "glob": "11.0.3",
     "gray-matter": "4.0.3",
-    "husky": "9.1.7",
     "joi": "17.13.3",
     "js-yaml": "4.1.0",
     "jsmediatags": "3.9.7",
-    "lint-staged": "16.1.2",
     "lodash.flow": "3.5.0",
     "lodash.kebabcase": "4.1.1",
-    "music-metadata": "11.6.0",
+    "music-metadata": "11.7.0",
     "node-plop": "0.32.0",
     "nunjucks": "3.2.4",
+    "openai": "5.10.1",
     "plop": "4.0.1",
     "progress": "2.0.3"
+  },
+  "devDependencies": {
+    "@types/jsmediatags": "3.9.6",
+    "@types/nunjucks": "3.2.6",
+    "@types/progress": "2.0.7",
+    "husky": "9.1.7",
+    "lint-staged": "16.1.2"
   }
 }
