@@ -1,29 +1,46 @@
 import fs from 'node:fs';
-import { join } from 'node:path';
+import { join, resolve } from 'node:path';
 
 type TraverseFilesCallback = (fullPath: string) => Promise<void>;
 
-async function traverseFiles(
+export async function traverseFiles(
   path: string,
   callback: TraverseFilesCallback,
   extension?: string
 ) {
-  const files = fs.readdirSync(path);
+  const resolvedPath = resolve(process.cwd(), path);
 
-  for (const file of files) {
-    const fullPath = join(path, file);
-    const stats = fs.statSync(fullPath);
+  if (!fs.existsSync(resolvedPath)) {
+    console.error(`Path ${resolvedPath} does not exist.`);
+    process.exit(1);
+  }
 
-    if (stats.isDirectory()) {
-      await traverseFiles(fullPath, callback, extension);
-    } else {
-      if (!extension) {
-        await callback(fullPath);
-      } else if (fullPath.endsWith(extension)) {
-        await callback(fullPath);
-      }
+  await traverse(resolvedPath, callback, extension);
+}
+
+async function traverse(
+  path: string,
+  callback: TraverseFilesCallback,
+  extension?: string
+) {
+  const stats = fs.statSync(path);
+
+  if (stats.isFile()) {
+    if (!extension) {
+      await callback(path);
+      return;
+    } else if (path.endsWith(extension)) {
+      await callback(path);
+      return;
+    }
+  }
+
+  if (stats.isDirectory()) {
+    const files = fs.readdirSync(path);
+
+    for (const file of files) {
+      const fullPath = join(path, file);
+      await traverse(fullPath, callback, extension);
     }
   }
 }
-
-export { traverseFiles };
