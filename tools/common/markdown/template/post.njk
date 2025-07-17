@@ -15,9 +15,10 @@ date: "{{ date }}"
 {% if location %}
 location: {{ location }}
 {% endif %}
-{% if audio %}
-audio: {{ audio }}
-{% endif %}
+audio:
+{% for key, value in audio %}
+  {{ key }}: {{ value }}
+{% endfor %}
 {% if duration %}
 duration: "{{ duration }}"
 {% endif %}
@@ -59,7 +60,7 @@ image:
 license: {{ license }}
 {% endif %}
 ---
-{% if content %}
 
+{% if content %}
 {{ content }}
 {% endif %}
