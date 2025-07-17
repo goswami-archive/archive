@@ -16,17 +16,20 @@ import { processContent } from './processContent.ts';
 
 const PLOP_FILE = '/tools/archive/gen-md/plop/plopfile.ts';
 
-let scriptOptions = {};
+let scriptOptions: GenmdOptions = {
+  langs: ['en'],
+  auto: false,
+  force: false,
+};
 
 type GenmdOptions = {
-  langs?: string[];
+  langs: string[];
   auto?: boolean;
   force?: boolean;
 };
 
 function genmd(path: string, options: GenmdOptions) {
-  scriptOptions = { ...options };
-  scriptOptions.langs = scriptOptions.langs || ['en'];
+  scriptOptions = { ...scriptOptions, ...options };
 
   const resolvedPath = nodePath.resolve(process.cwd(), path);
 
@@ -107,13 +110,7 @@ function getNewFilePath(mp3Path: string, lang: string): string {
   return mdPath;
 }
 
-/**
- *
- * @param {*} mp3Path
- * @param {*} lang
- * @returns
- */
-async function getMarkdownContent(mp3Path, lang) {
+async function getMarkdownContent(mp3Path: string, lang: string) {
   const fileName = nodePath.basename(mp3Path, '.mp3');
   const { lang: parsedLang, date, title: fileTitle } = parseFileName(fileName);
   let tags = await getMediaTags(mp3Path);
@@ -122,7 +119,9 @@ async function getMarkdownContent(mp3Path, lang) {
   const slug = slugify(parsedLang ? fileName : `${finalLang}_` + fileName);
 
   const audioData = await getMp3Metadata(mp3Path);
-  const duration = formatDuration(audioData.duration);
+  const duration = audioData.duration
+    ? formatDuration(audioData.duration)
+    : undefined;
 
   const finalDate = date || tags.date || tags.year;
 
@@ -136,7 +135,9 @@ async function getMarkdownContent(mp3Path, lang) {
         lang === 'ru' ? 'Бхакти Судхир Госвами' : 'Bhakti Sudhir Goswami',
       ],
       date: finalDate,
-      audio: fileName + '.mp3',
+      audio: {
+        file: fileName + '.mp3',
+      },
       duration,
       draft: true,
       slug,
@@ -146,7 +147,7 @@ async function getMarkdownContent(mp3Path, lang) {
   };
 }
 
-function removeDate(string) {
+function removeDate(string: string): string {
   return string.replace(/\d{4}-\d{2}-\d{2}/, '').trim();
 }
 

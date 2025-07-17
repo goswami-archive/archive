@@ -1,10 +1,13 @@
 import nodePath from 'node:path';
-import { getDefaults } from '../getDefaults.js';
-import { PathInfo, getPathInfo as pathInfoUtils } from '#common/file-utils.js';
-import { FILE_NAME_REGEX, DIR_NAME_REGEX } from '#common/regex.js';
+import { getDefaults } from '../getDefaults.ts';
+import {
+  type PathInfo,
+  getPathInfo as pathInfoUtils,
+} from '#common/file-utils.ts';
+import { FILE_NAME_REGEX, DIR_NAME_REGEX } from '#common/regex.ts';
 import { slugify } from '#common/slugify.ts';
-import { writePost, writeCategory } from '#common/markdown/markdown.js';
-import { NodePlopAPI } from 'node-plop';
+import { writePost, writeCategory } from '#common/markdown/markdown.ts';
+import { type NodePlopAPI } from 'node-plop';
 
 export default async function (plop: NodePlopAPI) {
   const filePath = getPathArgument(process.argv);

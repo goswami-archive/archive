@@ -1,6 +1,6 @@
 import { slugify } from '#common/slugify.ts';
-import { getMediaTags, type PathInfo } from '#common/file-utils.js';
-import { parseDirName, parseFileName } from '#common/regex.js';
+import { getMediaTags, type PathInfo } from '#common/file-utils.ts';
+import { parseDirName, parseFileName } from '#common/regex.ts';
 
 const DEFAULTS = {
   lang: 'en',
