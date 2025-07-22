@@ -1,6 +1,7 @@
 #!/usr/bin/env node
-import { program, Option } from 'commander';
-import { upload } from './upload/upload.ts';
+import { program } from 'commander';
+import { upload } from './command/upload.ts';
+import { update } from './command/update.ts';
 
 program
   .name('ia')
@@ -9,11 +10,20 @@ program
 
 program
   .command('upload')
-  .description('upload audio file to Internet Archive')
-  .argument('[files...]', 'List of files to upload')
+  .description('Create item on Internet Archive from markdown file')
+  .argument('[files...]', 'List of Markdown files')
   .option('-c, --config <file>', 'IA config file')
   .action((files: string[], options) => {
     upload(files, options);
+  });
+
+program
+  .command('update')
+  .description("Update IA item's data from markdown file")
+  .argument('[files...]', 'List of Markdown files')
+  .option('-c, --config <file>', 'IA config file')
+  .action((files: string[], options) => {
+    update(files, options);
   });
 
 program.parse();
