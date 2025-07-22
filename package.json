@@ -23,6 +23,7 @@
     "@dotenvx/dotenvx": "1.47.6",
     "axios": "1.10.0",
     "cheerio": "1.1.0",
+    "clsx": "2.1.1",
     "commander": "14.0.0",
     "glob": "11.0.3",
     "gray-matter": "4.0.3",

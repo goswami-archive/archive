@@ -1,3 +1,4 @@
+import clsx from 'clsx';
 import { traverseFiles } from '#common/traverseFiles.ts';
 import {
   type AudioMatter,
@@ -36,21 +37,20 @@ async function updateFromMarkdown(mdPath: string, config: string) {
   const creator = authors[0];
   const licenseurl = license || DEFAULT_METADATA.licenseurl;
 
-  const command = `${IA.binary} --config-file ${config} metadata ${identifier} \
-    --modify="title:${title}" \
-    --modify="language:${lang}" \
-    --modify="creator:${creator}" \
-    ${tags ? `--modify="subject:${tags.join(',')}"` : ''} \
-    ${licenseurl ? `--modify="licenseurl:${licenseurl}"` : ''} \
-    ${
-      date
-        ? `--modify="date:${date}" --modify="year:${new Date(
-            date
-          ).getFullYear()}"`
-        : ''
-    } \
-    ${location ? `--modify="location:${location}"` : ''} \
-    ${content ? `--modify="description:${content}"` : ''}`;
+  const command = clsx(
+    `${IA.binary} --config-file ${config} metadata ${identifier} `,
+    `--modify="title:${title}" `,
+    `--modify="language:${lang}" `,
+    `--modify="creator:${creator}" `,
+    tags && `--modify="subject:${tags.join(',')}" `,
+    licenseurl && `--modify="licenseurl:${licenseurl}" `,
+    date &&
+      `--modify="date:${date}" --modify="year:${new Date(
+        date
+      ).getFullYear()}" \ `,
+    location && `--modify="location:${location}" `,
+    content && `--modify="description:${content}" `
+  );
 
   try {
     await runCommandExec(command);

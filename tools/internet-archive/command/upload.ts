@@ -1,3 +1,4 @@
+import clsx from 'clsx';
 import nodePath from 'node:path';
 import { traverseFiles } from '#common/traverseFiles.ts';
 import {
@@ -47,27 +48,23 @@ async function uploadFromMarkdown(mdPath: string, config: string) {
   const creator = authors[0];
   const licenseurl = license || DEFAULT_METADATA.licenseurl;
 
-  const command = `${
-    IA.binary
-  } --config-file ${config} upload ${identifier} ${audioFile} \
-    --retries=${IA.retries} \
-    --metadata="title:${title}" \
-    --metadata="language:${lang}" \
-    --metadata="creator:${creator}" \
-    --metadata="mediatype:${DEFAULT_METADATA.mediatype}" \
-    --metadata="collection:${DEFAULT_METADATA.collection}" \
-    ${tags ? `--metadata="subject:${tags.join(',')}"` : ''} \
-    ${licenseurl ? `--metadata="licenseurl:${licenseurl}"` : ''} \
-    ${
-      date
-        ? `--metadata="date:${date}" --metadata="year:${new Date(
-            date
-          ).getFullYear()}"`
-        : ''
-    } \
-    ${location ? `--metadata="location:${location}"` : ''} \
-    ${content ? `--metadata="description:${content}"` : ''} \
-    `;
+  const command = clsx(
+    `${IA.binary} --config-file ${config} upload ${identifier} ${audioFile} `,
+    `--retries=${IA.retries} `,
+    `--metadata="title:${title}" `,
+    `--metadata="language:${lang}" `,
+    `--metadata="creator:${creator}" `,
+    `--metadata="mediatype:${DEFAULT_METADATA.mediatype}" `,
+    `--metadata="collection:${DEFAULT_METADATA.collection}" `,
+    tags && `--metadata="subject:${tags.join(',')}" `,
+    licenseurl && `--metadata="licenseurl:${licenseurl}" `,
+    date &&
+      `--metadata="date:${date}" --metadata="year:${new Date(
+        date
+      ).getFullYear()}" `,
+    location && `--metadata="location:${location}" `,
+    content && `--metadata="description:${content}" `
+  );
 
   // const args2 = [
   //   '--config-file',
