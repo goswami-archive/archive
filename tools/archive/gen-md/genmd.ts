@@ -10,9 +10,10 @@ import {
   getMediaTags,
 } from '#common/file-utils.ts';
 import { traverseFiles } from '#common/traverseFiles.ts';
-import { writePost } from '#common/markdown/markdown.ts';
+import { Markdown, PostMatter, writePost } from '#common/markdown/markdown.ts';
 import { formatDuration } from '#common/formatDuration.ts';
 import { processContent } from './processContent.ts';
+import { DEFAULTS } from './getDefaults.ts';
 
 const PLOP_FILE = '/tools/archive/gen-md/plop/plopfile.ts';
 
@@ -110,11 +111,26 @@ function getNewFilePath(mp3Path: string, lang: string): string {
   return mdPath;
 }
 
-async function getMarkdownContent(mp3Path: string, lang: string) {
+async function getMarkdownContent(
+  mp3Path: string,
+  lang: string
+): Promise<Markdown<PostMatter>> {
   const fileName = nodePath.basename(mp3Path, '.mp3');
-  const { lang: parsedLang, date, title: fileTitle } = parseFileName(fileName);
+  const parsedFileName = parseFileName(fileName);
+  if (!parsedFileName) {
+    throw new Error(
+      `File name ${fileName} is not valid. Refer to - https://goswami-archive.gitbook.io/docs/archive-structure/naming`
+    );
+  }
+
+  const {
+    lang: parsedLang,
+    date,
+    title: parsedTitle,
+  } = parseFileName(fileName);
+
   let tags = await getMediaTags(mp3Path);
-  const title = removeDate(tags.title || titleFromFileName(fileTitle));
+  const title = removeDate(tags.title || titleFromFileName(parsedTitle));
   const finalLang = parsedLang || lang || 'en';
   const slug = slugify(parsedLang ? fileName : `${finalLang}_` + fileName);
 
@@ -139,9 +155,9 @@ async function getMarkdownContent(mp3Path: string, lang: string) {
         file: fileName + '.mp3',
       },
       duration,
-      draft: true,
+      draft: DEFAULTS.draft,
       slug,
-      license: 'https://creativecommons.org/licenses/by-nc-sa/4.0/',
+      license: DEFAULTS.license,
     },
     content,
   };

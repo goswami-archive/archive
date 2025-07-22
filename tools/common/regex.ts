@@ -3,20 +3,18 @@ export const FILE_NAME_REGEX =
 
 export const DIR_NAME_REGEX = /^(\d{4}-\d{2}-\d{2})(?:_p(\d+))?_(.+)/;
 
-/**
- * @param {string} fileName
- * @returns
- */
-export function parseFileName(fileName: string) {
+type ParsedFileName = {
+  lang: string;
+  date: string;
+  part: string;
+  title: string;
+};
+
+export function parseFileName(fileName: string): ParsedFileName | null {
   const match = fileName.match(FILE_NAME_REGEX);
 
   if (!match) {
-    return {
-      lang: null,
-      date: null,
-      part: null,
-      title: null,
-    };
+    return null;
   }
 
   return {

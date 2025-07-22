@@ -2,7 +2,7 @@ import { slugify } from '#common/slugify.ts';
 import { getMediaTags, type PathInfo } from '#common/file-utils.ts';
 import { parseDirName, parseFileName } from '#common/regex.ts';
 
-const DEFAULTS = {
+export const DEFAULTS = {
   lang: 'en',
   title: 'New Post',
   authors: {

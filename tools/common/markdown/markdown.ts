@@ -12,9 +12,9 @@ export interface BaseFrontMatter {
   lang: string;
   title: string;
   authors: string[];
-  description: string;
+  description?: string;
   slug: string;
-  image: {
+  image?: {
     desktop: string;
     mobile?: string;
     alt: string;
@@ -28,13 +28,13 @@ export interface CategoryMatter extends BaseFrontMatter {
 export interface PostMatter extends BaseFrontMatter {
   type: 'post';
   authors: string[];
-  date: string;
+  date?: string;
   audio: AudioMatter;
   duration: string;
-  draft: boolean;
-  license: string;
-  location: string;
-  tags: string[];
+  draft?: boolean;
+  license?: string;
+  location?: string;
+  tags?: string[];
 }
 
 export type AudioMatter =
