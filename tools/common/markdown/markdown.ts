@@ -66,6 +66,13 @@ export function getMarkdownContent<T>(file: string): Markdown<T> {
 }
 
 export function writePost(file: string, markdown: Markdown<PostMatter>) {
+  // convert legacy audio field to object
+  if (typeof markdown.frontMatter.audio === 'string') {
+    markdown.frontMatter.audio = {
+      file: markdown.frontMatter.audio,
+    };
+  }
+
   const result = render(templates.post, markdown);
   fs.writeFileSync(file, result);
 }
@@ -80,7 +87,10 @@ export function writeCategory(
 
 function render(template: string, markdown: Markdown<any>) {
   const { frontMatter, content } = markdown;
-  return nunjucks.render(template, { ...frontMatter, content });
+  return nunjucks.render(template, {
+    ...frontMatter,
+    content: content?.trim(),
+  });
 }
 
 export function updatePostMatterValue(
