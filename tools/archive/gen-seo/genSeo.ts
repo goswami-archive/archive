@@ -3,7 +3,7 @@ import {
   getMarkdownContent,
   updatePostMatterValue,
 } from '#common/markdown/markdown.ts';
-import { keywords, summarize } from '#common/text/summarize.ts';
+import { summarize } from '#common/text/summarize.ts';
 import { traverseFiles } from '#common/traverseFiles.ts';
 
 export function genSeo(path: string) {
