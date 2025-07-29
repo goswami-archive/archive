@@ -1,7 +1,8 @@
-import Joi from "joi";
+import Joi from 'joi';
+import { description, image, lang, slug } from './common.ts';
 
 export default Joi.object({
-  type: Joi.string().valid("post").required(),
+  type: Joi.string().valid('post').required(),
 
   title: Joi.string().required(),
 
@@ -10,37 +11,36 @@ export default Joi.object({
   date: Joi.string()
     .pattern(
       /^\d{4}(-(0[1-9]|1[0-2])(-(0[1-9]|[12]\d|3[01]))?)?$/,
-      "YYYY-MM-DD"
+      'YYYY-MM-DD'
     )
     .messages({
-      "string.pattern.base": "'date' must be a date in the format YYYY:MM:DD",
+      'string.pattern.base': "'date' must be a date in the format YYYY:MM:DD",
     }),
 
-  lang: Joi.string()
-    .pattern(/^[a-z]{2}$/)
-    .required()
-    .messages({
-      "string.pattern.base": "`lang` must be a 2-letter ISO 639-1 code",
-    }),
+  lang: lang,
 
-  description: Joi.string().max(200),
+  description: description,
 
   draft: Joi.boolean(),
 
   location: Joi.string(),
 
-  audio: Joi.string(),
+  audio: Joi.object({
+    file: Joi.string().required(),
+  })
+    .unknown()
+    .pattern(Joi.string(), Joi.string()),
 
   duration: Joi.alternatives()
-    .conditional("audio", {
+    .conditional('audio', {
       is: Joi.exist(),
       then: Joi.string()
-        .pattern(/^[0-9]{2}:[0-9]{2}:[0-9]{2}$/, "HH:MM:SS")
+        .pattern(/^[0-9]{2}:[0-9]{2}:[0-9]{2}$/, 'HH:MM:SS')
         .required(),
       otherwise: Joi.forbidden(),
     })
     .messages({
-      "string.pattern.base":
+      'string.pattern.base':
         "'duration' must be a string in the format HH:MM:SS",
     }),
 
@@ -52,15 +52,11 @@ export default Joi.object({
 
   transcribers: Joi.array().items(Joi.string()).min(1),
 
-  slug: Joi.string(),
+  slug: slug,
 
   tags: Joi.array().items(Joi.string()),
 
-  image: Joi.object({
-    desktop: Joi.string().required(),
-    mobile: Joi.string(),
-    alt: Joi.string().required(),
-  }),
+  image: image,
 
   license: Joi.string().required(),
 });

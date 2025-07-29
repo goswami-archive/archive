@@ -1,24 +1,16 @@
-import Joi from "joi";
+import Joi from 'joi';
+import { description, image, lang, slug } from './common.ts';
 
 export default Joi.object({
-  type: Joi.string().valid("category", "playlist").required(),
+  type: Joi.string().valid('category', 'playlist').required(),
 
   title: Joi.string().required(),
 
-  lang: Joi.string()
-    .pattern(/^[a-z]{2}$/)
-    .required()
-    .messages({
-      "string.pattern.base": "must be a 2-letter ISO 639-1 code",
-    }),
+  lang: lang,
 
-  description: Joi.string().max(200),
+  description: description,
 
-  slug: Joi.string(),
+  slug: slug,
 
-  image: Joi.object({
-    desktop: Joi.string().required(),
-    mobile: Joi.string(),
-    alt: Joi.string().required(),
-  }),
+  image: image,
 });
