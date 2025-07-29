@@ -10,7 +10,11 @@ import {
   getMediaTags,
 } from '#common/file-utils.ts';
 import { traverseFiles } from '#common/traverseFiles.ts';
-import { Markdown, PostMatter, writePost } from '#common/markdown/markdown.ts';
+import {
+  type Markdown,
+  type PostMatter,
+  writePost,
+} from '#common/markdown/markdown.ts';
 import { formatDuration } from '#common/formatDuration.ts';
 import { processContent } from './processContent.ts';
 import { DEFAULTS } from './getDefaults.ts';
