@@ -7,6 +7,7 @@ import { genmd } from './gen-md/genmd.ts';
 import { genMeta } from './gen-meta/genMeta.ts';
 import { updateDuration } from './update-duration/updateDuration.ts';
 import { genSeo } from './gen-seo/genSeo.ts';
+import { smartEdit } from './smart-edit/smart-edit.ts';
 
 program
   .name('archive')
@@ -82,6 +83,14 @@ program
   .argument('<path>', 'path to markdown file or directory')
   .action((path) => {
     genSeo(path);
+  });
+
+program
+  .command('smart-edit')
+  .description('Automatically fix text formatting in markdown files')
+  .argument('<path>', 'path to markdown file or directory')
+  .action((path) => {
+    smartEdit(path);
   });
 
 program
