@@ -25,6 +25,9 @@ duration: "{{ duration }}"
 {% if draft %}
 draft: true
 {% endif %}
+{% if slug %}
+slug: {{ slug }}
+{% endif %}
 {% if translators | length %}
 translators:
 {% for translator in translators %}
@@ -49,9 +52,6 @@ tags:
   - {{ tag }}
 {% endfor %}
 {% endif %}
-{% if slug %}
-slug: {{ slug }}
-{% endif %}
 {% if image.desktop %}
 image:
   desktop: {{ image.desktop }}
@@ -62,5 +62,5 @@ license: {{ license }}
 ---
 
 {% if content %}
-{{ content }}
+{{ content | safe }}
 {% endif %}
