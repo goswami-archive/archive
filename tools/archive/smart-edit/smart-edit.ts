@@ -26,10 +26,10 @@ function processContent(mdPath: string) {
   const textProcessor = getTextProcessor(frontMatter.lang);
   const result = textProcessor.process(content);
 
-  console.log(result.report);
-
   writePost(mdPath, {
     frontMatter,
     content: result.processedText,
   });
+
+  console.log(result.report);
 }
