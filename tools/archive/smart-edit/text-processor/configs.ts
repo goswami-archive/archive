@@ -2,10 +2,10 @@ import { type LanguageConfig } from './types.ts';
 
 export const configs: Record<string, LanguageConfig> = {
   en: {
-    openingQuote: '"',
-    closingQuote: '"',
-    openingSingleQuote: "'",
-    closingSingleQuote: "'",
+    openingQuote: '“',
+    closingQuote: '”',
+    openingSingleQuote: '‘',
+    closingSingleQuote: '’',
   },
   ru: {
     openingQuote: '«',
