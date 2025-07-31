@@ -20,9 +20,9 @@
     "genmeta": "node tools/archive/archive.ts -- genmeta content/"
   },
   "dependencies": {
-    "@dotenvx/dotenvx": "1.47.6",
-    "axios": "1.10.0",
-    "cheerio": "1.1.0",
+    "@dotenvx/dotenvx": "1.48.4",
+    "axios": "1.11.0",
+    "cheerio": "1.1.2",
     "clsx": "2.1.1",
     "commander": "14.0.0",
     "glob": "11.0.3",
@@ -32,10 +32,10 @@
     "jsmediatags": "3.9.7",
     "lodash.flow": "3.5.0",
     "lodash.kebabcase": "4.1.1",
-    "music-metadata": "11.7.0",
+    "music-metadata": "11.7.3",
     "node-plop": "0.32.0",
     "nunjucks": "3.2.4",
-    "openai": "5.10.1",
+    "openai": "5.11.0",
     "plop": "4.0.1",
     "progress": "2.0.3"
   },
