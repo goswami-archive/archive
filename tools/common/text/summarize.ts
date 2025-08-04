@@ -1,5 +1,4 @@
 import { aiQuery } from '#common/ai/aiQuery.ts';
-import '@dotenvx/dotenvx/config';
 
 export async function summarize(content: string): Promise<string> {
   const setup =
