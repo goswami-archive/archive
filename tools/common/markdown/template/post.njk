@@ -22,6 +22,9 @@ audio:
 {% if duration %}
 duration: "{{ duration }}"
 {% endif %}
+{% if video %}
+video: "{{ video }}"
+{% endif %}
 {% if draft %}
 draft: true
 {% endif %}
@@ -55,6 +58,7 @@ tags:
 {% if image.desktop %}
 image:
   desktop: {{ image.desktop }}
+  alt: {{ image.alt }}
 {% endif %}
 {% if license %}
 license: {{ license }}
