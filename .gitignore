@@ -1,6 +1,8 @@
 .DS_Store
 node_modules
 
+.gladia.json
+
 *.mp3
 *.wav
 *.env

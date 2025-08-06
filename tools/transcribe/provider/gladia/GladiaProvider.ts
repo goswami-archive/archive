@@ -5,14 +5,18 @@ import axios from 'axios';
 import { BOOST_WORDS } from '#transcribe/words.ts';
 import { getTimestamp } from '#transcribe/getTimestamp.ts';
 import { type TranscriptionProvider } from '../TranscriptionProvider.ts';
-import { type TranscriptionResponseWithSentences } from './types.ts';
+import {
+  type AudioUploadResponse,
+  type TranscriptionResponseWithSentences,
+} from './types.ts';
 import { combineSentencesIntoParagraphs } from './combineSentencesIntoParagraphs.ts';
+
+const API_BASE_URL = 'https://api.gladia.io/v2';
+const UPLOADED_FILE_CACHE = '.gladia.json';
 
 const authHeaders: Record<string, string> = {
   'x-gladia-key': process.env.GLADIA_API_KEY!,
 };
-
-const API_BASE_URL = 'https://api.gladia.io/v2';
 
 export class GladiaProvider implements TranscriptionProvider {
   public async transcribe(
@@ -107,6 +111,16 @@ export class GladiaProvider implements TranscriptionProvider {
   }
 
   private async uploadFile(filePath: string): Promise<string> {
+    if (!fs.existsSync(filePath)) {
+      throw new Error(`File not found: ${filePath}`);
+    }
+
+    const cachedUrl = getCachedUrl(filePath);
+    if (cachedUrl) {
+      console.log('- Using cached audio URL:', cachedUrl);
+      return cachedUrl;
+    }
+
     const form = new FormData();
     const stream = fs.createReadStream(filePath);
 
@@ -119,16 +133,51 @@ export class GladiaProvider implements TranscriptionProvider {
     });
 
     console.log('- Uploading file to Gladia...');
-    const uploadResponse = await axios.post(`${API_BASE_URL}/upload`, form, {
-      // form.getHeaders to get correctly formatted form-data boundaries
-      // https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Content-Type
-      headers: { ...form.getHeaders(), ...authHeaders },
-    });
+    const uploadResponse = await axios.post<AudioUploadResponse>(
+      `${API_BASE_URL}/upload`,
+      form,
+      {
+        // form.getHeaders to get correctly formatted form-data boundaries
+        // https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Content-Type
+        headers: { ...form.getHeaders(), ...authHeaders },
+      }
+    );
 
-    const audioUrl = uploadResponse.data.audio_url;
+    const { audio_url, audio_metadata } = uploadResponse.data;
+    writeIdToCache(filePath, audio_metadata.id);
 
-    return audioUrl;
+    return audio_url;
   }
+}
+
+function writeIdToCache(filePath: string, fileId: string): void {
+  const cacheFile = path.join(path.dirname(filePath), UPLOADED_FILE_CACHE);
+  let gladiaJson: Record<string, string> = {};
+
+  // Read existing data if file exists
+  if (fs.existsSync(cacheFile)) {
+    gladiaJson = JSON.parse(fs.readFileSync(cacheFile, 'utf8'));
+  }
+
+  // Add or update the entry
+  const fileName = path.basename(filePath);
+  gladiaJson[fileName] = fileId;
+
+  // Write back to file
+  fs.writeFileSync(cacheFile, JSON.stringify(gladiaJson, null, 2));
+}
+
+function getCachedUrl(filePath: string): string | null {
+  const cacheFile = path.join(path.dirname(filePath), UPLOADED_FILE_CACHE);
+  if (fs.existsSync(cacheFile)) {
+    const gladiaJson = JSON.parse(fs.readFileSync(cacheFile, 'utf8'));
+    const fileName = path.basename(filePath);
+
+    return gladiaJson[fileName]
+      ? `https://api.gladia.io/file/${gladiaJson[fileName]}`
+      : null;
+  }
+  return null;
 }
 
 //---------------

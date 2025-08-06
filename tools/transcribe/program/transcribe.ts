@@ -8,7 +8,7 @@ import { AssemblyAIProvider } from '#transcribe/provider/assemblyai/AssemblyAIPr
 import { GladiaProvider } from '#transcribe/provider/gladia/GladiaProvider.ts';
 
 interface TranscribeOptions {
-  provider?: TypeProvider;
+  provider: TypeProvider;
   timestamps?: boolean;
   gap?: number;
 }
@@ -26,11 +26,7 @@ const providers = {
 } as const;
 
 export async function transcribe(path: string, options: TranscribeOptions) {
-  const {
-    provider = Provider.ASSEMBLYAI,
-    timestamps = true,
-    gap = 10,
-  } = options;
+  const { provider, timestamps = true, gap = 10 } = options;
   const { frontMatter, content } = getMarkdownContent<PostMatter>(path);
 
   if (frontMatter.type !== 'post') {
@@ -39,6 +35,10 @@ export async function transcribe(path: string, options: TranscribeOptions) {
   }
   if (content.length !== 0) {
     console.error('Error: Content is not empty');
+    process.exit(1);
+  }
+  if (!provider) {
+    console.error('Error: No provider specified');
     process.exit(1);
   }
 
