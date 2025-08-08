@@ -6,26 +6,27 @@ import {
 import { summarize } from '#common/text/summarize.ts';
 import { traverseFiles } from '#common/traverseFiles.ts';
 
-export function genSeo(path: string) {
+interface GenSeoOptions {
+  length?: number;
+}
+
+export function genSeo(path: string, { length }: GenSeoOptions) {
   traverseFiles(
     path,
     async (filePath) => {
-      updateDescription(filePath);
+      updateDescription(filePath, length);
     },
     '.md'
   );
 }
 
-async function updateDescription(mdPath: string) {
+async function updateDescription(mdPath: string, maxLength?: number) {
   const { frontMatter, content } = getMarkdownContent<BaseFrontMatter>(mdPath);
 
   if (frontMatter.type !== 'post') {
     return;
   }
 
-  const summary = await summarize(content);
+  const summary = await summarize(content, maxLength);
   updatePostMatterValue(mdPath, 'description', summary);
-
-  // const tags = await keywords(content);
-  // updatePostMatterValue(mdPath, 'tags', tags);
 }

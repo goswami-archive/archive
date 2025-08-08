@@ -21,6 +21,7 @@
   },
   "dependencies": {
     "@dotenvx/dotenvx": "1.48.4",
+    "@sindresorhus/slugify": "2.2.1",
     "assemblyai": "4.14.2",
     "axios": "1.11.0",
     "cheerio": "1.1.2",

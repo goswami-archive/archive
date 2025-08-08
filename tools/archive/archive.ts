@@ -8,6 +8,7 @@ import { genMeta } from './gen-meta/genMeta.ts';
 import { updateDuration } from './update-duration/updateDuration.ts';
 import { genSeo } from './gen-seo/genSeo.ts';
 import { smartEdit } from './smart-edit/smart-edit.ts';
+import { noiast } from './noiast/noiast.ts';
 
 program
   .name('archive')
@@ -81,8 +82,9 @@ program
   .command('gen-seo')
   .description('Generate SEO description for markdown files')
   .argument('<path>', 'path to markdown file or directory')
-  .action((path) => {
-    genSeo(path);
+  .option('-l, --length <number>', 'Maximum length of the SEO description')
+  .action((path, options) => {
+    genSeo(path, options);
   });
 
 program
@@ -91,6 +93,14 @@ program
   .argument('<path>', 'path to markdown file or directory')
   .action((path) => {
     smartEdit(path);
+  });
+
+program
+  .command('no-iast')
+  .description('Relace IAST diacritics with simplified version in content')
+  .argument('<path>', 'path to markdown file or directory')
+  .action((path) => {
+    noiast(path);
   });
 
 program
