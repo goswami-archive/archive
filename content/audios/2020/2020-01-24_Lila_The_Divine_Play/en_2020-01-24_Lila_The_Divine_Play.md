@@ -4,10 +4,13 @@ lang: en
 title: "Lila: The Divine Play"
 authors:
   - Bhakti Sudhir Goswami
-date: 2020-01-24
-audio: en_2020-01-24_Lila_The_Divine_Play.mp3
+date: "2020-01-24"
+audio:
+  file: en_2020-01-24_Lila_The_Divine_Play.mp3
+duration: "01:11:00"
 draft: true
 slug: en-2020-01-24-lila-the-divine-play
+license: https://creativecommons.org/licenses/by-nc-sa/4.0/
 ---
 
 #00:00:00# Goswāmī Mahārāj: Yes, some question?
@@ -40,7 +43,7 @@ gaura-tviṣe namaḥ
 
 #00:07:53# Someone who is so merciful, what does that mean? That the higher aspects of spiritual culture, not to meddle there. Not to meddle in those higher things, to pay attention to your own class and your own lesson. And, for the unqualified to meddle in the higher plane, it's—in the language of Śrīla Guru Mahārāj—he said, “It strikes the spinal cord of the proper thinking person.” The higher think, “That is intolerable to the more advanced and more developed devotees.” They can tolerate so many things, but not meddling with the higher aspects of Kṛṣṇa's pastimes.
 
-#00:08:54# And, in the case of Nityānanda Prabhu, we... we... if, we want to understand that pastime, then we shall understand the reaction of Śivānanda Sen. That, he's willing to sacrifice his family, everything, his own apparent happiness for even the remote discomfort or displeasure of Nityānanda Prabhu. [chuckling] And, if he is kicked by Nityānanda Prabhu, he considers himself so fortunate to be touched by his lotus feet. [laughing] All throughout the Bhāgavatam, and Vedic literature in general, we hear how the devotees are aspiring for a connection with the lotus feet of the Lord. Right? And, the prayers of the nāga-patnīs; the wives of Kāliya, they say, yad-vāñchayā śrīr lalanācarat tapo, vihāya kāmān su-ciraṁ dhṛta-vratā (Cc: Madhya-līlā, 9.114.3−4)... su-ciraṁ dhṛta-vratā.  
+#00:08:54# And, in the case of Nityānanda Prabhu, we... we... if, we want to understand that pastime, then we shall understand the reaction of Śivānanda Sen. That, he's willing to sacrifice his family, everything, his own apparent happiness for even the remote discomfort or displeasure of Nityānanda Prabhu. [chuckling] And, if he is kicked by Nityānanda Prabhu, he considers himself so fortunate to be touched by his lotus feet. [laughing] All throughout the Bhāgavatam, and Vedic literature in general, we hear how the devotees are aspiring for a connection with the lotus feet of the Lord. Right? And, the prayers of the nāga-patnīs; the wives of Kāliya, they say, yad-vāñchayā śrīr lalanācarat tapo, vihāya kāmān su-ciraṁ dhṛta-vratā (Cc: Madhya-līlā, 9.114.3−4)... su-ciraṁ dhṛta-vratā.
 
 #00:10:04# For lifetimes, Lakṣmī Devī engaged in tapasya to try and get access to the holy lotus feet of Kṛṣṇa. Right. So, in so many places this is described. There, in that pastime to the amazement of the wives of Kāliya... Kṛṣṇa's... her husband is a serpent. He has so many serpentine heads. Right. And, Kṛṣṇa's dancing on those heads with his holy lotus feet. And, their... the kuṁkum from his lotus feet are decorating the heads of Kāliya. And, the wives of Kāliya are saying, “Even Lakṣmī Devī couldn't get this, and now our husband is so fortunate to get the touch of the holy lotus feet of Kṛṣṇa.” And, Nityānanda... What is he (Narottam dās Ṭhākur) saying, nitāi-pada-kamala, koṭī-chandra-suśītala (Manaḥ-Śikṣā: 1.1).
 
@@ -61,8 +64,8 @@ gaura-tviṣe namaḥ
 #00:18:05# But, Mahāprabu in His Śikṣāṣṭakam, what are His teachings? He's saying that... you know, there's... there... I was thinking about this the other day. There's as saying, like, you know, “Do one to others...” Some people call it the Golden Rule. They say, “Do one to others, as you would have them do unto you.” Right. Nityānanda [talking to Nityānanda Dās Prabhu], isn't that, that's the so called Golden Rule, right? “Do unto others as you would have them do unto you.” [laughing] But, then I thought, but Mahāprabhu's teachings surpass that.
 
 #00:18:48# tṛṇād api sunīcena
-taror iva sahiṣṇunā 
-amāninā mānadena 
+taror iva sahiṣṇunā
+amāninā mānadena
 kīrtanīyaḥ sadā hariḥ
 (Śrī Śikśaṣṭakam: 3)
 
@@ -115,7 +118,7 @@ tāṁs titikṣasva bhārata
 #00:36:58# vipadaḥ santu tāḥ śaśvat
 tatra tatra jagad-guro
 bhavato darśanaṁ yat syād
-apunar bhava-darśanam 
+apunar bhava-darśanam
 (Śrīmad Bhāgavatam: 1.8.25)
 
 #00:37:09# She's says to Kṛṣṇa, “When everything is going very nicely, then there is a tendency to forget you.” You know, to become self-absorbed. Saying, “But, when I'm put into a very difficult circumstance, at that time my necessity for remembrance is very great.” Right. So, the adversity pushes us into deeper consideration. A deeper level of thoughtfulness in Kṛṣṇa culture. So, she's saying, “Then, if that's the result, because by remembering you then all of this suffering vanishes, So, then it would be better if I was in adverse circumstances.” We're generally not going to pray to be in adverse circumstances. But, Queen Kuntī, that is the level of her devotion. Is that, she's thinking, “Oh, whenever I'm in great difficulty, my remembrance of Kṛṣṇa is intensified and amplified. And, then I'm free from all this anxiety.” She also says... what is it?..
@@ -123,7 +126,7 @@ apunar bhava-darśanam
 #00:38:29# āpannaḥ saṁsṛtiṁ ghorāṁ
 yan-nāma vivaśo gṛṇan
 tataḥ sadyo vimucyeta
-yad bibheti svayaṁ bhayam 
+yad bibheti svayaṁ bhayam
 (Śrīmad Bhāgavatam: 1.1.14)
 
 #00:38:40# She's saying, “By remembering you and chanting your holy name, then I'm freed from fear. Because, 'fear' personified is afraid of you.” So... And, also in the Bhāgavatam, in the Second Canto, Śukadev... Śukadev's advice to Parīkṣit Mahārāj facing death.
@@ -191,7 +194,7 @@ sa caitanyaḥ kiṁ me punar api dṛśor yāsyati padam
 #00:58:31# yadi gaura nā hoito, tabe ki hoito,
 kemane dharita de?
 rādhāra mahimā, prema-rasa-sīmā,
- jagate jānāta ke 
+jagate jānāta ke
 (Yadi Gaura Nā Hoito: Vāsudev Ghosh, 1)
 
 #00:58:39# To tell world, to broadcast to the world how great is the love in her heart. Which is otherwise known as Kṛṣṇa Consciousness, prema-rasa-sīmā, experience the limits of that Divine love. And, Nityānanda Prabhu, whether by kick or otherwise [laughing] he wants to bring everyone to Gaurāṅga. And, Gaurāṅga wants to bring everyone to Rādhā and Govinda. So, it's like a tag team. [laughing] They're working together. Mahāprabhu told Nityānanda Prabhu, “Go to Bengal and tell everyone about Kṛṣṇa.” Nityānanda said, “Yes sir!” And, he goes to Bengal and goes, bhaja gaurāṅga, kaha gaurāṅga laha gauranger nāma. “Worship Gaurāṅga, I'm falling at your feet begging you. Worship Gaurāṅga.”
@@ -200,7 +203,7 @@ rādhāra mahimā, prema-rasa-sīmā,
 
 #01:00:39# And, there was some little boy in the back of the audience. When I said that, he goes, “I want it!” [laughing] A fortunate soul. So, that's at the heart of all of this; beginning, middle, and end. Remember, everything has to been seen systematically, thematically. So, whatever... Whatever we might have seen in the beginning, Choṭa Haridās, Nityānanda it's all to bring everyone to this point, in various ways. You know. To bring everyone to the lotus feet of Gaurāṅga-Mahāprabhu, and give them entrance into Vṛndāvan, tathā tathotsarpati hṛdy akasmāt (Ccd: 88.3).
 
-#01:01:32# So... And, those who have sufficient brain substance, refine theistic intellect, they'll hear this and understand the opportunity that is before them. And, ignore all the noise of the world and the people in the world. Sumedhasaḥ, sukṛtivān, and what will happen as a consequence, subcons... automatically, subconsciously, deep within the deep heart's core, the rādhā-rasa-sudhā-nidhi. The ocean of the nectarean service of the holy lotus feet of Śrīmatī Rādhārāṇī, they'll enter that current and spring out of the soil in Vṛndāvan, in the pastimes of Rādhā and Kṛṣṇa—domain of Divine love and affection. Hare Kṛṣṇa. [Clap hands and starts singing Nāma-Saṅkīrttan, then Hare Krishna mahā-mantra.]  
+#01:01:32# So... And, those who have sufficient brain substance, refine theistic intellect, they'll hear this and understand the opportunity that is before them. And, ignore all the noise of the world and the people in the world. Sumedhasaḥ, sukṛtivān, and what will happen as a consequence, subcons... automatically, subconsciously, deep within the deep heart's core, the rādhā-rasa-sudhā-nidhi. The ocean of the nectarean service of the holy lotus feet of Śrīmatī Rādhārāṇī, they'll enter that current and spring out of the soil in Vṛndāvan, in the pastimes of Rādhā and Kṛṣṇa—domain of Divine love and affection. Hare Kṛṣṇa. [Clap hands and starts singing Nāma-Saṅkīrttan, then Hare Krishna mahā-mantra.]
 
 #01:07:15# jaya oṁ viṣṇupāda paramahaṁsa-parivrājakāchāryya-varyya aṣṭottara-śata-śrī śrīmad śrīla bhakti sundar govinda dev-gosvāmī mahārāj kī jaya!
 jaya oṁ viṣṇupāda śrīla bhakti rakṣak śrīdhar dev-gosvāmī mahārāj kī jaya!
@@ -230,13 +233,12 @@ nitāi-gaura-premānande
 
 #01:08:32# Devotee: [Greetings and prayers from devotees worldwide]
 
-
-Bg:    Śrīmad Bhagavad-gītā
-Brs:   Bhakti-rasāmṛta-sindhu
-Cc:    Śrī Chaitanya-charitāmṛta
-Ccd:  Chaitanya-chandrāmṛta
-Ms:   Manu-saṁhitā
-Mu:   Muṇḍaka-upaniṣad
-SB:   Śrīmad Bhāgavatam    
+Bg: Śrīmad Bhagavad-gītā
+Brs: Bhakti-rasāmṛta-sindhu
+Cc: Śrī Chaitanya-charitāmṛta
+Ccd: Chaitanya-chandrāmṛta
+Ms: Manu-saṁhitā
+Mu: Muṇḍaka-upaniṣad
+SB: Śrīmad Bhāgavatam
 
 Transcribers: Enakshi Devi Dasi, Radha Raman Prabhu
