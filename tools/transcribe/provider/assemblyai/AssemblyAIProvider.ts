@@ -6,7 +6,7 @@ import {
 import '@dotenvx/dotenvx/config';
 import { BOOST_WORDS } from '#transcribe/words.ts';
 import { type TranscriptionProvider } from '../TranscriptionProvider.ts';
-import { getTimestamp } from '#transcribe/getTimestamp.ts';
+import { addTimecode } from '#transcribe/program/addTimecode.ts';
 
 const client = new AssemblyAI({
   apiKey: process.env.ASSEMBLYAI_API_KEY!,
@@ -47,7 +47,7 @@ export class AssemblyAIProvider implements TranscriptionProvider {
       const paragraphs = await transcriptService.paragraphs(transcript.id);
       const text: string[] = [];
       paragraphs.paragraphs.forEach((paragraph) => {
-        text.push(`[${getTimestamp(paragraph.start)}] ${paragraph.text}`);
+        text.push(addTimecode(paragraph.text, paragraph.start));
       });
 
       return text.join('\n\n');

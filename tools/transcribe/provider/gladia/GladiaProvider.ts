@@ -3,13 +3,13 @@ import path from 'node:path';
 import FormData from 'form-data';
 import axios from 'axios';
 import { BOOST_WORDS } from '#transcribe/words.ts';
-import { getTimestamp } from '#transcribe/getTimestamp.ts';
 import { type TranscriptionProvider } from '../TranscriptionProvider.ts';
 import {
   type AudioUploadResponse,
   type TranscriptionResponseWithSentences,
 } from './types.ts';
 import { combineSentencesIntoParagraphs } from './combineSentencesIntoParagraphs.ts';
+import { addTimecode } from '#transcribe/program/addTimecode.ts';
 
 const API_BASE_URL = 'https://api.gladia.io/v2';
 const UPLOADED_FILE_CACHE = '.gladia.json';
@@ -97,7 +97,7 @@ export class GladiaProvider implements TranscriptionProvider {
 
       // Step 5: Display paragraphs with timestamps
       const text = paragraphs.map((p) => {
-        return `[${getTimestamp(p.timestamp * 1000)}] ${p.text}`;
+        return addTimecode(p.text, p.timestamp);
       });
 
       return text.join('\n\n');
