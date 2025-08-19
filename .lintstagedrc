@@ -1,5 +1,5 @@
 {
   "content/**/*.md": [
-    "node tools/archive/archive.js lint -f"
+    "node tools/archive/archive.ts lint -f"
   ]
 }
