@@ -95,11 +95,12 @@ export default async function (plop: NodePlopAPI) {
         when: whenPost,
       },
       {
-        name: 'draft',
-        type: 'confirm',
-        message: 'Draft?',
-        default: defaults.draft,
-        when: whenPost,
+        name: 'status',
+        type: 'list',
+        message: 'Select status:',
+        default: 'draft',
+        choices: ['draft', 'publish'],
+        filter: (v) => v.toLowerCase(),
       },
       {
         name: 'translators',

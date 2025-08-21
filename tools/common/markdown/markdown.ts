@@ -31,10 +31,13 @@ export interface PostMatter extends BaseFrontMatter {
   date?: string;
   audio: AudioMatter;
   duration: string;
-  draft?: boolean;
+  status: 'draft' | 'publish';
   license?: string;
   location?: string;
   tags?: string[];
+  translators?: string[];
+  transcribers?: string[];
+  editors?: string[];
 }
 
 export type AudioMatter =

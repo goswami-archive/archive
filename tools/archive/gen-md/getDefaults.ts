@@ -9,7 +9,7 @@ export const DEFAULTS = {
     en: 'Bhakti Sudhir Goswami',
     ru: 'Бхакти Судхир Госвами',
   },
-  draft: true,
+  status: 'draft' as const,
   license: 'https://creativecommons.org/licenses/by-nc-sa/4.0/',
 };
 

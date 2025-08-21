@@ -159,7 +159,7 @@ async function getMarkdownContent(
         file: fileName + '.mp3',
       },
       duration,
-      draft: DEFAULTS.draft,
+      status: DEFAULTS.status,
       slug,
       license: DEFAULTS.license,
     },

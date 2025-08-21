@@ -21,7 +21,7 @@ export default Joi.object({
 
   description: description,
 
-  draft: Joi.boolean(),
+  status: Joi.string().valid('draft', 'publish').required(),
 
   location: Joi.string(),
 
