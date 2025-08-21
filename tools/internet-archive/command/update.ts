@@ -29,13 +29,14 @@ export function update(file: string[], { config }: UpdateOptions) {
 async function updateFromMarkdown(mdPath: string, config: string) {
   const markdown = getMarkdownContent<PostMatter>(mdPath);
   const { frontMatter, content } = markdown;
-  const { title, authors, lang, date, audio, tags, license, location } =
+  const { title, authors, lang, date, audio, tags, license, location, status } =
     frontMatter;
 
   const identifier = getIdentifierFromUrl(audio);
 
   const creator = authors[0];
   const licenseurl = license || DEFAULT_METADATA.licenseurl;
+  const contentPublishable = status === 'publish';
 
   const command = clsx(
     `${IA.binary} --config-file ${config} metadata ${identifier} `,
@@ -49,7 +50,7 @@ async function updateFromMarkdown(mdPath: string, config: string) {
         date
       ).getFullYear()}" \ `,
     location && `--modify="location:${location}" `,
-    content && `--modify="description:${content}" `
+    contentPublishable && `--modify="description:${content}" `
   );
 
   try {

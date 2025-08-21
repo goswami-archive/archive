@@ -33,13 +33,23 @@ export function upload(file: string[], { config }: UploadOptions) {
 async function uploadFromMarkdown(mdPath: string, config: string) {
   const markdown = getMarkdownContent<PostMatter>(mdPath);
   const { frontMatter, content } = markdown;
-  const { title, authors, lang, date, slug, audio, tags, license, location } =
-    frontMatter;
+  const {
+    title,
+    authors,
+    lang,
+    date,
+    slug,
+    audio,
+    tags,
+    license,
+    location,
+    status,
+  } = frontMatter;
 
   const iaUrl = checkUploaded(audio);
   if (iaUrl) {
     console.error(`Audio already uploaded to Internet Archive.\n${iaUrl}`);
-    return;
+    process.exit(1);
   }
 
   const audioFile = getAudioPath(mdPath, audio);
@@ -47,6 +57,7 @@ async function uploadFromMarkdown(mdPath: string, config: string) {
   const identifier = getIdentifier(slug);
   const creator = authors[0];
   const licenseurl = license || DEFAULT_METADATA.licenseurl;
+  const contentPublishable = status === 'publish' && content;
 
   const command = clsx(
     `${IA.binary} --config-file ${config} upload ${identifier} ${audioFile} `,
@@ -63,7 +74,7 @@ async function uploadFromMarkdown(mdPath: string, config: string) {
         date
       ).getFullYear()}" `,
     location && `--metadata="location:${location}" `,
-    content && `--metadata="description:${content}" `
+    contentPublishable && `--metadata="description:${content}" `
   );
 
   // const args2 = [
