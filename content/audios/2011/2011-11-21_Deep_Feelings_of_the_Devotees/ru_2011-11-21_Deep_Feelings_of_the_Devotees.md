@@ -4,11 +4,14 @@ lang: ru
 title: "Глубокие чувства преданных"
 authors:
   - Бхакти Судхир Госвами
-date: 2011-11-21
+date: "2011-11-21"
 location: Чиангмай, Тайланд
-audio: ru_2011-11-21_Deep_Feelings_of_the_Devotees.mp3
-draft: true
+audio:
+  file: ru_2011-11-21_Deep_Feelings_of_the_Devotees.mp3
+duration: "00:52:06"
+status: draft
 slug: ru-2011-11-21-deep-feelings-of-the-devotees
+license: https://creativecommons.org/licenses/by-nc-sa/4.0/
 ---
 
 Почему Санатана Госвами хотел покончить жизнь самоубийством под колесами колесницы Господа Джаганнатха в Пури?

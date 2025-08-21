@@ -4,10 +4,13 @@ lang: ru
 title: "(1) Коперниковская революция (т_en-ru)"
 authors:
   - Бхакти Судхир Госвами
-date: 2011-01-08
-audio: ru_2011-01-08_p1_Copernican_Revolution.mp3
-draft: true
+date: "2011-01-08"
+audio:
+  file: ru_2011-01-08_p1_Copernican_Revolution.mp3
+duration: "00:13:22"
+status: draft
 slug: ru-2011-01-08-p1-copernican-revolution
+license: https://creativecommons.org/licenses/by-nc-sa/4.0/
 ---
 
 Shrila Bhakti Sudhir Goswami Maharaj

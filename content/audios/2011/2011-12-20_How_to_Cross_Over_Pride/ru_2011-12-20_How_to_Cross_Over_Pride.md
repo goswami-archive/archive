@@ -4,10 +4,13 @@ lang: ru
 title: "Как победить гордыню?"
 authors:
   - Бхакти Судхир Госвами
-date: 2011-12-20
-audio: ru_2011-12-20_How_to_Cross_Over_Pride.mp3
-draft: true
+date: "2011-12-20"
+audio:
+  file: ru_2011-12-20_How_to_Cross_Over_Pride.mp3
+duration: "01:00:59"
+status: draft
 slug: ru-2011-12-20-how-to-cross-over-pride
+license: https://creativecommons.org/licenses/by-nc-sa/4.0/
 ---
 
 Каково настоящее положение души? Пример воды и льда.
