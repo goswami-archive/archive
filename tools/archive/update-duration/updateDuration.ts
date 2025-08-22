@@ -26,7 +26,11 @@ export function updateDuration(path: string) {
 async function updateMarkdownDuration(mdPath: string): Promise<void> {
   const markdown = getMarkdownContent<PostMatter>(mdPath);
   const { frontMatter } = markdown;
-  const { duration, audio } = frontMatter;
+  const { type, duration, audio } = frontMatter;
+
+  if (type !== 'post') {
+    return;
+  }
 
   const localFile = getLocalFile(audio);
   if (!localFile) {
