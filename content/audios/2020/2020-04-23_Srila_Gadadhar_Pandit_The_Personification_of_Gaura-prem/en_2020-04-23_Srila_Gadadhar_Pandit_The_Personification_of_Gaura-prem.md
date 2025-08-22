@@ -4,10 +4,13 @@ lang: en
 title: "Srila Gadadhar Pandit | The Personification of Gaura-prem"
 authors:
   - Bhakti Sudhir Goswami
-date: 2020-04-23
-audio: en_2020-04-23_Srila_Gadadhar_Pandit_The_Personification_of_Gaura-prem.mp3
-draft: true
+date: "2020-04-23"
+audio:
+  file: en_2020-04-23_Srila_Gadadhar_Pandit_The_Personification_of_Gaura-prem.mp3
+duration: "01:08:19"
+status: draft
 slug: en-2020-04-23-srila-gadadhar-pandit-the-personification-of-gaura-prem
+license: https://creativecommons.org/licenses/by-nc-sa/4.0/
 ---
 
 #00:00:00#Goswāmī Mahārāj (GM): 
@@ -156,4 +159,3 @@ Hare Krsna.
 Jay Chants.
 
 Transcribers: Anand Prabhu, Suvasini Devi Dasi.
-

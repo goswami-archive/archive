@@ -4,13 +4,16 @@ lang: en
 title: "Srimati Radharani Wins!"
 authors:
   - Bhakti Sudhir Goswami
-date: 2020-02-17
-audio: en_2020-02-17_Srimati_Radharani_Wins.mp3
-draft: true
+date: "2020-02-17"
+audio:
+  file: en_2020-02-17_Srimati_Radharani_Wins.mp3
+duration: "01:08:03"
+status: draft
 slug: en-2020-02-17-srimati-radharani-wins
 transcribers:
   - Enakshi Devi Dasi
   - Radha Raman Prabhu
+license: https://creativecommons.org/licenses/by-nc-sa/4.0/
 ---
 
 #00:00:00# Goswāmī Mahārāj:
@@ -275,4 +278,3 @@ Gg: Gīta-govinda
 Pj:  Prapanna-jīvanāmṛtam
 SB: Śrīmad Bhāgavatam
 Up: Upadeśāmṛta
-

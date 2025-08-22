@@ -1,16 +1,20 @@
 ---
 type: post
-title: Disappearance of Srila Govinda Maharaj
-authors: 
-  - Bhakti Sudhir Goswami
-date: 2020-04-05
 lang: en
+title: "Disappearance of Srila Govinda Maharaj"
+authors:
+  - Bhakti Sudhir Goswami
+date: "2020-04-05"
 location: Chiang Mai
-audio: en_2020-04-05_Disappearance_of_Srila_Govinda_Maharaj.mp3
+audio:
+  file: en_2020-04-05_Disappearance_of_Srila_Govinda_Maharaj.mp3
+duration: "02:05:21"
+status: draft
+slug: en-2020-04-05-disappearance-of-srila-govinda-maharaj
 transcribers:
   - Enakshi Devi Dasi
   - Radha Raman Prabhu
-slug: en-2020-04-05-disappearance-of-srila-govinda-maharaj
+license: https://creativecommons.org/licenses/by-nc-sa/4.0/
 ---
 
 #00:00:00# Goswāmī Mahārāj:

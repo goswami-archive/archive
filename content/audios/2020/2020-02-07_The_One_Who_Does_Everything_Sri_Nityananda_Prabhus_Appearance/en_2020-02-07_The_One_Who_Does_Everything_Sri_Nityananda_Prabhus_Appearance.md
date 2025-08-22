@@ -1,16 +1,19 @@
 ---
 type: post
 lang: en
-title: "The One Who Does Everything | Sri Nityananda Prabhu's Appearance"
+title: "The One Who Does Everything | Sri Nityananda Prabhu&amp;#39;s Appearance"
 authors:
   - Bhakti Sudhir Goswami
-date: 2020-02-07
-audio: en_2020-02-07_The_One_Who_Does_Everything_Sri_Nityananda_Prabhu's_Appearance.mp3
-draft: true
+date: "2020-02-07"
+audio:
+  file: en_2020-02-07_The_One_Who_Does_Everything_Sri_Nityananda_Prabhus_Appearance.mp3
+duration: "01:15:12"
+status: draft
 slug: en-2020-02-07-the-one-who-does-everything-sri-nityananda-prabhus-appearance
 transcribers:
   - Enakshi Devi Dasi
   - Radha Raman Prabhu
+license: https://creativecommons.org/licenses/by-nc-sa/4.0/
 ---
 
 #00:00:00#Goswāmī Mahārāj: Narottam Ṭhākur, nitāi-pada-kamala (Manaḥ-Śikṣā)
@@ -241,4 +244,3 @@ Cc:  Śrī Chaitanya-charitāmṛta
 Mb: Mahābhārata
 SB:  Śrīmad Bhāgavatam
 Su:  Śvetāśvatara-upaniṣad
-

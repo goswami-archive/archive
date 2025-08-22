@@ -4,10 +4,13 @@ lang: en
 title: "An Astonishing Performance in the House of Chandrasekhara Acharya | The Disappearance of Srila Vrindavan Das Thakur"
 authors:
   - Bhakti Sudhir Goswami
-date: 2020-04-17
-audio: en_2020-04-17_An_Astonishing_Performance_in_the_House_of_Chandrasekhara_Acharya.mp3
-draft: true
+date: "2020-04-17"
+audio:
+  file: en_2020-04-17_An_Astonishing_Performance_in_the_House_of_Chandrasekhara_Acharya.mp3
+duration: "01:14:48"
+status: draft
 slug: en-2020-04-17-an-astonishing-performance-in-the-house-of-chandrasekhara-acharya
+license: https://creativecommons.org/licenses/by-nc-sa/4.0/
 ---
 
 #00:00:00#Goswāmī Mahārāj:

@@ -4,10 +4,13 @@ lang: en
 title: "A Happy Soil for Your Soul to Live"
 authors:
   - Bhakti Sudhir Goswami
-date: 2020-03-31
-audio: en_2020-03-31_A_Happy_Soil_for_Your_Soul_to_Live.mp3
-draft: true
+date: "2020-03-31"
+audio:
+  file: en_2020-03-31_A_Happy_Soil_for_Your_Soul_to_Live.mp3
+duration: "01:15:49"
+status: draft
 slug: en-2020-03-31-a-happy-soil-for-your-soul-to-live
+license: https://creativecommons.org/licenses/by-nc-sa/4.0/
 ---
 
 #00:00:00# Goswāmī Mahārāj:

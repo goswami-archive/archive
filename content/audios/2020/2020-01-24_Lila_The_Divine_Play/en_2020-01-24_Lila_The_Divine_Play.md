@@ -8,7 +8,7 @@ date: "2020-01-24"
 audio:
   file: en_2020-01-24_Lila_The_Divine_Play.mp3
 duration: "01:11:00"
-draft: true
+status: draft
 slug: en-2020-01-24-lila-the-divine-play
 license: https://creativecommons.org/licenses/by-nc-sa/4.0/
 ---
