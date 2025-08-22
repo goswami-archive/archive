@@ -27,6 +27,6 @@ async function updateDescription(mdPath: string, maxLength?: number) {
     return;
   }
 
-  const summary = await summarize(content, maxLength);
+  const summary = await summarize(frontMatter.lang, content, maxLength);
   updatePostMatterValue(mdPath, 'description', summary);
 }
