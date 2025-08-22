@@ -1,11 +1,15 @@
 ---
 type: post
-title: Bhoga Arati
+lang: en
+title: "Bhoga Arati"
 authors:
   - Bhakti Sudhir Goswami
-lang: en
-audio: Bhoga_Arati.mp3
+audio:
+  file: Bhoga_Arati.mp3
+duration: "00:09:50"
+status: draft
 slug: en-bhoga-arati
+license: https://creativecommons.org/licenses/by-nc-sa/4.0/
 ---
 
 #00:00:20# <b>bhaja bhakata-vatsala śrī-gaurahari
@@ -116,4 +120,3 @@ giridhārī gopīnātha nanda dulala
 bhaja govinda govinda gopāla
 nanda dulala jaya jaya śachī dulala
 śachī dulala jaya jaya gaura gopāla</b>
-

@@ -1,10 +1,15 @@
 ---
 type: post
-title: Гай Гора Мадхур Сваре
+lang: ru
+title: "Гай Гора Мадхур Сваре"
 authors:
   - Бхакти Судхир Госвами
-audio: Gay_Gora_Madhura_Sware.mp3
-lang: ru
+audio:
+  file: Gay_Gora_Madhura_Sware.mp3
+duration: "00:10:40"
+status: draft
+slug: ru-gay-gora-madkhur-svare
+license: https://creativecommons.org/licenses/by-nc-sa/4.0/
 ---
 
 <b>га̄й гора̄ мадхур сваре

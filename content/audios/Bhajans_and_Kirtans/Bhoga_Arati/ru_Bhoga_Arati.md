@@ -1,11 +1,15 @@
 ---
 type: post
-title: Бхога-Арати
+lang: ru
+title: "Бхога-Арати"
 authors:
   - Бхакти Судхир Госвами
-lang: ru
-audio: Bhoga_Arati.mp3
-slug: ru-bhoga-arati
+audio:
+  file: Bhoga_Arati.mp3
+duration: "00:09:50"
+status: draft
+slug: ru-bkhoga-arati
+license: https://creativecommons.org/licenses/by-nc-sa/4.0/
 ---
 
 #00:00:20# <b>бхаджа бхаката-ватсала ш́рӣ гаурахари

@@ -1,8 +1,14 @@
 ---
 type: post
-title: Gay Gora Madhura Sware
+lang: en
+title: "Gay Gora Madhura Sware"
 authors:
   - Bhakti Sudhir Goswami
-audio: Gay_Gora_Madhura_Sware.mp3
-lang: en
+audio:
+  file: Gay_Gora_Madhura_Sware.mp3
+duration: "00:10:40"
+status: draft
+slug: en-gay-gora-madhura-sware
+license: https://creativecommons.org/licenses/by-nc-sa/4.0/
 ---
+
