@@ -15,8 +15,9 @@
     "prepare": "husky",
     "archive": "node tools/archive/archive.ts",
     "lint": "node tools/archive/archive.ts lint -p content/",
-    "drafts": "node tools/archive/archive.ts search content/ type=post draft=true",
+    "drafts": "node tools/archive/archive.ts search content/ type=post status=draft",
     "notext": "node tools/archive/archive.ts search content/ type=post content=''",
+    "badseo": "node tools/archive/archive.ts search content/ type=post description=''",
     "genmeta": "node tools/archive/archive.ts -- genmeta content/"
   },
   "dependencies": {
