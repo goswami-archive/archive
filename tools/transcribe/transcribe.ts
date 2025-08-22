@@ -19,8 +19,8 @@ program
     '-t, --timestamps',
     'Include timestamps in transcription (Default: true)'
   )
-  .action((file: string, options) => {
-    transcribe(file, options);
+  .action((path: string, options) => {
+    transcribe(path, options);
   });
 
 program.parse();
