@@ -161,6 +161,13 @@ Generates or updates media meta-information stored in `.meta.yaml` files.
 npm run archive -- genmeta content/
 ```
 
+### <a id="transcribe-script"></a>`transcribe` script
+
+```sh
+node tools/transcribe/transcribe.ts content/audios/2018/2018-07-09_Everythings_Else_Is_the_Show/en_2018-07-09_Everythings_Else_Is_the_Show.md --provide
+r gladia
+```
+
 ---
 
 Licensed under [CC BY-NC-SA 4.0](LICENSE).
