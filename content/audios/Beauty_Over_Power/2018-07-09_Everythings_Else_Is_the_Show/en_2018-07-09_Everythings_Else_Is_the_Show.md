@@ -9,13 +9,14 @@ date: "2018-07-09"
 audio:
   file: en_2018-07-09_Everythings_Else_Is_the_Show.mp3
 duration: "00:01:18"
-video: "https://www.youtube.com/watch?v=mZ2ScL217R0"
-draft: true
+video:
+  youtube: https://www.youtube.com/watch?v=mZ2ScL217R0
+status: draft
 slug: en-2018-07-09-everythings-else-is-the-show
 tags:
   - Beauty Over Power
 image:
-  desktop: ./thumb.jpg
+  desktop: en_2018-07-09_Everythings_Else_Is_the_Show.jpg
   alt: Bhakti Sudhir Goswami with hands crossed on chest
 license: https://creativecommons.org/licenses/by-nc-sa/4.0/
 ---
