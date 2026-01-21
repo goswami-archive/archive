@@ -44,7 +44,10 @@ export default Joi.object({
         "'duration' must be a string in the format HH:MM:SS",
     }),
 
-  video: Joi.string(),
+  video: Joi.object().pattern(
+    Joi.string(), // keys
+    Joi.string() // values
+  ),
 
   editors: Joi.array().items(Joi.string()).min(1),
 
