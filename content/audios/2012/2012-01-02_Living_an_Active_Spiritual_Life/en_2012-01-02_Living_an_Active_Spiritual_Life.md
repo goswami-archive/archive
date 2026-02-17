@@ -8,7 +8,7 @@ date: "2012-01-02"
 location: "Gupta Govardhan, Chiang Mai"
 audio:
   file: en_2012-01-02_Living_an_Active_Spiritual_Life.mp3
-  mahamandala: https://mahamandala.com/en/audios/68
+  mahamandala: https://mahamandala.com/en/audios/68/download
 duration: "00:46:15"
 status: draft
 slug: en-2012-01-02-living-an-active-spiritual-life

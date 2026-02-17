@@ -8,7 +8,7 @@ date: "2011-12-30"
 location: Gupta Govardhan, Chiang Mai
 audio:
   file: en_2011-12-30_How_To_Live_with_Loneliness.mp3
-  mahamandala: https://mahamandala.com/en/audios/194
+  mahamandala: https://mahamandala.com/en/audios/194/download
 duration: "00:42:13"
 status: draft
 slug: en-2011-12-30-how-to-live-with-loneliness

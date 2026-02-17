@@ -8,7 +8,7 @@ date: "2012-01-04"
 location: "Gupta Govardhan, Chiang Mai"
 audio:
   file: en_2012-01-04_Questions_for_Guru.mp3
-  mahamandala: https://mahamandala.com/en/audios/356
+  mahamandala: https://mahamandala.com/en/audios/356/download
 duration: "00:53:04"
 status: draft
 slug: en-2012-01-04-questions-for-guru

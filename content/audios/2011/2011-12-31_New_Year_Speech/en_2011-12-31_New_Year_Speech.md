@@ -8,7 +8,7 @@ date: "2011-12-31"
 location: "Gupta Govardhan, Chiang Mai"
 audio:
   file: en_2011-12-31_New_Year_Speech.mp3
-  mahamandala: https://mahamandala.com/en/audios/355
+  mahamandala: https://mahamandala.com/en/audios/355/download
 duration: "00:34:48"
 status: draft
 slug: en-2011-12-31-new-year-speech

@@ -7,7 +7,7 @@ authors:
 date: "2012-01-14"
 audio:
   file: en_2012-01-14_Mahaprabhus_Last_Day_In_Nabadwip.mp3
-  mahamandala: https://mahamandala.com/en/audios/72
+  mahamandala: https://mahamandala.com/en/audios/72/download
 duration: "00:52:28"
 status: draft
 slug: en-en-2012-01-14-mahaprabhus-last-day-in-nabadwip

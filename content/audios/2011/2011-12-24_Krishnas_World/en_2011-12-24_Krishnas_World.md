@@ -9,7 +9,7 @@ authors:
 status: draft
 audio:
   file: "en_2011-12-24_Krishnas_World.mp3"
-  mahamandala: "https://mahamandala.com/en/audios/354"
+  mahamandala: "https://mahamandala.com/en/audios/354/download"
 duration: "00:57:21"
 slug: en-2011-12-24-krishnas-world
 transcribers:

@@ -8,7 +8,7 @@ date: "2012-01-06"
 location: "Gupta Govardhan, Chiang Mai"
 audio:
   file: en_2012-01-06_Srimad_Bhagavatam_is_the_Treasure_of_the_Vedas.mp3
-  mahamandala: https://mahamandala.com/en/audios/69
+  mahamandala: https://mahamandala.com/en/audios/69/download
 duration: "00:42:19"
 status: draft
 slug: en-2012-01-06-srimad-bhagavatam-is-the-treasure-of-the-vedas

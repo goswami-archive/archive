@@ -9,7 +9,7 @@ authors:
 status: draft
 audio:
   file: en_2011-11-17_What_Is_Initiation.mp3
-  mahamandala: https://mahamandala.com/en/audios/66
+  mahamandala: https://mahamandala.com/en/audios/66/download
 duration: "01:03:37"
 slug: en-2011-11-17-what-is-initiation
 transcribers:

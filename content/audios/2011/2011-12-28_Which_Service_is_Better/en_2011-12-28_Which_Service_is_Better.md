@@ -8,7 +8,7 @@ date: "2011-12-28"
 location: "Gupta Govardhan, Chiang Mai"
 audio:
   file: en_2011-12-28_Which_Service_is_Better.mp3
-  mahamandala: https://mahamandala.com/en/audios/181
+  mahamandala: https://mahamandala.com/en/audios/181/download
 duration: "00:45:01"
 status: draft
 slug: en-2011-12-28-which-service-is-better
