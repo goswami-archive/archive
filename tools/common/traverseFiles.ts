@@ -1,3 +1,4 @@
+import { minimatch } from 'minimatch';
 import fs from 'node:fs';
 import { join, resolve } from 'node:path';
 
@@ -26,6 +27,9 @@ async function traverse(
   const stats = fs.statSync(path);
 
   if (stats.isFile()) {
+    if (isExcluded(path)) {
+      return;
+    }
     if (!extension) {
       await callback(path);
       return;
@@ -43,4 +47,12 @@ async function traverse(
       await traverse(fullPath, callback, extension);
     }
   }
+}
+
+const GLOBAL_EXCLUDE_PATTERNS = ['node_modules/**', '.git/**', '**/._*'];
+
+function isExcluded(filePath: string): boolean {
+  return GLOBAL_EXCLUDE_PATTERNS.some((pattern) =>
+    minimatch(filePath, pattern, { dot: true })
+  );
 }
