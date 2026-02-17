@@ -5,5 +5,6 @@ lang: en
 image: 
   desktop: Bhajans_and_Kirtans.jpg
   alt: "Bhakti Sudhir Goswami sitting and playing mridanga"
+slug: en-bhajans-and-kirtans
 ---
 

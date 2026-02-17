@@ -4,10 +4,13 @@ lang: ru
 title: Сознание Кришны
 authors:
   - Бхакти Судхир Госвами
-date: 2000-08-13
-draft: true
-audio: ru_2000-08-13_Krishna_Consciousness.mp3
+date: "2000-08-13"
+audio: 
+  file: ru_2000-08-13_Krishna_Consciousness.mp3
+duration: "01:25:18"
 slug: ru-2000-08-13-krishna-consciousness
+status: draft
+license: https://creativecommons.org/licenses/by-nc-sa/4.0/
 ---
 
 #00:00:18# Давайте, приведем такой пример. Вы увидели, что наркоман страдает из-за отсутствия наркотика и испытывает ломки. Страдания наркомана пробуждают в вас сострадание.
