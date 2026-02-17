@@ -1,20 +1,18 @@
 import '@dotenvx/dotenvx/config';
-import { OpenAI } from 'openai';
 import { type ChatCompletionMessageParam } from 'openai/resources/index';
-
-const { OPENROUTER_API_KEY, AI_MODEL } = process.env;
-
-const aiClient = new OpenAI({
-  baseURL: 'https://openrouter.ai/api/v1',
-  apiKey: OPENROUTER_API_KEY,
-  defaultHeaders: {},
-});
+import { getClient } from './getClient.ts';
 
 export async function aiQuery(
   prompt: string,
   input: string,
   setupMessage?: string
 ): Promise<string> {
+  const { AI_MODEL } = process.env;
+
+  if (!AI_MODEL) {
+    throw new Error('AI_MODEL is not defined in environment variables');
+  }
+
   const userMessage = {
     role: 'user' as const,
     content: `${prompt}\n\n${input}`,
@@ -25,7 +23,7 @@ export async function aiQuery(
     messages.push({ role: 'system' as const, content: setupMessage });
   }
 
-  const completion = await aiClient.chat.completions.create({
+  const completion = await getClient().chat.completions.create({
     model: AI_MODEL as string,
     messages,
     temperature: 0.5,
