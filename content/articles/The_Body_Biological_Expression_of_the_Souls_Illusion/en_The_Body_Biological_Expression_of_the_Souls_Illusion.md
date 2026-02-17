@@ -8,6 +8,8 @@ image:
   desktop: Body.jpg
   alt: "Vitruvian Man - man in two superimposed positions with his arms and legs apart and inscribed in both a circle and square."
 slug: en-the-body-biological-expression-of-the-souls-illusion
+status: draft
+license: https://creativecommons.org/licenses/by-nc-sa/4.0/
 ---
 
 ## Philosophy with a scientific basis

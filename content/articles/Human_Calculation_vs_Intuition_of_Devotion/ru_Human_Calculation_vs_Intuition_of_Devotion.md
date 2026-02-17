@@ -8,6 +8,8 @@ slug: ru-human-calculation-vs-intuition-of-devotion
 image: 
   desktop: sridhar-mhrj.jpg
   alt: "Шрила Шридхар Махарадж говорит артикулируя двумя руками"
+status: draft
+license: https://creativecommons.org/licenses/by-nc-sa/4.0/
 ---
 
 <excerpt>Шрила Шридхар Махарадж отвечает на вопрос о том, почему Шрила Сарасвати Тхакур (Сурйа Сиддханта Сарасвати), опытный астролог, уступил мнению Бхактивинода Тхакура, который следовал расчетам П. Н. Бачхи.</excerpt>

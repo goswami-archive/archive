@@ -7,7 +7,9 @@ lang: ru
 image: 
   desktop: solar.jpg
   alt: "Планеты со своими орбитами вокруг солнца"
-slug: ru-a-copernican-revolution-of-theism  
+slug: ru-a-copernican-revolution-of-theism 
+status: draft
+license: https://creativecommons.org/licenses/by-nc-sa/4.0/ 
 ---
 
 Это старый неразрешимый вопрос: Битлз или Стоунз, Иисус или Иегова, Аллах или Яхве, Вишну или Шива?

@@ -8,6 +8,8 @@ image:
   desktop: Body.jpg
   alt: "Витрувианский человек — человек в двух наложенных друг на друга положениях с расставленными руками и ногами вписанным одновременно в круг и квадрат"
 slug: ru-the-body-biological-expression-of-the-souls-illusion
+status: draft
+license: https://creativecommons.org/licenses/by-nc-sa/4.0/
 ---
 
 ## Философия с научной основой

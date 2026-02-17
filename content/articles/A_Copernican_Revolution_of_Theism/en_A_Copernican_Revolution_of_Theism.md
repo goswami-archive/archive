@@ -8,6 +8,8 @@ image:
   desktop: solar.jpg
   alt: "Planets with their orbits around the sun"
 slug: en-a-copernican-revolution-of-theism
+status: draft
+license: https://creativecommons.org/licenses/by-nc-sa/4.0/
 ---
 
 It’s the old unanswerable question: The Beatles or The Stones, Jesus or Jehovah, Allah or Yahweh, Vishnu or Shiva?

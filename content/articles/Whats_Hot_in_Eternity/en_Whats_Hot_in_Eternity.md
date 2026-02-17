@@ -7,6 +7,9 @@ lang: en
 image: 
   desktop: hot.jpg
   alt: "Om symbol inside a sun with flaming rays"
+slug: en-whats-hot-in-eternity
+status: draft
+license: https://creativecommons.org/licenses/by-nc-sa/4.0/
 ---
 
 Some years ago, Andrew Sullivan was asked by Tina Brown of the New Yorker to write an article about “religion.” His description and observations:

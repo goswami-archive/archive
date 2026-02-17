@@ -7,6 +7,9 @@ lang: ru
 image: 
   desktop: hot.jpg
   alt: "Слог Ом вписанный в солнце с пылающими лучами"
+slug: ru-whats-hot-in-eternity
+status: draft
+license: https://creativecommons.org/licenses/by-nc-sa/4.0/
 ---
 
 Несколько лет назад Тина Браун, издатель журнала «Нью-Йоркер», попросила Эндрю Салливана написать статью о «религии». Его впечатления об этом разговоре:

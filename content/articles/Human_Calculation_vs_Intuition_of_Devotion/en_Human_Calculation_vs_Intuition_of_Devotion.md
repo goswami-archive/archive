@@ -8,6 +8,8 @@ slug: en-human-calculation-vs-intuition-of-devotion
 image: 
   desktop: sridhar-mhrj.jpg
   alt: "Srila Sridhar Maharaj with both his hands articulating"
+status: draft
+license: https://creativecommons.org/licenses/by-nc-sa/4.0/
 ---
 
 <excerpt>Srila Sridhar Maharaja in response to the question why Srila Saraswati Thakur (Surya Siddhanta Saraswati), the expert astrologer, would defer to Bhaktivinode Thakur, who followed the calculations of P.N. Bachi.</excerpt>
