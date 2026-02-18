@@ -10,10 +10,12 @@ audio:
   ia: https://archive.org/download/en_2012-02-12_about_saraswati_thakur_202305/en_2012-02-12_About_Saraswati_Thakur.mp3
   file: en_2012-02-12_About_Saraswati_Thakur.mp3
 duration: "00:50:20"
-status: publish
-slug: en-2012-02-12-about-saraswati-thakur
+editors:
+  - Kamala Devi Dasi
 tags:
   - Saraswati Thakur
+status: publish
+slug: en-2012-02-12-about-saraswati-thakur
 license: https://creativecommons.org/licenses/by-nc-sa/4.0/
 ---
 
