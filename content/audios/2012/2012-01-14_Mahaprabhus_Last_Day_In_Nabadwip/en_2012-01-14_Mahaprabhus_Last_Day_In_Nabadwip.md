@@ -9,8 +9,6 @@ audio:
   file: en_2012-01-14_Mahaprabhus_Last_Day_In_Nabadwip.mp3
   mahamandala: https://mahamandala.com/en/audios/72/download
 duration: "00:52:28"
-status: draft
-slug: en-en-2012-01-14-mahaprabhus-last-day-in-nabadwip
 translators:
   - Yuvati Devi Dasi
 transcribers:
@@ -20,6 +18,8 @@ editors:
 tags:
   - Nabadwip
   - Chaitanya Mahaprabhu
+slug: en-2012-01-14-mahaprabhus-last-day-in-nabadwip
+status: draft
 license: https://creativecommons.org/licenses/by-nc-sa/4.0/
 ---
 
