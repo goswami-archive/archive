@@ -5,6 +5,7 @@ title: "Two ways of progress"
 authors:
   - Bhakti Sudhir Goswami
 date: "2012-01-24"
+location: "Gupta Govardhan, Chiang Mai"
 audio:
   file: en_2012-01-24_Two_Ways_Of_Progress.mp3
   mahamandala: https://mahamandala.com/en/audios/358/download

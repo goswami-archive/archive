@@ -5,6 +5,7 @@ title: "Artificial Intelligence and Levels of Divinity"
 authors:
   - Bhakti Sudhir Goswami
 date: "2012-02-04"
+location: "Gupta Govardhan, Chiang Mai"
 audio:
   file: en_2012-02-04_Artificial_Intelligence_And_Levels_Of_Divinity.mp3
   mahamandala: https://mahamandala.com/en/audios/75/download

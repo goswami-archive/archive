@@ -5,6 +5,7 @@ title: "About Vaisnava's songs and melodies"
 authors:
   - Bhakti Sudhir Goswami
 date: "2012-02-07"
+location: "Gupta Govardhan, Chiang Mai"
 audio:
   file: en_2012-02-07_About_Vaisnavas_Songs_And_Melodies.mp3
   mahamandala: https://mahamandala.com/en/audios/364/download

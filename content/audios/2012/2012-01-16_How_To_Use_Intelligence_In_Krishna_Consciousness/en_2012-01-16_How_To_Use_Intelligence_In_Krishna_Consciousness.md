@@ -5,6 +5,7 @@ title: "How to use Intelligence in Krishna Consciousness?"
 authors:
   - Bhakti Sudhir Goswami
 date: "2012-01-16"
+location: "Gupta Govardhan, Chiang Mai"
 audio:
   file: en_2012-01-16_How_To_Use_Intelligence_In_Krishna_Consciousness.mp3
   mahamandala: https://mahamandala.com/en/audios/73/download

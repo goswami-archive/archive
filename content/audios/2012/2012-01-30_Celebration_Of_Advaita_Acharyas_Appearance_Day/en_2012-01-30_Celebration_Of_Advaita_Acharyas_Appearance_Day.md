@@ -5,6 +5,7 @@ title: "Celebration of Advaita Acharya&#39;s Appearance Day"
 authors:
   - Bhakti Sudhir Goswami
 date: "2012-01-30"
+location: "Gupta Govardhan, Chiang Mai"
 audio:
   file: en_2012-01-30_Celebration_Of_Advaita_Acharyas_Appearance_Day.mp3
   mahamandala: https://mahamandala.com/en/audios/361/download

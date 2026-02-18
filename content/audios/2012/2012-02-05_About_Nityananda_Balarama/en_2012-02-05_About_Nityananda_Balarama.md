@@ -5,6 +5,7 @@ title: "About Nityananda - Balarama"
 authors:
   - Bhakti Sudhir Goswami
 date: "2012-02-05"
+location: "Gupta Govardhan, Chiang Mai"
 audio:
   file: en_2012-02-05_About_Nityananda_Balarama.mp3
   mahamandala: https://mahamandala.com/en/audios/362/download

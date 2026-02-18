@@ -5,6 +5,7 @@ title: "Mahaprabhu&#39;s Last Day in Nabadwip"
 authors:
   - Bhakti Sudhir Goswami
 date: "2012-01-14"
+location: "Gupta Govardhan, Chiang Mai"
 audio:
   file: en_2012-01-14_Mahaprabhus_Last_Day_In_Nabadwip.mp3
   mahamandala: https://mahamandala.com/en/audios/72/download
@@ -15,9 +16,6 @@ transcribers:
   - Yuvati Devi Dasi
 editors:
   - Kamala Devi Dasi
-tags:
-  - Nabadwip
-  - Chaitanya Mahaprabhu
 slug: en-2012-01-14-mahaprabhus-last-day-in-nabadwip
 status: draft
 license: https://creativecommons.org/licenses/by-nc-sa/4.0/

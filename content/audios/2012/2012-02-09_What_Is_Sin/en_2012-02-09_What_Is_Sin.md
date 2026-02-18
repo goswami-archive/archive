@@ -5,6 +5,7 @@ title: "What is sin?"
 authors:
   - Bhakti Sudhir Goswami
 date: "2012-02-09"
+location: "Gupta Govardhan, Chiang Mai"
 audio:
   file: en_2012-02-09_What_Is_Sin.mp3
   mahamandala: https://mahamandala.com/en/audios/76/download

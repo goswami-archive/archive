@@ -5,6 +5,7 @@ title: "The first day of spring. Goddess Saraswati."
 authors:
   - Bhakti Sudhir Goswami
 date: "2012-01-28"
+location: "Gupta Govardhan, Chiang Mai"
 audio:
   file: en_2012-01-28_The_First_Day_Of_Spring_Goddess_Saraswati.mp3
   mahamandala: https://mahamandala.com/en/audios/359/download

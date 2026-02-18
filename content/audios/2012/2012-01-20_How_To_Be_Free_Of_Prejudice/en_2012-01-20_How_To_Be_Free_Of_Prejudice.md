@@ -5,6 +5,7 @@ title: "How to be free of prejudice?"
 authors:
   - Bhakti Sudhir Goswami
 date: "2012-01-20"
+location: "Gupta Govardhan, Chiang Mai"
 audio:
   file: en_2012-01-20_How_To_Be_Free_Of_Prejudice.mp3
   mahamandala: https://mahamandala.com/en/audios/85/download

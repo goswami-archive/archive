@@ -5,6 +5,7 @@ title: "About Ramanujacharya"
 authors:
   - Bhakti Sudhir Goswami
 date: "2012-02-02"
+location: "Gupta Govardhan, Chiang Mai"
 audio:
   file: en_2012-02-02_About_Ramanujacharya.mp3
   mahamandala: https://mahamandala.com/en/audios/74/download
