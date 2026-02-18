@@ -13,7 +13,7 @@ duration: "00:34:48"
 status: draft
 slug: en-2011-12-31-new-year-speech
 transcribers:
-  - Nalina Sundari DD.
+  - Nalina Sundari d.d..
 license: https://creativecommons.org/licenses/by-nc-sa/4.0/
 ---
 

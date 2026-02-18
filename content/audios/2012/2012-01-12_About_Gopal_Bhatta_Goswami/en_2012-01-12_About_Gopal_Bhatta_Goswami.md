@@ -18,7 +18,7 @@ tags:
 editors:
   - Kamala Devi Dasi
 transcribers:
-  - Nalina Sundari DD
+  - Nalina Sundari d.d.
 ---
 
 00:00:34

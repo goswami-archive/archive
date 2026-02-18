@@ -18,9 +18,9 @@ tags:
 editors:
   - Kamala Devi Dasi
 translators:
-  - Nalina Sundari DD
+  - Nalina Sundari d.d.
 transcribers:
-  - Nalina Sundari DD
+  - Nalina Sundari d.d.
 ---
 
 00:00:11

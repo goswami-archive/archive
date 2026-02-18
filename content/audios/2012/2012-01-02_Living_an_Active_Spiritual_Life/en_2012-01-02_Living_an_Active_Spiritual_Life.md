@@ -15,7 +15,7 @@ slug: en-2012-01-02-living-an-active-spiritual-life
 editors:
   - Kamala Devi Dasi
 translators:
-  - Nalina Sundari DD
+  - Nalina Sundari d.d.
 license: https://creativecommons.org/licenses/by-nc-sa/4.0/
 ---
 

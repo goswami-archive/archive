@@ -13,7 +13,7 @@ duration: "00:53:04"
 status: draft
 slug: en-2012-01-04-questions-for-guru
 transcribers:
-  - Nalina Sundari DD
+  - Nalina Sundari d.d.
 license: https://creativecommons.org/licenses/by-nc-sa/4.0/
 ---
 
