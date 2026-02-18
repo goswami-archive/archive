@@ -20,146 +20,146 @@ license: https://creativecommons.org/licenses/by-nc-sa/4.0/
 Content:
 Some more about intelligence in service Two ways of progress: constitutional and revolutionary The inevitable degradation of the truth What if I will not achieve perfection? Sincerity is invincible The power of sincere devotion
 
-00:00:01
+#00:00:01#
 
 Question: He once heard in the lecture of Srila Sridhar Maharaj that there are two ways of progress. In Russian it was translated as constitutional and the other one is revolutionary. What is the difference?
 
   Some more about intelligence in service
-  00:00:30
+  #00:00:30#
 
 Goswami Maharaj: One thing is first I want to say something about his last question from a few days back. Because that sloka etamasjamasa polyam, that's how it begins, I met that, because it was in my mind and I thought where is it coming from? His question for those who (?) in the last episode was "Can you use your intelligence in Krsna Consciousness?" Right? I mean basically that was it.
 
-  00:01:10
+  #00:01:10#
 
 So, it's a very interesting, I mean we've discussed that for some time, but that I was fumbling (?) for at the time and couldn't recall quite clearly was in the Bhagavatam. It's after the, I think it's after the Aghasura-lila, and just before the pastimes with the so-called yagic brahmans or the vipra-patnis means the wives of the brahmins, this is a very famous pastime. Just before that at the end of one chapter Krsna is telling Balaram as they look around the forest of Vrndavan, the trees and everything and He is presenting this whole Vrndavan scene as if it is a glorification for Balaram, for Baladev, and interestingly it's just some foundation for this. Guru Maharaj, let's think Vrndavan, just remind ourselves, vaikunthera prttvyadi sakala chinmoy, that everything there is made of chinmoy, it's spiritually conscious substance, so, the flowers are spiritually conscious, the tree from which the flower comes, the flower itself, the water, everything there is conscious.
 
-  00:02:49
+  #00:02:49#
 
 Right, as we've heard recently with Mahaprabhu's sannyas, that we just celebrated, when He approaches Jamuna, again being bewildered by Nimyananda, "O, Sripad," He sees the sannyas, "Where are you going?" "I am going to Vrndavan with you in fact." "Really? How did you know I was going?" Look like a man who is going to Vrndavan. But when Mahaprabhu, He leads them to the Ganga, which is for certain technical reasons also the Jamuna, the western side whatever, Mahaprabhu before jumping in and bathing there, He says this famous sloka that has the word ‘chidananda', chidananda bano sada nanda suno jagad prema datri brahma drava datri, the brahma drava part is of particular note here, saying, "You're liquid Brahman, means you're spiritual consciousness in liquid form." That's also possible, that's what the Jamuna is, that's what the Ganga, it's spiritual consciousness that's been, it's appearing in the form of water of liquid, that's why spiritually advanced people, they take that water and regardless of how it looks from an objective point of view, they know what the subjective aspect is, so, they take that water on their head, it's purifying, they know what it is substantially.
 
-  00:04:32
+  #00:04:32#
 
 And Srila Guru Maharaj, even though it's Mahaprabhu's sannyas, it's pastimes of Mahaprabhu and Jamuna, he goes into a whole explanation about the subjective evolution of consciousness, it's cause he says, "You can have liquid spirit, you can have spirit in the form of sound, spirit in the form of touch, spirit in the form of taste, this is a very beautiful thing, this is what we're trying to pursue in Krsna Consciousness. We taste the prasadam, smell the flowers offered to the Deity, take the charinamrtam, how all these seemingly mundane things became transformed? It's what's in the background.
 
-  00:05:21
+  #00:05:21#
 
 So, Srila Guru Maharaj says the Vedic rsis, this word rsi is interesting (?), they address everything in the personal way, that's why they address the sun as a person, the river as a person. In modern time they're trying to with the broad brush paint the idea, that anyone who'd done (?), who would refer to nature with any type of personality is primitive. And half truth is worse than falsity. Yes, certain primitive people do that, but the non-primitive, super advanced intellects of the ancient Vedic culture, they also addressed everything in the personal way. This is the unique distinction and we shouldn't be seduced, lulled into accepting this type of propaganda, that anyone, who thinks like this is foolish, primitive, backward or something, we're victims of Western propaganda in fact.
 
-  00:06:35
+  #00:06:35#
 
 So, Guru Maharaj is pointing out, "The whole objective world is like an iceberg floating in an ocean of consciousness." All of these, it's easy to parody (?).  Because when they quote Bishop Berkeley, the philosopher, saying, "The world is in the mind." Someone will say, "Oh, I see what you're saying, you mean like, this doesn't really…, it's just in my mind." And everyone goes, "Hahaha!" It's just in my mind, this thing I am touching, feeling. But Guru Maharaj will say, "No, what he is telling you is it has its basis in consciousness, that you can feel it as a concept, that's it's blue, that it's hard, that it has length, hardness, softness, length, width, breadth, depth, these are all concepts, and an object is a cluster of subjective concepts, that's what he is telling you by saying, "The world is in the mind." Not that it doesn't exist, but its existence is based upon consciousness. And consciousness is never devoid of personality. So, therefore, when he turn to the river, he is saying, "O, you are beautiful daughter of the sun." gopatitanaya kunje in another sloka, the one Gurudev quoted so often.
 
-  00:08:13
+  #00:08:13#
 
 So, Brahma drava means sprit, he's saying, "This is not ordinary water, it's spiritual consciousness, you're person, and you're representing yourself in the form of a river." So, he is giving so many dandavats and obeisances and prayers and praise of Jamuna and then taking those divine waters and bathing Himself. So, when Krsna and Balaram are in Vrndavan, what is that Vrndavan? That is the place, as Guru Maharaj told us, where the soil is your Guru, the land is your Guru, it's of superior substance, that's vaikuntera prttvyadi sakala chinmoy, that type of chinmoy, your Guru, it's the Guru world. He told us about the world where everyone and everything in it is Guru. The soil is your Guru, and in what way? That it has your interest at heart. We're in the plane, where we're told, you know, "Watch out for bird flue, the soil is your enemy, maybe the soil is contaminated, maybe the air is contaminated, maybe the water is contaminated. And maybe I shouldn't use the word 'maybe'. Did we start again? Oh, that's not bad.
 
-  00:08:15
+  #00:08:15#
 
 Devotee: Takes two seconds.
 Goswami Maharaj: I thought I have the, okay, that I can do. As Guru Maharaj said, when Gurudev said, "If I tell a lie in front of you, and you won't tell anything, he go, "That I can do." So, that soil, he said, there is a world, where the world is guru, here everything, this a world of mortality where every moment you have to, you know, who's got my back (?) my back, you're looking over your shoulder, if I got a test coming back from the hospital that's going to say that I've got some kind of terminal illness, I've got the virus, this and that, there is certain amount of reasonable paranoia when you live in the world of mortality. But the world of immortality cannot be like that, that's where the soil is your friend, the water is your friend, the tree, everyone there has your interest at heart. We can't imagine that, because here it's Darwinian evolution to the extreme, jivo-jivasya-jivanam, one living being living at the expense of another. One living being exploiting another. That's how you thrive here, through exploitation. That's the ugly truth of this world, you thrive here by exploiting others. So, it's hard for us to conceive, at best we can think, "Oh, I want to get free from that, let me give up the world, give up this, when you see what it is, let me give up this world of exploitation, renounce it all." It's hard for us to conceive or beyond our conception, that there is a world of dedication, where is just the opposite of true (?), everything and everyone there has your interest at heart. And not only that, even more than you do. Has your, just as the benevolent guardian of  the child has really the child's interest, more than the child. And (?) any mother or father knows that, because the child wants to do so many things that are not in their interest. So, it's the expert guidance of the guardian, the loving affectionate guardian to somehow deal with them as a child, but with their self-interest at heart and guide them in such a way toward their own real interest. We hear in the Bhagavatam,
 
-  00:12:48
+  #00:12:48#
 
 labho jivete yavate jivasya tattve vidhyasa narto yasteha dharma svanustatha pumsah
 
-  00:13:08
+  #00:13:08#
 
 And there is some others in that section of the Bhagavatam, loka hitam rupa, Sukadev telling Pariksit Maharaj, "This was a good question, cause it's beneficial for everyone, not just for you, you're not just asking what's good for you, and to (?) with everyone else, your question is the best kind of question, because it's beneficial for everyone. So, we hear of the world that has our interest at heart, that is Vrndavan, that is our home, that's what we mean saying, "Back to Godhead, back to that plane." So, Krsna in that world, where we hear that, like Visvanath Chakravarti Thakur will point out, "You don't see sages in Vrndavan, rearly, but we know there are so many great sages, so, then what should we think, he says, "Yes, in Vrndavan, there are bumble-bees, great sages are bees, birds, they're santa-rasa, but santa-rasa doesn't mean, that they can speak or convey anything. So, we hear sometimes the king of the bumble-bees, he starts madly dancing, singing the glories of Krsna, and everyone else is watching, all of the trees, the birds, Krsna (?), they are watching this mad dance of this bumble-bee, who is praising Krsna in perfect Sanskrit slokas.
 
-  00:14:54
+  #00:14:54#
 
 So, that Krsna, He is telling Balaram, "Oh, Balaram, look at the trees, how they are, and we see trees hanging like this full of fruits, but what Krsna is telling Balaram, "They are giving dandavats to You. And they are offering their fruits to You, You're so wonderful. Look at them, and look, some of these trees, if you look carefully, they are stunned, they can't move, and they're sad (?), they're crying tears of joy, ecstatic joy. He's pointed the all of them, the peacocks are dancing, the trees are crying in ecstasy,  the bees are singing your glories, you're so wonderful." So, Visvanath Chakravarti Thakur says that really, Krsna is not going to glorify Himself. So, as much as they are all, this is truth for Baladev, it's equally truth for Krsna, but Krsna is such a gentleman, and He has so much love and affection for Baladev, He is saying, "This is all for you," as the two of them walk through the forest. And we hear elsewhere in the Bhagavatam, how Krsna, how beautiful He looks at that time, it comes in the next chapter, and this is the point I was going to make, so, while Krsna is pointing the beautiful atmosphere of Vrndavan, (?) chinmoy, abode, He says, "Look at those trees," He wants to glorify the trees, and He said, "They exist for the welfare of others. Even when it's blazing hot, they give shade and shelter, and fruits, they nourish others without complain. They are very tolerant, they exist for the benefit of others, saying, "This is the way one should be, and that's when He quotes this verse, etabaj janma sapalyam etc., saying, "This is what you should do in your life is dedicate your mind, your body, your resources, your intelligence in divine service for the benefit of others." That's where He says that, and we see this is the, it's the foundation for the next chapter, because He is saying, He is glorifying these trees to the extreme, and we know the trees are playing an important part in Mahaprabhu's teaching,
 
-  00:17:56
+  #00:17:56#
 
 trnad api sunichena taror eva sahisnuna, it comes again, being tolerate as a tree, giving, when it's blazing hot still giving shade to those who've taken shelter, tolerating the heart, giving shelter at the same time. Tolerating and giving shelter. Those are the two things to take away from that." He's saying, "That's an exalted position."
 
-  00:18:20
+  #00:18:20#
 
 Because we find in the next chapter, when they're going to meet those Brahmins performing their sacrifice, what to speak of others, they are not prepared to give something for Krsna and Balaram themselves.  So He just told before hand what's going to happen by praising these trees, "You should be magnanimous as the tree." When  the cowherd boys approach those Brahmins on behalf of Krsna and Balaram and get nothing. But that allows, Krsna always wants His pastimes to point to the devotion of the devotees and put them into a spotlight in the most exalted position. So, their refusal, the refusal of the husbands to be magnanimous and generous to serve allows Krsna to say, "Approach their wives." And when the cowherd boys approach the wives of the Brahmins they of course give everything happily. And He is making the point, "The wives, they didn't go to the guru-kula, they were not brahmacharis, they don't know the Vedas, they can't quote all those slokas, He is making a big point here, they have none of the type of avert (?), stereotypical qualifications that their husbands do. Their husbands are supposed to be the one who is so qualified. They went to the gurukula, they were brahmacharis, sense-control, they study the Vedas, they can do yagya, they can do all of this, but when the time comes to serve Krsna, to give the heart, it didn't effect their hearts, all of that learning, austerity, knowledge, tapasya, charity, didn't melt the heart. But the wives, they had the melted hearts.
 
-  00:20:31
+  #00:20:31#
 
 Jay Srila Bhakti Bimal Avadhut Maharaj ki jay!
 
-  00:20:36
+  #00:20:36#
 
 So, they the spotlight goes on their devotion, and they go running with their offerings that they've made in their kitchens to give to Krsna and Balaram and the cowherd boys and when they come upon the scene in the forest, because Krsna He is leaning on, He and Balaram they love each other so much, sometimes they just lean on each other, or Krsna's leaning on Baladev and saying, "Look at this wonderful thing here." Then those ladies come, see them surrounded by cowherd boys, we're told, Krsna (?) as a lotus flower that in His hand and He is spinning it, it's spinning around, this big lotus flower. And this is the first time they ever see Him. Because they've heard about Him from fruit-sellers, flower-sellers, ladies like that in their village, they would come by and sing the song about some pastime that just happened or tell something and so throughout their lives they are hearing about Krsna.
 
-  00:22:00
+  #00:22:00#
 
 And this is important too, they've never seen Him, but just by hearing about Him, Krsna's entered their hearts. So we hear, nama rupa guna lila, sound, from, quality, pastimes. So from sound, the sound of Krsna nam, the sound of Krsna-katha, hearing about Krsna, how can we expect, we think, "Oh, I don't understand it all." Of course not, Krsna is infinite. We'll forever be in that position, as much as He wants to reveal He reveals. But by hearing, pravistra karna randrena svanam bhavan saroruham (?), through the ear Krsna conception enters the heart and then starting spreading its influence over the heart. So, in this case their hearts have been totally captured by the beauty, the sound of Krsna, the songs about Krsna, reveal the divine form of Krsna, so they are already totally enamored with Krsna and now here is their opportunity to see Him personally. Up close and personal. And the go running and find this (?), there is Krsna and Balaram, syamam hirnya paridim vanamalyam barha datu prabalam (?) anavrtam mamse…utpapalaka kapolu mukhah jahasam, means with the big smile, and so they all come and they are all there as the lotus, Krsna twirls this lotus flower, it's said, their hearts start spinning in sympathy with that, so they're becoming dizzy, seeing the beauty of Krsna and He is twirling that lotus flower, they are all becoming a little ecstatically dizzy.
 
-  00:24:18
+  #00:24:18#
 
 It's mentioned elsewhere, varahapi bam natabara vapu karayo vipradbasa kanaka kapisam vaijayanti chamalam randran venu rdhaya sudhaya buryam gopa vrnde vrndaranyam suparoram pravisa gita kitri. Krsna with the peacock feather on His forehead, His beautiful lotus eyes, His hears curling and because of the cow herding little dust, but like makeup, nice dust, that's Krsna's makeup, is go-raja, dust, sandalwood pulp, beautiful aroma, but His hear is little messy from all the cow herding, Guru Maharaj used this term, he said, "Agreeable negligence." Like sometime they show this supermodels, and they go, "Here is their agreeable negligence look." Right, Krsna is the origin of the agreeable negligence look. He looks very beautiful, He's playing on His flute, and we're told, streams of nectar are pouring out of His leaps into the flute and then from the flute again into the, so it's a nectar shower, a nectar shower of spiritual sound, spiritual sound transformed into a nectar shower. So, everyone in the environment is being nourished by that. And what is He doing? He is playing like that and they are all, the cowherd boys, they're dancing and singing and entering the forest of Vrndavan. We're told, and the lotus feet of Krsna as He's playing His flute and dancing they are touching the Earth, and the Earth is a female, again everything is personified, but the Earth, feeling he touch of the lotus feet of Krsna, vrndaranyam svaparamanam pravisa gita kirti, that ramanam means in that touch, she is not only experiencing ecstasy, but conjugal ecstasy at the touch of the lotus feet of Krsna. What does that mean? Then you have to reconceive santa-rasa, you can't have some stereotype, some fixed idea of what the infinite is.
 
-  00:26:58
+  #00:26:58#
 
 So, I just wanted to say that (?) about the last thing about using your intelligence, because that's the sloka, that talks about that. So what is the question this evening?
 
   Two ways of progress: constitutional and revolutionary
-  00:26:58
+  #00:26:58#
 
 Oh, in the talk about conditional and revolutionary.
   Yes, this is interesting, Yudhamanyu Prabhu will be familiar with this as I bring it to mind, is that, because this changed out lives, Guru Maharaja's explanation of this subject changed our lives. There is a sloka in the Bhagavad-gita,
 
-  00:27:55
+  #00:27:55#
 
 svadharme nidvenam sreya parobdharmo biyavaha,
 
-  00:27:59
+  #00:27:59#
 
 It says, and I'm paraphrasing, it says, it's better to stay in your position, your constitutional position, even if it's imperfect you stay there, you don't go outside of that, just remain in your position, because to follow some thing other than that it's risky, it's dangerous, there is some danger, some risk, so you stay in your position. And he said, this kind of advice is used in many different places, socially, within a family, within the society, a country, a community, some many things. Like I told you before, when I was last time in Ukraine, one lady told her daughter, "People in Ukraine should believe the religion of Ukraine." So she is saying, "Don't go, what is this, Krsna Consciousness? We have a particular way we believe here and you'll stay with that." So it says, svadharme, svadharma, your (?), don't cross it, stick there. So, Guru Maharaj who teaches us, that one of the hallmarks of spiritual life, and spiritual aspiration is honesty, being honest with yourself. Sometimes, people think honesty means just like offending other people. "You know what I really think about you." Like "in vino veritas." That's not what, honesty, as Gurudev said, "My religion is finding faults with myself, it means apply being brutally, so called, be careful with that word, cause I know that's, brutally honest means extremely here with yourself.
 
-  00:30:13
+  #00:30:13#
 
 So, Guru Maharaj he will tell us, it's Bhagavad-gita, and Guru Mahraj says, when I heard that sloka, I was unhappy, he didn't like it. How can the Guru tell you there is a sloka in the Bhagavad-gita he didn't like. Shouldn't he like all of them? Or there is some he's saying, "Oh, I like most of them." How can the Guru dare say like, that's Guru Maharaj, he goes, "I was disappointed, I got some, it didn't inspire me, "Stay in your position," he said, "But later…" So, that's constitutional. He said, "But later, when I heard in the end of Bhagavad-gita where Krsna says, sarva-dharma-parityajya mam ekam sharanam braja, give up everything and come to Me, give up everything and surrender to Me, Guru Maharaj said, "Then I got some life, that I liked to hear, ‘Give up everything and go to the center." He liked to quote the Upanisadic aphorism, yasmin vijnate sarvam eva vidyatam bhavati (?), try to know that one thing upon knowing which everything becomes known. Try to acquire that one things upon acquiring everything is got. This echoes and parallels Bhagavad-gita,
 
-  00:31:52
+  #00:31:52#
 
 yam labhva chakram labham manite nati kamtataha,
 
-  00:31:57
+  #00:31:57#
 
 A famous so called Samadhi-sloka, saying, when you reach real Krsna Consciousness you'll feel, "I got everything. There is nothing more than this, it's beyond my expectations." So, anyway, Guru Maharaj says, "When I've heard Krsna's final advice, ‘Give up everything, come to Me direct,' this revolutionary position. Sometimes he'd say, Bhaktivinod Thakur's saying, safe rout, Saraswati Thakur say, "No, we have no time for the gradual slow process, you need to surrender yourself now, give yourself to Krsna wholly fully, don't doubt, masuchaha, Krsna's saying, "Now." Krsna's saying, "Don't worry." Once I said it to Guru Maharaj in the afternoon with Gurudev there something about, it was that thing about the mosquito nets, when the mosquito, Gurudev was like really anxious, his first big Gaurapurnima, many devotees are coming. And then he came upstairs, I was with Guru Maharaj and he was all exited, "The mosquito nets arrived!" Cause they had, he was like down to the wire (?), and he said, "Now everyone will be happy!" And Guru Maharaj said, "But the mosquito section they will not be happy." I mentioned masuchaha which means like, "Don't worry." But I used it as a joke in that, and Guru Maharaj said, "Deep thinker." Should I have not said that?
 
-  00:33:57
+  #00:33:57#
 
 But to go back to the first thing. Then after reaching the final advice, ‘Give up everything, come to me, surrender Me, and don't worry, I'll give you shelter, I'll protect you.' Guru Maharaj says also, Jiva Goswami said of all the sarangas (?), the six aspects of surrender, this is the most important one, this forms the basis for everything else is goptriptve-varanam, offering yourself to Krsna, then you can expect the protection and all these other things, but if that isn't there all these other things are not substantial. So, he said, Jiva Goswami said, "Of the six this is the principal one." So, Guru Maharaj said, "That gives him encouragement and then he went back to re-explain the first sloka, he said, "Yes, what does that mean? Stay in your position, don't go outside. What it means is, you have to think in this way, why did you embraced that position to begin with, but ostensively to make progress, that's why you're in that position, you, it represented an ideal to you, it personified an ideal, a goal that you want to achieve, so, you're situated in that position and as long as you're making progress, then you are to remain in that position. But then he said, "But if by remaining in that position, not only am I not making progress, but I am going down, I am not only making progress, but I am going down, then one will take the risk of leaving that position for the sake of making progress." Go the revolutionary rout.
 
-  00:36:08
+  #00:36:08#
 
 So, sometimes he frame this in our situation (?) is society consciousness and God consciousness. An institution is formed to promote an ideal, minus the ideal what is the purpose of that? Society consciousness and God consciousness, when society consciousness comes to hinder the development of god consciousness then it's left, as he said, ‘left away.' Then one will take the risk and it means that there is a risk involved to go separate or independent for the sake of progress, but these are things that have to be carefully considered. Sometimes people would tell Guru Maharaj, "Don't tell these things, they'll be abused by neophyte devotees." Bhaktivinod Thakur addresses this in the Bhagavat, "Oh, because someone will abuse the Truth I should tell them a falsity, maybe, paroksa vada veda yam bhavanam anusasanam, in the very infantile stage, maybe, it's the method that Vedas use for teaching children, that's how you teach children, they are not always told the full truth, gradually the truth (?). But Bhaktivinod Thakur says, "Because the truth invariably becomes abused and then not only abused by gradually becomes modified by individual temperament beyond recognition to the point when the truth is converted into falsity, is that an argument not to speak the truth? No. Particularly reformers they will always speak the truth, they will take that risk."
 
   The inevitable degradation of the truth
-  00:38:17
+  #00:38:17#
 
 And Guru Maharaj says the same thing, his explanation about apichet sudaracharo (?), when I said to him, that someone godbrothers objected that you should not give out (?) this explanation, Guru Maharaj, he lean forward and said, "Who are these godbrothers?!" And I went, "I don' know, I don't know." I said, "You said." (?) And he was just (?) and he said, "Jajavar Maharaj. He told me." Even though it's maybe true, but in the hands of the less experienced or the self-serving they will take this and abuse this and Guru Maharaj said, "I don't care for them, still I will speak the truth." Knowing fully well, that it can be abused, someone it can be used for self-serving. I am not going to speak something less because of the potential for abuse." You can always have a full (?) for a disciple. Mahaprabhu says, "My Guru said, (?) I should just take Krsna nam." But Guru Maharaj said, have told about this one Guru, he said, "There is this one man, he is somehow secured a disciple." And that disciple comes and says, "Gurudevm, show me the God, I want to see the God." And Gurudev's, "Alright, for one year he's feeding him rasgulla, sandesh, sweet rice and every day you follow this program, he said after one year that disciple come and said, "For one year I still haven't realized God," and the Guru said, "For one year you're eating rasgulla, sandesh and sweet rice, do you think God is more than that?! You're ungrateful."
 
-  00:40:49
+  #00:40:49#
 
 He said, there was another man, he approached Guru Maharaj and said, "I want to become a pandit. Can you make me a pandit?" And the Pandit said, "Yes." "How will I know?" "When what you know and what you don't know is the same to you, then you're a pandit." "Really?" "Yes." So he goes off sometime and he comes back, "I think I've become a pandit now." "Really?" "Yes, because what I knew I forgot, and what I don't know, of course that I don't. So, now they are both the same to me. So now am I a pandit? Because what I don't know and what I know is all the same." In other words ‘complete ignorance.' That's also a possibility. It's still not an argument not to speak the truth.
 
   What if I will not achieve perfection?
-  00:41:55
+  #00:41:55#
 
 So, Guru Maharaj realized in the retrospect, "Oh, at that point in Bhagavad-gita Krsna is cautioning Arjun about a constitutional your position in the world, but finally He is giving His determination that take the risk, there's risk involved in the pursued of Krsna Consciousness. Narada tells Vedavyas, "There is risk involved in this. But it's worth the risk." Because here unlike other things you take the risk and you don't get a full pay off you're looser, that's what Arjun tells Krsna, "If I understand this right," he does the math about Krsna Consciousness and says, "What happens if I give up the world, the certain aspects of the world and get involved in Krsna Consciousness, but I don't achieve perfection, then all that time I dedicated to Krsna Consciousness I could have been developing myself, "I could have been somebody. Study (?) what I am." That kind of thing. Saying, "I could've used all that energy." And Krsna's saying, "No, nahi kalyana krt kaschit durgatim tata gachchati, you don't understand what this is, here you make one percent, two percent progress, that's forever, that's on your account forever till the end of time, never taken away from you.
 
-  00:43:36
+  #00:43:36#
 
 Wheras here you become Hodorkovsky, and you end up in a jail in Siberia. It's kinda like insight thing, people are not laughing. But you understand what I'm saying, in other word so much materially there is no guarantee, you know, what a chanson is, the chanson songs, this is type of music in Russia that's exclusive to Russia, that some people say, "It's the only music that young people and old people both like." Cause usually old people hate the music of young people and young people don't like the music of old people, but chanson everyone goes like, "That's pretty good." And these songs, I've heard a few of them and had them translated by my friends, the basic mood, I mean, one of the themes was, "No matter how well things are going today, you could wake up in the morning dead, in jail, so don't get too confident about your situation and everyone knows there is some truth in that, that's what we're talking about. So however well you do in the material world ultimately you get some bad news, let's put it that way. Ultimately there is a knock at the door, a phone call, a medical test or something that you didn't count on, that's really bad news.
 
-  00:45:17
+  #00:45:17#
 
 Whereas what Narada is telling Vyas, "If someone will (?) just sincerely try  for Krsna Consciousness by their own metric, not by somebody else's standard, everyone has their own metric about what that will be, that's why sincerity is the key point, and why this transcends age, gender, education, everything, it's all about sincerity, nahi kalyana krt kaschit durgatim tata gachchati, Krsna tells Arjun, "If you're sincere, you;ll win, if you're sincere you'll be victorious." Guru Maharaj says, "Sincerity is invincible, it can't be defeated." Like this is the Chinese New Year, you go to China, and they'll have at big letters somewhere, "Sincerity," just floating in the air in China, "Sincerity." Remind people, "This is it. This is eternal quality that everybody should strive for. To be sincere, honest, sincere in our approach." Guru Maharaj said, "The sincere will be victorious, sincerity is invincible." Krsna gives full reciprocation to sincerity. Sri Krsna karsinichasa, this is what attracts Krsna.
 
   Sincerity is invincible
-  00:46:52
+  #00:46:52#
 
 We know Gurudev liked to tell that story of the simple-hearted sincere vya (?), which means ‘hunter' and he is hunting everyday, and what he's killed, he butcher, puts on a scale, he weights it up on the scale and he is selling that and making a living. And like you can still see, today in India, when you go and weight something, they have some metal weight and it says like two hundred and twenty grams, but when they are doing something, whether they are weighing mangos, whatever it is, it's not always perfect, they always have some stones on the side, and they throw on a stone and when it goes like this, and they go, "Okay. These are papadena (?), give me a right mango." Anyway, they always have some stone like that. So, he's got meat on the scale, and then on the other side a salagram-sila is the stone he throws on the scale to balance everything. A Brahmin going by just like one of the wives husbands, viprapatni, some brahmin's going by and he is horrified, "You're fool! That's a salagram! That's not a stone, it's not. You give that to me, oh, who knows a hell that awaits you for this type of aparath. Anyway, please, give to my care, I will offer sixty four articles of worship, I will do the different types of puja, I wil say all the mantras, I will invoke the Lord's grace and have the abhisek and some purificatory ritualistic process and then he'll be in His right, I'll put Him on the Sringasan (?), with the crown and chandan, tilak, everything, and then I'll beg the Lord on your behalf to forgive you, that in your ignorance you committed these offences." The hunter is simple-hearted man gives. And we're told after all of that, that evening Deity appears to the brahman and tells him, "You're fool!" It's a hierarchy of foolishness from our position, not our Guru-varga, but from our point. He says, "You don't know what you've done. That hunter he's my devotee, you don't know, he has so much devotion in his heart for me, he is in the position of the hunter, but really  in his heart he has so much love and affection for me, you can't imagine my happiness when I was swinging on his scale. I am swinging on my devotee's scale, I was in Vaikuntha. And what have you done with your mantras and your pujas and your mudras?
 
   The power of sincere devotion
-  00:50:38
+  #00:50:38#
 
 So, what is Krsna Consciousness? Sincerity. Mame pata vipasritaye pisu papayane pisyupapayane austriyo vaisya tatha sruta tepyati param gatim, (?). Krsna's saying in this sloka even a slight connection with me delivers the full result because He is the Infinite. His hand is Infinite. When Mahaprabhu serves, it's enough for six men, He can't serve less. When Krsna reciprocates, He reciprocates in His own coin. His coin is mercy, infinite mercy, love, affection, that's His coin, that's the currency that Krsna reciprocates with. So, He says, mam hi partha, in that sloka, and Gurudev once said, "Why does He call Arjun ‘partha' here? Arjun has so many names, Bhudakes (?), Arjun, Dhananjay, Phalguni Krsna, sri krsna krnsa sakha vrsnu vrsabhavani druv krsna sakha, (?), Krsna's friend, these all kinds of name for Arjun, but here Partha, Gurudev said in a very, this is Gurudev extracting from Bhagavad-gita, mining gems from Bhagavad-gita, "Why Partha? That's an illusion to Priti, means Kunti Devi, he's saying, "Partha," he is taling about, "If there is something that might be wrong, still you connect with Krsna, you'll get everything, he is saying, "your mother, Kunti, when she was young, Parhta, so he says, it's an illusion to Kunti Devi, so he's saying, "Any connection with Krsna Consciousness however slight delivers the Infinite, because what it is? When the Infinite comes under the control of the finite, that's devotion.  And that's where it's power is demonstrated. Sri krsna karsinichasa, we're told Ksna is akhila-rasamrta murti, He is Krsna irresistibly all-attractive, everyone is irresistibly drawn in attraction to the Absolute center, beauty, love, charm and sweetness personified. That all-attractive Krsna is irresistibly drawn to even a drop of devotion in the heart of sincere devotee. That's the power of devotion. Hare Krsna.
