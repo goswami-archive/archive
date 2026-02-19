@@ -5,7 +5,7 @@ title: "A connection with golden personalities"
 authors:
   - Bhakti Sudhir Goswami
 date: "2013-05-07"
-location: "Gupta Govardhan, Chiang Mai"
+location: "Gupta Govardhan, Chiang Mai, Thailand"
 audio:
   file: en_2013-05-07_A_Connection_With_Golden_Personalities.mp3
   mahamandala: https://mahamandala.com/en/audios/1271/download

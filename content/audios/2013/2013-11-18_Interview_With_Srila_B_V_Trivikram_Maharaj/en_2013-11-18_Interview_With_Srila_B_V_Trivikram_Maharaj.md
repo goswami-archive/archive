@@ -5,7 +5,7 @@ title: "Interview with Srila B. V. Trivikram Maharaj"
 authors:
   - Bhakti Sudhir Goswami
 date: "2013-11-18"
-location: "Gupta Govardhan, Chiang Mai"
+location: "Gupta Govardhan, Chiang Mai, Thailand"
 audio:
   file: en_2013-11-18_Interview_With_Srila_B_V_Trivikram_Maharaj.mp3
   mahamandala: https://mahamandala.com/en/audios/1278/download

@@ -5,7 +5,7 @@ title: "What is the best way of going on a pilgrimage?"
 authors:
   - Bhakti Sudhir Goswami
 date: "2012-03-01"
-location: "Gupta Govardhan, Chiang Mai"
+location: "Gupta Govardhan, Chiang Mai, Thailand"
 audio:
   file: en_2012-03-01_What_Is_The_Best_Way_Of_Going_On_A_Pilgrimage.mp3
   mahamandala: https://mahamandala.com/en/audios/377/download

@@ -5,7 +5,7 @@ title: "Where to find real happiness and what is the nature of it?"
 authors:
   - Bhakti Sudhir Goswami
 date: "2012-04-17"
-location: "Gupta Govardhan, Chiang Mai"
+location: "Gupta Govardhan, Chiang Mai, Thailand"
 audio:
   file: en_2012-04-17_Where_To_Find_Real_Happiness_And_What_Is_The_Nature_Of_It.mp3
   mahamandala: https://mahamandala.com/en/audios/342/download

@@ -5,7 +5,7 @@ title: "Food for the Heart"
 authors:
   - Bhakti Sudhir Goswami
 date: "2012-12-03"
-location: "Gupta Govardhan, Chiang Mai"
+location: "Gupta Govardhan, Chiang Mai, Thailand"
 audio:
   file: en_2012-12-03_Food_For_The_Heart.mp3
   mahamandala: https://mahamandala.com/en/audios/312/download

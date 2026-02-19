@@ -3,7 +3,7 @@ type: post
 lang: en
 title: "Krishna's World"
 date: "2011-12-24"
-location: "Gupta Govardhan, Chiang Mai"
+location: "Gupta Govardhan, Chiang Mai, Thailand"
 authors: 
   - "Bhakti Sudhir Goswami"
 status: draft

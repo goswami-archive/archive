@@ -5,7 +5,7 @@ title: "About Giriraj Govardhan"
 authors:
   - Bhakti Sudhir Goswami
 date: "2012-02-14"
-location: "Gupta Govardhan, Chiang Mai"
+location: "Gupta Govardhan, Chiang Mai, Thailand"
 audio:
   file: en_2012-02-14_About_Giriraj_Govardhan.mp3
   mahamandala: https://mahamandala.com/en/audios/77/download

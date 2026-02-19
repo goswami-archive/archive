@@ -5,7 +5,7 @@ title: "Does God have imagination? What is the highest type of artistic expressi
 authors:
   - Bhakti Sudhir Goswami
 date: "2013-03-11"
-location: "Gupta Govardhan, Chiang Mai"
+location: "Gupta Govardhan, Chiang Mai, Thailand"
 audio:
   file: en_2013-03-11_Does_God_Have_Imagination_What_Is_The_Highest_Type_Of_Artistic_Expression.mp3
   mahamandala: https://mahamandala.com/en/audios/363/download

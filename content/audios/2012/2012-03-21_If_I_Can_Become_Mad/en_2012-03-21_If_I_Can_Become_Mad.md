@@ -5,7 +5,7 @@ title: "If I Can Become Mad!"
 authors:
   - Bhakti Sudhir Goswami
 date: "2012-03-21"
-location: "Gupta Govardhan, Chiang Mai"
+location: "Gupta Govardhan, Chiang Mai, Thailand"
 audio:
   file: en_2012-03-21_If_I_Can_Become_Mad.mp3
   mahamandala: https://mahamandala.com/en/audios/215/download

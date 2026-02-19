@@ -5,7 +5,7 @@ title: "How to understand the irrational actions of devotees?"
 authors:
   - Bhakti Sudhir Goswami
 date: "2012-04-08"
-location: "Gupta Govardhan, Chiang Mai"
+location: "Gupta Govardhan, Chiang Mai, Thailand"
 audio:
   file: en_2012-04-08_How_To_Understand_The_Irrational_Actions_Of_Devotees.mp3
   mahamandala: https://mahamandala.com/en/audios/197/download

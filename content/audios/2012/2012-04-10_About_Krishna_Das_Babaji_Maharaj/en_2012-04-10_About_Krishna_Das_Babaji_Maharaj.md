@@ -5,7 +5,7 @@ title: "About Krishna Das Babaji Maharaj"
 authors:
   - Bhakti Sudhir Goswami
 date: "2012-04-10"
-location: "Gupta Govardhan, Chiang Mai"
+location: "Gupta Govardhan, Chiang Mai, Thailand"
 audio:
   file: en_2012-04-10_About_Krishna_Das_Babaji_Maharaj.mp3
   mahamandala: https://mahamandala.com/en/audios/336/download

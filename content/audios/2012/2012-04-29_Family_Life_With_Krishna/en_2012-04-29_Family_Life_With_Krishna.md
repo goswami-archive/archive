@@ -5,7 +5,7 @@ title: "Family Life with Krishna"
 authors:
   - Bhakti Sudhir Goswami
 date: "2012-04-29"
-location: "Gupta Govardhan, Chiang Mai"
+location: "Gupta Govardhan, Chiang Mai, Thailand"
 audio:
   file: en_2012-04-29_Family_Life_With_Krishna.mp3
   mahamandala: https://mahamandala.com/en/audios/213/download

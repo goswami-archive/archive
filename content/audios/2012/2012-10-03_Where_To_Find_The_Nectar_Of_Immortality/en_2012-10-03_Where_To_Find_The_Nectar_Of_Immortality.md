@@ -5,7 +5,7 @@ title: "Where to find the nectar of immortality?"
 authors:
   - Bhakti Sudhir Goswami
 date: "2012-10-03"
-location: "Gupta Govardhan, Chiang Mai"
+location: "Gupta Govardhan, Chiang Mai, Thailand"
 audio:
   file: en_2012-10-03_Where_To_Find_The_Nectar_Of_Immortality.mp3
   mahamandala: https://mahamandala.com/en/audios/320/download

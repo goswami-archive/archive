@@ -5,7 +5,7 @@ title: "What is the law of this world?"
 authors:
   - Bhakti Sudhir Goswami
 date: "2012-02-22"
-location: "Gupta Govardhan, Chiang Mai"
+location: "Gupta Govardhan, Chiang Mai, Thailand"
 audio:
   file: en_2012-02-22_What_Is_The_Law_Of_This_World.mp3
   mahamandala: https://mahamandala.com/en/audios/366/download

@@ -5,7 +5,7 @@ title: "Be a contributing unit"
 authors:
   - Bhakti Sudhir Goswami
 date: "2012-04-03"
-location: "Gupta Govardhan, Chiang Mai"
+location: "Gupta Govardhan, Chiang Mai, Thailand"
 audio:
   file: en_2012-04-03_Be_A_Contributing_Unit.mp3
   mahamandala: https://mahamandala.com/en/audios/680/download

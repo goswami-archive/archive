@@ -5,7 +5,7 @@ title: "Beauty Rules The World"
 authors:
   - Bhakti Sudhir Goswami
 date: "2012-12-05"
-location: "Gupta Govardhan, Chiang Mai"
+location: "Gupta Govardhan, Chiang Mai, Thailand"
 audio:
   file: en_2012-12-05_Beauty_Rules_The_World.mp3
   mahamandala: https://mahamandala.com/en/audios/310/download

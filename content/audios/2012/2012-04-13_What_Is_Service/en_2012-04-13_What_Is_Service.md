@@ -5,7 +5,7 @@ title: "What is service?"
 authors:
   - Bhakti Sudhir Goswami
 date: "2012-04-13"
-location: "Gupta Govardhan, Chiang Mai"
+location: "Gupta Govardhan, Chiang Mai, Thailand"
 audio:
   file: en_2012-04-13_What_Is_Service.mp3
   mahamandala: https://mahamandala.com/en/audios/628/download

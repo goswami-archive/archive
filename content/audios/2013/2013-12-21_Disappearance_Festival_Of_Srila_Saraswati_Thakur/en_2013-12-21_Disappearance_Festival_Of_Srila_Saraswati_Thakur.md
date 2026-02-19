@@ -5,7 +5,7 @@ title: "Disappearance festival of Srila Saraswati Thakur"
 authors:
   - Bhakti Sudhir Goswami
 date: "2013-12-21"
-location: "Gupta Govardhan, Chiang Mai"
+location: "Gupta Govardhan, Chiang Mai, Thailand"
 audio:
   file: en_2013-12-21_Disappearance_Festival_Of_Srila_Saraswati_Thakur.mp3
   mahamandala: https://mahamandala.com/en/audios/1280/download

@@ -5,7 +5,7 @@ title: "Who is Rūpa Goswāmī? What is the Rūpanuga line?"
 authors:
   - Bhakti Sudhir Goswami
 date: "2012-03-29"
-location: "Gupta Govardhan, Chiang Mai"
+location: "Gupta Govardhan, Chiang Mai, Thailand"
 audio:
   file: en_2012-03-29_Who_Is_Rupa_Goswami_What_Is_The_Rupanuga_Line.mp3
   mahamandala: https://mahamandala.com/en/audios/389/download

@@ -5,7 +5,7 @@ title: "What do I want to do with my life?"
 authors:
   - Bhakti Sudhir Goswami
 date: "2013-03-13"
-location: "Gupta Govardhan, Chiang Mai"
+location: "Gupta Govardhan, Chiang Mai, Thailand"
 audio:
   file: en_2013-03-13_What_Do_I_Want_To_Do_With_My_Life.mp3
   mahamandala: https://mahamandala.com/en/audios/344/download

@@ -5,7 +5,7 @@ title: "Moods of Pray"
 authors:
   - Bhakti Sudhir Goswami
 date: "2012-04-19"
-location: "Gupta Govardhan, Chiang Mai"
+location: "Gupta Govardhan, Chiang Mai, Thailand"
 audio:
   file: en_2012-04-19_Moods_Of_Pray.mp3
   mahamandala: https://mahamandala.com/en/audios/139/download

@@ -5,7 +5,7 @@ title: "Questions from Chinese People"
 authors:
   - Bhakti Sudhir Goswami
 date: "2012-02-24"
-location: "Gupta Govardhan, Chiang Mai"
+location: "Gupta Govardhan, Chiang Mai, Thailand"
 audio:
   file: en_2012-02-24_Questions_From_Chinese_People.mp3
   mahamandala: https://mahamandala.com/en/audios/136/download

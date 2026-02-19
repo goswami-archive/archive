@@ -5,7 +5,7 @@ title: "Which service is better?"
 authors:
   - Bhakti Sudhir Goswami
 date: "2011-12-28"
-location: "Gupta Govardhan, Chiang Mai"
+location: "Gupta Govardhan, Chiang Mai, Thailand"
 audio:
   file: en_2011-12-28_Which_Service_is_Better.mp3
   mahamandala: https://mahamandala.com/en/audios/181/download

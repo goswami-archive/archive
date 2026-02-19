@@ -5,7 +5,7 @@ title: "What is the conception of Kṛṣṇa-nām?"
 authors:
   - Bhakti Sudhir Goswami
 date: "2012-03-23"
-location: "Gupta Govardhan, Chiang Mai"
+location: "Gupta Govardhan, Chiang Mai, Thailand"
 audio:
   file: en_2012-03-23_What_Is_The_Conception_Of_Kanm.mp3
   mahamandala: https://mahamandala.com/en/audios/376/download

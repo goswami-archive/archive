@@ -5,7 +5,7 @@ title: "What is the ultimate benefit of Kumbha Mela festival?"
 authors:
   - Bhakti Sudhir Goswami
 date: "2013-03-06"
-location: "Gupta Govardhan, Chiang Mai"
+location: "Gupta Govardhan, Chiang Mai, Thailand"
 audio:
   file: en_2013-03-06_What_Is_The_Ultimate_Benefit_Of_Kumbha_Mela_Festival.mp3
   mahamandala: https://mahamandala.com/en/audios/357/download

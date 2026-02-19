@@ -5,7 +5,7 @@ title: "Living an Active Spiritual Life"
 authors:
   - Bhakti Sudhir Goswami
 date: "2012-01-02"
-location: "Gupta Govardhan, Chiang Mai"
+location: "Gupta Govardhan, Chiang Mai, Thailand"
 audio:
   file: en_2012-01-02_Living_an_Active_Spiritual_Life.mp3
   mahamandala: https://mahamandala.com/en/audios/68/download

@@ -5,7 +5,7 @@ title: "The relationship between Gaura and Gadadhara"
 authors:
   - Bhakti Sudhir Goswami
 date: "2012-11-21"
-location: "Gupta Govardhan, Chiang Mai"
+location: "Gupta Govardhan, Chiang Mai, Thailand"
 audio:
   file: en_2012-11-21_The_Relationship_Between_Gaura_And_Gadadhara.mp3
   mahamandala: https://mahamandala.com/en/audios/298/download

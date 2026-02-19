@@ -5,7 +5,7 @@ title: "Dive Deep Into Reality"
 authors:
   - Bhakti Sudhir Goswami
 date: "2012-10-20"
-location: "Gupta Govardhan, Chiang Mai"
+location: "Gupta Govardhan, Chiang Mai, Thailand"
 audio:
   file: en_2012-10-20_Dive_Deep_Into_Reality.mp3
   mahamandala: https://mahamandala.com/en/audios/308/download

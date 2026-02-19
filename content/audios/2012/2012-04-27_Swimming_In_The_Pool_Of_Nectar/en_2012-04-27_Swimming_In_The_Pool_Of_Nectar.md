@@ -5,7 +5,7 @@ title: "Swimming in the Pool of Nectar"
 authors:
   - Bhakti Sudhir Goswami
 date: "2012-04-27"
-location: "Gupta Govardhan, Chiang Mai"
+location: "Gupta Govardhan, Chiang Mai, Thailand"
 audio:
   file: en_2012-04-27_Swimming_In_The_Pool_Of_Nectar.mp3
   mahamandala: https://mahamandala.com/en/audios/209/download

@@ -5,7 +5,7 @@ title: "What is so special about Krishna Consciousness?"
 authors:
   - Bhakti Sudhir Goswami
 date: "2013-04-11"
-location: "Gupta Govardhan, Chiang Mai"
+location: "Gupta Govardhan, Chiang Mai, Thailand"
 audio:
   file: en_2013-04-11_What_Is_So_Special_About_Krishna_Consciousness.mp3
   mahamandala: https://mahamandala.com/en/audios/353/download

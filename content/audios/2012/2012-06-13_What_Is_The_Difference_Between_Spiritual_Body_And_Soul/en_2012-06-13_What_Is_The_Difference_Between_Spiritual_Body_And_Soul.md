@@ -5,7 +5,7 @@ title: "What is the difference between spiritual body and soul?"
 authors:
   - Bhakti Sudhir Goswami
 date: "2012-06-13"
-location: "Gupta Govardhan, Chiang Mai"
+location: "Gupta Govardhan, Chiang Mai, Thailand"
 audio:
   file: en_2012-06-13_What_Is_The_Difference_Between_Spiritual_Body_And_Soul.mp3
   mahamandala: https://mahamandala.com/en/audios/510/download

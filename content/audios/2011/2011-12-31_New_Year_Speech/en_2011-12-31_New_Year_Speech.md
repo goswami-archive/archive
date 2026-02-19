@@ -5,7 +5,7 @@ title: "New Year Speech"
 authors:
   - Bhakti Sudhir Goswami
 date: "2011-12-31"
-location: "Gupta Govardhan, Chiang Mai"
+location: "Gupta Govardhan, Chiang Mai, Thailand"
 audio:
   file: en_2011-12-31_New_Year_Speech.mp3
   mahamandala: https://mahamandala.com/en/audios/355/download

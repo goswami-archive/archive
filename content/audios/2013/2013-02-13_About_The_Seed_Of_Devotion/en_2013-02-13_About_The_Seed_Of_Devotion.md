@@ -5,7 +5,7 @@ title: "About The Seed of Devotion"
 authors:
   - Bhakti Sudhir Goswami
 date: "2013-02-13"
-location: "Gupta Govardhan, Chiang Mai"
+location: "Gupta Govardhan, Chiang Mai, Thailand"
 audio:
   file: en_2013-02-13_About_The_Seed_Of_Devotion.mp3
   mahamandala: https://mahamandala.com/en/audios/324/download

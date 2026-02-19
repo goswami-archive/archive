@@ -5,7 +5,7 @@ title: "Organised religion. Quantity of disciples. What distinguishes a Vaisnava
 authors:
   - Bhakti Sudhir Goswami
 date: "2012-03-25"
-location: "Gupta Govardhan, Chiang Mai"
+location: "Gupta Govardhan, Chiang Mai, Thailand"
 audio:
   file: en_2012-03-25_Organised_Religion_Quantity_Of_Disciples_What_Distinguishes_A_Vaisnava.mp3
   mahamandala: https://mahamandala.com/en/audios/137/download

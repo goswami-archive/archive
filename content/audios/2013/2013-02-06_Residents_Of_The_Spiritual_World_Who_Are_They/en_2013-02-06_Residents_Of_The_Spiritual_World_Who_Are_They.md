@@ -5,7 +5,7 @@ title: "Residents of the spiritual world. Who are they?"
 authors:
   - Bhakti Sudhir Goswami
 date: "2013-02-06"
-location: "Gupta Govardhan, Chiang Mai"
+location: "Gupta Govardhan, Chiang Mai, Thailand"
 audio:
   file: en_2013-02-06_Residents_Of_The_Spiritual_World_Who_Are_They.mp3
   mahamandala: https://mahamandala.com/en/audios/333/download

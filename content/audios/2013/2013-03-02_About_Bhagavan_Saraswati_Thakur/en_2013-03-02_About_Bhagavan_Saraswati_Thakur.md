@@ -5,7 +5,7 @@ title: "About Bhagavan Saraswati Thakur"
 authors:
   - Bhakti Sudhir Goswami
 date: "2013-03-02"
-location: "Gupta Govardhan, Chiang Mai"
+location: "Gupta Govardhan, Chiang Mai, Thailand"
 audio:
   file: en_2013-03-02_About_Bhagavan_Saraswati_Thakur.mp3
   mahamandala: https://mahamandala.com/en/audios/337/download

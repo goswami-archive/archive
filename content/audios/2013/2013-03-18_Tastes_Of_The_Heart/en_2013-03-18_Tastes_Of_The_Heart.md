@@ -5,7 +5,7 @@ title: "Tastes of the Heart"
 authors:
   - Bhakti Sudhir Goswami
 date: "2013-03-18"
-location: "Gupta Govardhan, Chiang Mai"
+location: "Gupta Govardhan, Chiang Mai, Thailand"
 audio:
   file: en_2013-03-18_Tastes_Of_The_Heart.mp3
   mahamandala: https://mahamandala.com/en/audios/341/download

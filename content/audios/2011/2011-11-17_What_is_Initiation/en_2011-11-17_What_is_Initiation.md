@@ -3,7 +3,7 @@ type: post
 lang: en
 title: "What is initiation?"
 date: "2011-11-17"
-location: "Gupta Govardhan, Chiang Mai"
+location: "Gupta Govardhan, Chiang Mai, Thailand"
 authors:
   - Bhakti Sudhir Goswami
 status: draft

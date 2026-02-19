@@ -5,7 +5,7 @@ title: "About Srila Gurudev"
 authors:
   - Bhakti Sudhir Goswami
 date: "2012-04-04"
-location: "Gupta Govardhan, Chiang Mai"
+location: "Gupta Govardhan, Chiang Mai, Thailand"
 audio:
   file: en_2012-04-04_About_Srila_Gurudev.mp3
   mahamandala: https://mahamandala.com/en/audios/138/download

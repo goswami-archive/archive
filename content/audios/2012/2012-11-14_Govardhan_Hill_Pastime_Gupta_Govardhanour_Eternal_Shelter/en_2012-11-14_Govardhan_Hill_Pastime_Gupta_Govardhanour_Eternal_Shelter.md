@@ -5,7 +5,7 @@ title: "Govardhan Hill Pastime. Gupta Govardhan—our eternal shelter"
 authors:
   - Bhakti Sudhir Goswami
 date: "2012-11-14"
-location: "Gupta Govardhan, Chiang Mai"
+location: "Gupta Govardhan, Chiang Mai, Thailand"
 audio:
   file: en_2012-11-14_Govardhan_Hill_Pastime_Gupta_Govardhanour_Eternal_Shelter.mp3
   mahamandala: https://mahamandala.com/en/audios/290/download

@@ -5,7 +5,7 @@ title: "The nature of divine humor"
 authors:
   - Bhakti Sudhir Goswami
 date: "2012-11-19"
-location: "Gupta Govardhan, Chiang Mai"
+location: "Gupta Govardhan, Chiang Mai, Thailand"
 audio:
   file: en_2012-11-19_The_Nature_Of_Divine_Humor.mp3
   mahamandala: https://mahamandala.com/en/audios/321/download

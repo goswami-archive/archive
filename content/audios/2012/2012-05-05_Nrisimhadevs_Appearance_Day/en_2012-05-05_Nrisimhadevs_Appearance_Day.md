@@ -5,7 +5,7 @@ title: "Nrisimhadev&#39;s Appearance Day"
 authors:
   - Bhakti Sudhir Goswami
 date: "2012-05-05"
-location: "Gupta Govardhan, Chiang Mai"
+location: "Gupta Govardhan, Chiang Mai, Thailand"
 audio:
   file: en_2012-05-05_Nrisimhadevs_Appearance_Day.mp3
   mahamandala: https://mahamandala.com/en/audios/88/download

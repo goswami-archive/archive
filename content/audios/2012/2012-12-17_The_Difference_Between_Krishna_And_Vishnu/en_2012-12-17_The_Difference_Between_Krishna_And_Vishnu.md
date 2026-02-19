@@ -5,7 +5,7 @@ title: "The difference between Krishna and Vishnu"
 authors:
   - Bhakti Sudhir Goswami
 date: "2012-12-17"
-location: "Gupta Govardhan, Chiang Mai"
+location: "Gupta Govardhan, Chiang Mai, Thailand"
 audio:
   file: en_2012-12-17_The_Difference_Between_Krishna_And_Vishnu.mp3
   mahamandala: https://mahamandala.com/en/audios/335/download

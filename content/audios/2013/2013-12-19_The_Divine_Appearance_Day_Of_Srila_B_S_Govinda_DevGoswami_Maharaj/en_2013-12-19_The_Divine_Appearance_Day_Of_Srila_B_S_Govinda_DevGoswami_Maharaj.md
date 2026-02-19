@@ -5,7 +5,7 @@ title: "The Divine appearance day of Srila B. S. Govinda Dev-Goswami Maharaj"
 authors:
   - Bhakti Sudhir Goswami
 date: "2013-12-19"
-location: "Gupta Govardhan, Chiang Mai"
+location: "Gupta Govardhan, Chiang Mai, Thailand"
 audio:
   file: en_2013-12-19_The_Divine_Appearance_Day_Of_Srila_B_S_Govinda_DevGoswami_Maharaj.mp3
   mahamandala: https://mahamandala.com/en/audios/1279/download

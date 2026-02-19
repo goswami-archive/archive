@@ -5,7 +5,7 @@ title: "Does true love exist?"
 authors:
   - Bhakti Sudhir Goswami
 date: "2012-05-09"
-location: "Gupta Govardhan, Chiang Mai"
+location: "Gupta Govardhan, Chiang Mai, Thailand"
 audio:
   file: en_2012-05-09_Does_True_Love_Exist.mp3
   mahamandala: https://mahamandala.com/en/audios/1179/download

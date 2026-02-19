@@ -5,7 +5,7 @@ title: "Feeling and experience"
 authors:
   - Bhakti Sudhir Goswami
 date: "2013-03-04"
-location: "Gupta Govardhan, Chiang Mai"
+location: "Gupta Govardhan, Chiang Mai, Thailand"
 audio:
   file: en_2013-03-04_Feeling_And_Experience.mp3
   mahamandala: https://mahamandala.com/en/audios/352/download

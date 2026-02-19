@@ -5,7 +5,7 @@ title: "The Disappearance day of Srila Bhaktivedanta Swami Prabhupad"
 authors:
   - Bhakti Sudhir Goswami
 date: "2013-11-07"
-location: "Gupta Govardhan, Chiang Mai"
+location: "Gupta Govardhan, Chiang Mai, Thailand"
 audio:
   file: en_2013-11-07_The_Disappearance_Day_Of_Srila_Bhaktivedanta_Swami_Prabhupad.mp3
   mahamandala: https://mahamandala.com/en/audios/1277/download

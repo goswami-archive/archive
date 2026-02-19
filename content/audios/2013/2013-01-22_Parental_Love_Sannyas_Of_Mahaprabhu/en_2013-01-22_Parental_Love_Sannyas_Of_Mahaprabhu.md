@@ -5,7 +5,7 @@ title: "Parental love | Sannyas of Mahaprabhu"
 authors:
   - Bhakti Sudhir Goswami
 date: "2013-01-22"
-location: "Gupta Govardhan, Chiang Mai"
+location: "Gupta Govardhan, Chiang Mai, Thailand"
 audio:
   file: en_2013-01-22_Parental_Love_Sannyas_Of_Mahaprabhu.mp3
   mahamandala: https://mahamandala.com/en/audios/323/download

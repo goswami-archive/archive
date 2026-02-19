@@ -5,7 +5,7 @@ title: "Govardhana Puja"
 authors:
   - Bhakti Sudhir Goswami
 date: "2013-10-05"
-location: "Gupta Govardhan, Chiang Mai"
+location: "Gupta Govardhan, Chiang Mai, Thailand"
 audio:
   file: en_2013-10-05_Govardhana_Puja.mp3
   mahamandala: https://mahamandala.com/en/audios/1276/download

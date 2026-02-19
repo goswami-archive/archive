@@ -5,7 +5,7 @@ title: "Where should we focus?"
 authors:
   - Bhakti Sudhir Goswami
 date: "2012-05-04"
-location: "Gupta Govardhan, Chiang Mai"
+location: "Gupta Govardhan, Chiang Mai, Thailand"
 audio:
   file: en_2012-05-04_Where_Should_We_Focus.mp3
   mahamandala: https://mahamandala.com/en/audios/332/download

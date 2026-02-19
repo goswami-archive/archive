@@ -5,7 +5,7 @@ title: "About Gopal Bhatta Goswami"
 authors:
   - Bhakti Sudhir Goswami
 date: "2012-01-12"
-location: "Gupta Govardhan, Chiang Mai"
+location: "Gupta Govardhan, Chiang Mai, Thailand"
 audio:
   file: en_2012-01-12_About_Gopal_Bhatta_Goswami.mp3
   mahamandala: https://mahamandala.com/en/audios/71/download

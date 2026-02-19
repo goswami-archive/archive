@@ -5,7 +5,7 @@ title: "Questions for Guru"
 authors:
   - Bhakti Sudhir Goswami
 date: "2012-01-04"
-location: "Gupta Govardhan, Chiang Mai"
+location: "Gupta Govardhan, Chiang Mai, Thailand"
 audio:
   file: en_2012-01-04_Questions_for_Guru.mp3
   mahamandala: https://mahamandala.com/en/audios/356/download

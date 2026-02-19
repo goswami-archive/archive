@@ -5,7 +5,7 @@ title: "About Sripad Bhakti Premik Siddhanti Maharaj"
 authors:
   - Bhakti Sudhir Goswami
 date: "2012-02-11"
-location: "Gupta Govardhan, Chiang Mai"
+location: "Gupta Govardhan, Chiang Mai, Thailand"
 audio:
   file: en_2012-02-11_About_Sripad_Bhakti_Premik_Siddhanti_Maharaj.mp3
   mahamandala: https://mahamandala.com/en/audios/365/download

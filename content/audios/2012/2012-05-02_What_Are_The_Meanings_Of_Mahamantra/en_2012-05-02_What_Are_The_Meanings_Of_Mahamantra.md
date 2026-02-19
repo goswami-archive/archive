@@ -5,7 +5,7 @@ title: "What are the meanings of mahamantra?"
 authors:
   - Bhakti Sudhir Goswami
 date: "2012-05-02"
-location: "Gupta Govardhan, Chiang Mai"
+location: "Gupta Govardhan, Chiang Mai, Thailand"
 audio:
   file: en_2012-05-02_What_Are_The_Meanings_Of_Mahamantra.mp3
   mahamandala: https://mahamandala.com/en/audios/322/download

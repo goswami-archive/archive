@@ -5,7 +5,7 @@ title: "The higher female nature"
 authors:
   - Bhakti Sudhir Goswami
 date: "2013-03-08"
-location: "Gupta Govardhan, Chiang Mai"
+location: "Gupta Govardhan, Chiang Mai, Thailand"
 audio:
   file: en_2013-03-08_The_Higher_Female_Nature.mp3
   mahamandala: https://mahamandala.com/en/audios/343/download

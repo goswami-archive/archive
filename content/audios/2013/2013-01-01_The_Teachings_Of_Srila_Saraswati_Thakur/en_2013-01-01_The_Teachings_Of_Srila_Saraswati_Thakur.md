@@ -5,7 +5,7 @@ title: "The Teachings of Srila Saraswati Thakur"
 authors:
   - Bhakti Sudhir Goswami
 date: "2013-01-01"
-location: "Gupta Govardhan, Chiang Mai"
+location: "Gupta Govardhan, Chiang Mai, Thailand"
 audio:
   file: en_2013-01-01_The_Teachings_Of_Srila_Saraswati_Thakur.mp3
   mahamandala: https://mahamandala.com/en/audios/303/download

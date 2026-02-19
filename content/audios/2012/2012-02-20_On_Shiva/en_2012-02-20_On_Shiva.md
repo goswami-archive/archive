@@ -5,7 +5,7 @@ title: "On Shiva"
 authors:
   - Bhakti Sudhir Goswami
 date: "2012-02-20"
-location: "Gupta Govardhan, Chiang Mai"
+location: "Gupta Govardhan, Chiang Mai, Thailand"
 audio:
   file: en_2012-02-20_On_Shiva.mp3
   mahamandala: https://mahamandala.com/en/audios/87/download

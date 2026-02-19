@@ -5,7 +5,7 @@ title: "The Highest Devotee—Gurudev"
 authors:
   - Bhakti Sudhir Goswami
 date: "2012-12-30"
-location: "Gupta Govardhan, Chiang Mai"
+location: "Gupta Govardhan, Chiang Mai, Thailand"
 audio:
   file: en_2012-12-30_The_Highest_Devotee_Gurudev.mp3
   mahamandala: https://mahamandala.com/en/audios/299/download

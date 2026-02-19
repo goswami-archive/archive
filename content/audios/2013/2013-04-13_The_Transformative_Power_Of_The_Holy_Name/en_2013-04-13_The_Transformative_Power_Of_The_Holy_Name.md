@@ -5,7 +5,7 @@ title: "The transformative power of the Holy Name"
 authors:
   - Bhakti Sudhir Goswami
 date: "2013-04-13"
-location: "Gupta Govardhan, Chiang Mai"
+location: "Gupta Govardhan, Chiang Mai, Thailand"
 audio:
   file: en_2013-04-13_The_Transformative_Power_Of_The_Holy_Name.mp3
   mahamandala: https://mahamandala.com/en/audios/1138/download

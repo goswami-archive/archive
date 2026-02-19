@@ -5,7 +5,7 @@ title: "Fast spiritual progress"
 authors:
   - Bhakti Sudhir Goswami
 date: "2013-07-12"
-location: "Gupta Govardhan, Chiang Mai"
+location: "Gupta Govardhan, Chiang Mai, Thailand"
 audio:
   file: en_2013-07-12_Fast_Spiritual_Progress.mp3
   mahamandala: https://mahamandala.com/en/audios/1275/download

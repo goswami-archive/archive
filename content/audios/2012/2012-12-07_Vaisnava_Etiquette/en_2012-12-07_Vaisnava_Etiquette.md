@@ -5,7 +5,7 @@ title: "Vaisnava Etiquette"
 authors:
   - Bhakti Sudhir Goswami
 date: "2012-12-07"
-location: "Gupta Govardhan, Chiang Mai"
+location: "Gupta Govardhan, Chiang Mai, Thailand"
 audio:
   file: en_2012-12-07_Vaisnava_Etiquette.mp3
   mahamandala: https://mahamandala.com/en/audios/305/download

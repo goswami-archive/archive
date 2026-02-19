@@ -5,7 +5,7 @@ title: "Memento mori | Remember about the death"
 authors:
   - Bhakti Sudhir Goswami
 date: "2013-12-31"
-location: "Gupta Govardhan, Chiang Mai"
+location: "Gupta Govardhan, Chiang Mai, Thailand"
 audio:
   file: en_2013-12-31_Memento_Mori_Remember_About_The_Death.mp3
   mahamandala: https://mahamandala.com/en/audios/1281/download
