@@ -9,6 +9,7 @@ import { updateDuration } from './update-duration/updateDuration.ts';
 import { genSeo } from './gen-seo/genSeo.ts';
 import { smartEdit } from './smart-edit/smart-edit.ts';
 import { noiast } from './noiast/noiast.ts';
+import { mv } from './mv/mv.ts';
 
 program
   .name('archive')
@@ -108,6 +109,18 @@ program
   .description("Generate archive's content report")
   .action((options) => {
     // TODO: Implement
+  });
+
+program
+  .command('mv')
+  .description('Move/rename directories')
+  .argument('<source>', 'path to source directory')
+  .argument('[destination]', 'path to destination directory')
+  .option('-f, --force', 'Overwrite existing files')
+  .option('-d, --date <string>', 'Change date in filename')
+  .option('-t, --title <string>', 'Change title in filename')
+  .action((source, destination, options) => {
+    mv(source, destination, options);
   });
 
 program.parse();
