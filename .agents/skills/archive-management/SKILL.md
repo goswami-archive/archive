@@ -15,7 +15,7 @@ See [Document Structure](https://raw.githubusercontent.com/goswami-archive/docs/
 
 ## Workflows
 
-### 1. Adding a new lecture
+### Adding a new lecture
 
 1. Parse the file name to determine the lecture's metadata (date, title, part number).
 
@@ -26,8 +26,34 @@ See [Document Structure](https://raw.githubusercontent.com/goswami-archive/docs/
 3. Create a new directory in `content/audios/processed`. Follow directory naming convention from guidelines.
 4. Copy the lecture's audio file into the directory.
 5. Rename the lecture's audio file to follow naming convention from guidelines.
-6. Run script to generate the lecture's markdown file.
+6. Run next script to generate the lecture's markdown file:
 
 ```sh
-npm run archive -- genmd -a <path-to-audio-file>
+npm run archive -- genmd --auto <path-to-audio-file>
+```
+
+### Moving or renaming an existing lecture
+
+When moving or renaming an existing lecture the following must be changed:
+
+- Directory name.
+- All the files inside the directory must be renamed.
+- A front matter in all markdown files inside the directory must be updated.
+
+So use the following script to move or rename an existing lecture:
+
+```sh
+npm run archive -- mv <old-directory-path> <new-directory-path>
+```
+
+If only date must be changed use the following script:
+
+```sh
+npm run archive -- mv <lecture-directory-path> --date <new-date>
+```
+
+If only title must be changed use the following script:
+
+```sh
+npm run archive -- mv <lecture-directory-path> --title <new-title>
 ```
