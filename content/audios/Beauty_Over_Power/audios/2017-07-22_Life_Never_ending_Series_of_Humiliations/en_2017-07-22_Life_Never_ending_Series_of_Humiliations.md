@@ -1,0 +1,35 @@
+---
+type: post
+lang: en
+title: 'Life | Never–ending Series of Humiliations'
+authors:
+  - Bhakti Sudhir Goswami
+date: '2017-07-22'
+audio:
+  file: en_2017-07-22_Life_Never_ending_Series_of_Humiliations.mp3
+  youtube: https://www.youtube.com/watch?v=pNHBOxVn7Gg
+duration: '00:02:25'
+video:
+  youtube: https://www.youtube.com/watch?v=pNHBOxVn7Gg
+image:
+  desktop: en_2017-07-22_Life_Never_ending_Series_of_Humiliations.jpg
+slug: en-2017-07-22-life-never-ending-series-of-humiliations
+status: draft
+license: https://creativecommons.org/licenses/by-nc-sa/4.0/
+---
+
+full video — Maya: Torturer or Teacher? — https://youtu.be/jwBvp0NAE8w
+
+10 Feb 2017. 
+- Does Maya, actually, aims at deluding everyone or at taking each person to the Lord in his own way?
+- Was Bilvamangal Thakur aware that a boy was Krishna?
+- Does pleasure exist without pain? Or does lore make even pain blissful? 
+
+“Beauty Over Power” is a TheoPhilosophical talk show 
+featuring Bhakti Sudhir Goswami. 
+
+https://soundcloud.com/BeautyOverPower
+https://youtube.com/BeautyOverPower
+https://instagram.com/BeautyOverPower
+https://facebook.com/BeautyOverPower
+https://vk.com/BeautyOverPower

@@ -1,0 +1,30 @@
+---
+type: post
+lang: en
+title: "Search for Reality the Beautiful LIVESTREAM 24/7"
+authors:
+  - Bhakti Sudhir Goswami
+date: "2025-05-10"
+audio:
+  file: en_2025-05-10_Search_for_Reality_the_Beautiful_LIVESTREAM_24_7.mp3
+  youtube: https://www.youtube.com/watch?v=X6ukbdylz1E
+duration: "11:54:58"
+video:
+  youtube: https://www.youtube.com/watch?v=X6ukbdylz1E
+status: draft
+slug: en-2025-05-10-search-for-reality-the-beautiful-livestream-24-7
+image:
+  desktop: en_2025-05-10_Search_for_Reality_the_Beautiful_LIVESTREAM_24_7.jpg
+license: https://creativecommons.org/licenses/by-nc-sa/4.0/
+---
+
+Videobook "THE HEARTBOOK" — https://youtube.com/playlist?list=PLy8ywzXXns_AvHzU38Nb2X_C7CSrqD12A&feature=shared
+Audiobook "THE HEARTBOOK" — https://soundcloud.com/beautyoverpower/sets/heartbook
+
+“Beauty Over Power” is a TheoPhilosophical talk show 
+featuring Bhakti Sudhir Goswami.
+
+https://youtube.com/BeautyOverPower
+https://facebook.com/InfinitiMediaStream
+https://soundcloud.com/BeautyOverPower
+https://instagram.com/BeautyOverPower

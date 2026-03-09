@@ -1,0 +1,400 @@
+1
+00:00:04,651 --> 00:00:11,871
+Néhány évvel ezelőtt valaki írt egy cikket, egy esszét.
+
+2
+00:00:11,871 --> 00:00:16,314
+A csali, a cím az volt: „A Google ostobává tesz bennünket?”
+
+3
+00:00:16,576 --> 00:00:19,712
+[Lelki vizuális média]
+
+4
+00:00:19,912 --> 00:00:23,450
+Nem igazán állította azt, hogy a Google ostobává tenne minket,
+
+5
+00:00:23,450 --> 00:00:26,238
+de mivel magára akarta vonni az olvasók figyelmét,
+
+6
+00:00:26,238 --> 00:00:27,475
+ezt a címet adta neki:
+
+7
+00:00:27,475 --> 00:00:29,885
+„A Google ostobává tesz bennünket?”
+
+8
+00:00:29,901 --> 00:00:33,623
+És írt erről egy teljes könyvet is,
+
+9
+00:00:33,623 --> 00:00:38,629
+de annak egy kivonatában, az összegzésében azt mondja,
+
+10
+00:00:38,675 --> 00:00:42,575
+idézve ezzel a híres Marshall McLuhant:
+
+11
+00:00:42,575 --> 00:00:46,037
+„A médium maga az üzenet.”
+
+12
+00:00:46,068 --> 00:00:51,782
+Az Internetet számos módon használják,
+
+13
+00:00:51,798 --> 00:00:56,697
+és a tartalma is megosztott,
+
+14
+00:00:58,729 --> 00:01:04,549
+alkalmazkodik az olvasói mintákhoz és az emberek szokásaihoz,
+
+15
+00:01:05,456 --> 00:01:09,952
+és még azok az emberek is, akik mélyebb olvasók,
+
+16
+00:01:09,952 --> 00:01:15,459
+értsd, akik egy héten elolvasnak egy könyvet vagy még többet,
+
+17
+00:01:15,459 --> 00:01:18,509
+vagy tudjátok, akik rendszeresen olvasnak teljes könyveket,
+
+18
+00:01:18,509 --> 00:01:22,239
+észreveszik, hogy az információ az interneten való felhasználásával
+
+19
+00:01:22,239 --> 00:01:25,314
+kevesebbé válik; tudjátok
+
+20
+00:01:25,314 --> 00:01:32,761
+van a címsor vagy fejléc, amit főcímnek nevezünk - mint nyitómondat -,
+
+21
+00:01:32,761 --> 00:01:36,539
+és egy kis bekezdés, majd az „olvass tovább”.
+
+22
+00:01:36,539 --> 00:01:41,737
+Vagyis, nem egészen sok ember kattint az „olvass tovább"-ra.
+
+23
+00:01:42,521 --> 00:01:47,843
+Ők csak a főcímet jegyzik meg legtöbbször,
+
+24
+00:01:47,843 --> 00:01:51,895
+aztán a főcím után talán egy bekezdést,
+
+25
+00:01:51,895 --> 00:01:53,964
+és aztán esetleg rákattint, hogy „olvass tovább”.
+
+26
+00:01:53,964 --> 00:01:55,685
+És ez még nem minden,
+
+27
+00:01:55,685 --> 00:02:02,130
+mint tudjuk, a Facebook megszerezte az Instagramot,
+
+28
+00:02:02,130 --> 00:02:05,975
+amit jelenleg használunk a saját promóciónkhoz.
+
+29
+00:02:06,082 --> 00:02:10,037
+És bár megkérdezték azokat a fiúkat, akik készítették
+
+30
+00:02:10,037 --> 00:02:12,437
+a vállalkozást - 4 vagy 5 srácról van szó -,
+
+31
+00:02:12,437 --> 00:02:15,663
+hogy ők sosem terjeszkednek a céggel, maradnak kicsik,
+
+32
+00:02:15,695 --> 00:02:18,133
+az még csak 2 éves, vagy valami ilyesmi -
+
+33
+00:02:18,133 --> 00:02:21,387
+és ők két billió dollárt kértek érte.
+
+34
+00:02:21,403 --> 00:02:24,108
+És Mark Zuckerberg azt mondta: „Adok nektek egy milliót.”
+
+35
+00:02:24,108 --> 00:02:26,499
+Mire ők: „Oké!”
+
+36
+00:02:26,499 --> 00:02:30,162
+„Ez jó nekem, rendben van.”
+
+37
+00:02:30,423 --> 00:02:31,805
+Nem vitatkoztak sokat rajta,
+
+38
+00:02:31,805 --> 00:02:34,972
+elfogadták az egy billió dollárt.
+
+39
+00:02:35,450 --> 00:02:38,139
+Az emberek azt gondolják: megőrült ez az ember?
+
+40
+00:02:38,139 --> 00:02:39,984
+Vagy nem tudja mire költeni a pénzét?
+
+41
+00:02:39,984 --> 00:02:44,086
+Mi a probléma? Vagy mi a szituáció?
+
+42
+00:02:44,086 --> 00:02:47,318
+Ő rájött arra, és talán ezzel nincsen egyedül,
+
+43
+00:02:47,318 --> 00:02:53,120
+hogy az Instragam képes bekebelezni a Facebook-ot,
+
+44
+00:02:53,120 --> 00:02:54,519
+mert ahogy telik az idő...
+
+45
+00:02:54,519 --> 00:02:58,042
+a Facebook-on eleinte csak megjelentek a képek, és aztán, tudjátok...
+
+46
+00:02:58,042 --> 00:03:00,797
+aztán főképpen képek jelentek meg,
+
+47
+00:03:00,797 --> 00:03:02,921
+majd kizárólag csak képek,
+
+48
+00:03:02,921 --> 00:03:06,438
+és az Instagramon csakis képek voltak már a kezdetektől.
+
+49
+00:03:06,438 --> 00:03:10,134
+Így ő azt mondta: ez azonnali és közvetlen.
+
+50
+00:03:10,134 --> 00:03:11,603
+Készítesz egy képet és már fent is van a neten,
+
+51
+00:03:11,603 --> 00:03:17,730
+nem kell posztolnod egy Facebook állapotban.
+
+52
+00:03:17,928 --> 00:03:22,456
+Tehát néhány ember szerint az a helyzet,
+
+53
+00:03:22,456 --> 00:03:27,384
+hogy minden a vizuális média felé tolódik el.
+
+54
+00:03:27,655 --> 00:03:32,204
+És ezen a ponton szeretnék egy kis kitérőt tenni.
+
+55
+00:03:32,204 --> 00:03:43,478
+Az írás egyik híres alapigazsága vagy mondása: Mutasd, ne mondd!
+
+56
+00:03:43,654 --> 00:03:47,072
+A jó írók olyan módon írnak dolgokról,
+
+57
+00:03:47,072 --> 00:03:50,547
+hogy egy képet kapsz azokról, nem beszédet.
+
+58
+00:03:50,547 --> 00:03:53,203
+Nem mondják el neked pontosan, hogy mi az,
+
+59
+00:03:53,203 --> 00:03:56,256
+hanem megmutatják neked, tudjátok,
+
+60
+00:03:56,256 --> 00:03:59,257
+érzelemmel és értelemmel, amit T.S. Eliot
+
+61
+00:03:59,257 --> 00:04:02,254
+objektív korrelációnak nevezett; ami azt jelenti,
+
+62
+00:04:02,254 --> 00:04:07,946
+hogy bármi is legyen a szerző elméjében, azoknak van egy objektív megfelelője,
+
+63
+00:04:07,946 --> 00:04:10,770
+így a szavaknak, képeknek, stb.,
+
+64
+00:04:10,770 --> 00:04:12,978
+és ha ezt összedolgozzák egy egyéni módon,
+
+65
+00:04:12,978 --> 00:04:17,173
+az ötlet vagy a fogalom megszemélyesül.
+
+66
+00:04:17,173 --> 00:04:20,019
+Így néz ki az elmélet összefoglalva.
+
+67
+00:04:20,019 --> 00:04:23,042
+Amit körbejártam ezzel, az az, hogy
+
+68
+00:04:23,042 --> 00:04:25,757
+akik attól tartanak, hogy a vizuális média
+
+69
+00:04:25,757 --> 00:04:30,520
+háttérbe szorítja az irodalmat és a média összes többi formáját,
+
+70
+00:04:30,520 --> 00:04:33,522
+nos... az írott média azzal kezdődött,
+
+71
+00:04:33,522 --> 00:04:38,227
+hogy egy képet vázolt fel neked, egy koncepciót, némi látványt.
+
+72
+00:04:38,227 --> 00:04:41,328
+Ahogy mondták: „művészeti projekt”,
+
+73
+00:04:41,328 --> 00:04:43,443
+és ezt nem csak azokra az emberekre értem, akik festenek,
+
+74
+00:04:43,443 --> 00:04:48,127
+hanem a művészet egészére: művészek, írók, stb.
+
+75
+00:04:48,127 --> 00:04:51,445
+Azt mondták: „Új szemeket adni az embereknek,
+
+76
+00:04:51,445 --> 00:04:56,013
+új látványokat, új perspektívát, új látásmódot.”
+
+77
+00:04:56,013 --> 00:05:00,499
+Ezért tanulják meg a rajzolásnak minden bonyolult formáját,
+
+78
+00:05:00,499 --> 00:05:03,090
+mint a kontraposztot; először valaki
+
+79
+00:05:03,090 --> 00:05:07,372
+beállít valakit úgy, hogy csak kicsit mozgatják a testüket,
+
+80
+00:05:07,372 --> 00:05:10,728
+régi egyiptomi dolgokat látunk így,
+
+81
+00:05:10,728 --> 00:05:12,379
+és görög dolgokat,
+
+82
+00:05:12,379 --> 00:05:15,255
+és aztán ténylegesen
+
+83
+00:05:15,255 --> 00:05:19,461
+mozognak egy kicsit; kontraposzt, kontra-pozíció.
+
+84
+00:05:19,461 --> 00:05:22,281
+És egyéb dolgok.
+
+85
+00:05:22,281 --> 00:05:24,901
+Tehát, egy nagy üzletet csináltak ezzel,
+
+86
+00:05:24,901 --> 00:05:27,506
+akképpen kifejezve, hogy a művészek
+
+87
+00:05:27,506 --> 00:05:30,980
+új látásmódot adnak az embereknek, új perspektívát.
+
+88
+00:05:30,980 --> 00:05:33,327
+Nos, amiért ez érdekes számunkra,
+
+89
+00:05:33,327 --> 00:05:35,720
+hogy valójában mi is a lelki projekt.
+
+90
+00:05:35,720 --> 00:05:37,859
+Ahogy Guru Mahārāj mondja: „Mi a te szolgálatod?
+
+91
+00:05:37,859 --> 00:05:40,921
+Hogy elsajátítsd a saját látásmódodat.”
+
+92
+00:05:40,921 --> 00:05:42,744
+Sambandha-jñān, stb.
+
+93
+00:05:42,744 --> 00:05:45,388
+Az egyéni látásmód kialakítása.
+
+94
+00:05:45,388 --> 00:05:50,136
+Om ajñāna-timirāndhasya: szert tenni az egyéni nézőpontra.
+
+95
+00:05:50,136 --> 00:05:55,509
+Vagyis, valójában a lelki feladat ugyanez,
+
+96
+00:05:55,509 --> 00:05:59,405
+de mélyebb. Merülj mélyre a valóságba!
+
+97
+00:05:59,405 --> 00:06:04,304
+Ha a művészetben nézzük, az legfeljebb valamiféle reprezentációja
+
+98
+00:06:04,304 --> 00:06:10,832
+az igazságnak, a valóságnak, és belátván ezt
+
+99
+00:06:10,832 --> 00:06:13,589
+azt mondjuk: „Igen, ezután mélyre kellene merülnünk a valóságban,
+
+100
+00:06:13,589 --> 00:06:16,607
+a felszínes szemléleteket meghaladva.”
+
