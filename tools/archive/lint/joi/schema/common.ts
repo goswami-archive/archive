@@ -24,5 +24,5 @@ export const slug = Joi.string()
 export const image = Joi.object({
   desktop: Joi.string().required(),
   mobile: Joi.string(),
-  alt: Joi.string().required(),
+  alt: Joi.string(),
 });
