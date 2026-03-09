@@ -44,7 +44,7 @@ async function updateMarkdownDuration(mdPath: string): Promise<void> {
   }
 
   const metaData = await getMp3Metadata(audioPath);
-  const currentDuration = formatDuration(metaData.duration);
+  const currentDuration = formatDuration(metaData.duration as number);
 
   if (!duration || duration !== currentDuration) {
     frontMatter.duration = currentDuration;
