@@ -13,4 +13,6 @@ export default Joi.object({
   slug: slug,
 
   image: image,
+
+  items: Joi.array().items(Joi.string()),
 });
