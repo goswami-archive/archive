@@ -17,7 +17,7 @@ export interface BaseFrontMatter {
   image?: {
     desktop: string;
     mobile?: string;
-    alt: string;
+    alt?: string;
   };
 }
 
@@ -29,15 +29,16 @@ export interface PostMatter extends BaseFrontMatter {
   type: 'post';
   authors: string[];
   date?: string;
-  audio: AudioMatter;
+  audio?: AudioMatter;
+  video?: Record<string, string>;
   duration: string;
-  status: 'draft' | 'publish';
-  license?: string;
   location?: string;
   tags?: string[];
   translators?: string[];
   transcribers?: string[];
   editors?: string[];
+  status: 'draft' | 'publish';
+  license?: string;
 }
 
 export type AudioMatter =
