@@ -1,7 +1,7 @@
 ---
 type: post
 lang: {{ lang }}
-title: "{{ title }}"
+title: '{{ title | safe }}'
 {% if description %}
 description: "{{ description }}"
 {% endif %}
@@ -10,20 +10,25 @@ authors:
   - {{ author }}
 {% endfor %}
 {% if date %}
-date: "{{ date }}"
+date: '{{ date }}'
 {% endif %}
 {% if location %}
 location: {{ location }}
 {% endif %}
+{% if audio %}
 audio:
 {% for key, value in audio %}
   {{ key }}: {{ value }}
 {% endfor %}
+{% endif %}
 {% if duration %}
-duration: "{{ duration }}"
+duration: '{{ duration }}'
 {% endif %}
 {% if video %}
-video: "{{ video }}"
+video:
+{% for key, value in video %}
+  {{ key }}: {{ value }}
+{% endfor %}
 {% endif %}
 {% if translators | length %}
 translators:
@@ -52,7 +57,9 @@ tags:
 {% if image.desktop %}
 image:
   desktop: {{ image.desktop }}
+  {% if image.alt %}
   alt: {{ image.alt }}
+  {% endif %}
 {% endif %}
 {% if slug %}
 slug: {{ slug }}
