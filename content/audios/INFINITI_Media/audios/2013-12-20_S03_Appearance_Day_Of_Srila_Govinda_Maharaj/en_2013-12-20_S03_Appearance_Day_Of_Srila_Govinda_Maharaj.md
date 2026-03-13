@@ -6,14 +6,14 @@ authors:
   - Bhakti Sudhir Goswami Maharaj
 date: '2013-12-20'
 audio:
-  file: en_2013-12-20_S03_The_Divine_Appearance_Day_Of_Srila_B_S_Govinda_Dev_Goswami_Maharaj.mp3
+  file: en_2013-12-20_S03_Appearance_Day_Of_Srila_Govinda_Maharaj.mp3
   youtube: https://www.youtube.com/watch?v=uEq9_sSDuRg
 duration: '01:47:11'
 video:
   youtube: https://www.youtube.com/watch?v=uEq9_sSDuRg
 image:
-  desktop: en_2013-12-20_S03_The_Divine_Appearance_Day_Of_Srila_B_S_Govinda_Dev_Goswami_Maharaj.jpg
-slug: en-2013-12-20-s03-the-divine-appearance-day-of-srila-b-s-govinda-dev-goswami-maharaj
+  desktop: en_2013-12-20_S03_Appearance_Day_Of_Srila_Govinda_Maharaj.jpg
+slug: en-2013-12-20-s03-appearance-day-of-srila-govinda-maharaj
 status: draft
 license: https://creativecommons.org/licenses/by-nc-sa/4.0/
 ---

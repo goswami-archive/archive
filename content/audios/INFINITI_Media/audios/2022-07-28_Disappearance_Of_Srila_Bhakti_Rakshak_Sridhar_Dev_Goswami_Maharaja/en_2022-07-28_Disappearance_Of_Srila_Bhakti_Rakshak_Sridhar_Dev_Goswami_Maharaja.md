@@ -7,13 +7,13 @@ authors:
   - Bhakti Ranjan Madhusudan Maharaj
 date: '2022-07-28'
 audio:
-  file: en_2022-07-28_Disappearance_Of_Srila_Bhakti_Rakshak_Sridhar_Dev_Goswami_Maharaja_B_S_Goswami_B_R_Madhusudan.mp3
+  file: en_2022-07-28_Disappearance_Of_Srila_Bhakti_Rakshak_Sridhar_Dev_Goswami_Maharaja.mp3
   youtube: https://www.youtube.com/watch?v=IbeNstRXMPY
 duration: '01:36:56'
 video:
   youtube: https://www.youtube.com/watch?v=IbeNstRXMPY
 image:
-  desktop: en_2022-07-28_Disappearance_Of_Srila_Bhakti_Rakshak_Sridhar_Dev_Goswami_Maharaja_B_S_Goswami_B_R_Madhusudan.jpg
+  desktop: en_2022-07-28_Disappearance_Of_Srila_Bhakti_Rakshak_Sridhar_Dev_Goswami_Maharaja.jpg
 slug: en-2022-07-28-disappearance-of-srila-bhakti-rakshak-sridhar-dev-goswami-maharaja
 status: draft
 license: https://creativecommons.org/licenses/by-nc-sa/4.0/
