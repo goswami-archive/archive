@@ -185,6 +185,23 @@ function updateMarkdownFile(
     }
   }
 
+  if (fm.image && typeof fm.image === 'object') {
+    if (fm.image.desktop && typeof fm.image.desktop === 'string') {
+      const newDesktop = fm.image.desktop.replace(oldBase, newBase);
+      if (fm.image.desktop !== newDesktop) {
+        fm.image.desktop = newDesktop;
+        changed = true;
+      }
+    }
+    if (fm.image.mobile && typeof fm.image.mobile === 'string') {
+      const newMobile = fm.image.mobile.replace(oldBase, newBase);
+      if (fm.image.mobile !== newMobile) {
+        fm.image.mobile = newMobile;
+        changed = true;
+      }
+    }
+  }
+
   if (changed) {
     writePost(mdPath, { frontMatter: fm, content: markdown.content });
   }
