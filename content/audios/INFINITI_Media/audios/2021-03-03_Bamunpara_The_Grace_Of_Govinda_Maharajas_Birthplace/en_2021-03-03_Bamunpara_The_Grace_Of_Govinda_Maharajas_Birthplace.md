@@ -6,14 +6,14 @@ authors:
   - Bhakti Sudhir Goswami Maharaj
 date: '2021-03-03'
 audio:
-  file: en_2021-03-03_Bamunpara_The_Grace_Of_Govinda_Maharaja_S_Birthplace_Co.mp3
+  file: en_2021-03-03_Bamunpara_The_Grace_Of_Govinda_Maharajas_Birthplace.mp3
   youtube: https://www.youtube.com/watch?v=IPvqDqUAnTs
 duration: '01:38:50'
 video:
   youtube: https://www.youtube.com/watch?v=IPvqDqUAnTs
 image:
-  desktop: en_2021-03-03_Bamunpara_The_Grace_Of_Govinda_Maharaja_S_Birthplace_Co.jpg
-slug: en-2021-03-03-bamunpara-the-grace-of-govinda-maharaja-s-birthplace-co
+  desktop: en_2021-03-03_Bamunpara_The_Grace_Of_Govinda_Maharajas_Birthplace.jpg
+slug: en-2021-03-03-bamunpara-the-grace-of-govinda-maharajas-birthplace
 status: draft
 license: https://creativecommons.org/licenses/by-nc-sa/4.0/
 ---
