@@ -11,8 +11,6 @@ audio:
 duration: '01:04:37'
 video:
   youtube: https://www.youtube.com/watch?v=zc2JqplKk24
-image:
-  desktop: en_2019-07-03_S09E38_Gundicha_Marjan.jpg
 slug: en-2019-07-03-s09e38-gundicha-marjan
 status: draft
 license: https://creativecommons.org/licenses/by-nc-sa/4.0/

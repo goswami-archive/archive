@@ -11,8 +11,6 @@ audio:
 duration: '01:08:45'
 video:
   youtube: https://www.youtube.com/watch?v=Glhds2uUDak
-image:
-  desktop: en_2019-11-19_S09E55_Self_Forgetfulness_And_Self_Surrender.jpg
 slug: en-2019-11-19-s09e55-self-forgetfulness-and-self-surrender
 status: draft
 license: https://creativecommons.org/licenses/by-nc-sa/4.0/

@@ -11,8 +11,6 @@ audio:
 duration: '01:17:29'
 video:
   youtube: https://www.youtube.com/watch?v=moUCZI7kU9c
-image:
-  desktop: en_2019-04-26_S09E24_To_Stay_In_A_Proper_Spiritual_Condition.jpg
 slug: en-2019-04-26-s09e24-to-stay-in-a-proper-spiritual-condition
 status: draft
 license: https://creativecommons.org/licenses/by-nc-sa/4.0/

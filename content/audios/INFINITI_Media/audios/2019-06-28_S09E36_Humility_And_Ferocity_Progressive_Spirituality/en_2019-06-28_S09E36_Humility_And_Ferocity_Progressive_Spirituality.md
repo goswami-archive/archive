@@ -11,8 +11,6 @@ audio:
 duration: '01:10:27'
 video:
   youtube: https://www.youtube.com/watch?v=iCqwruIMLew
-image:
-  desktop: en_2019-06-28_S09E36_Humility_And_Ferocity_Progressive_Spirituality.jpg
 slug: en-2019-06-28-s09e36-humility-and-ferocity-progressive-spirituality
 status: draft
 license: https://creativecommons.org/licenses/by-nc-sa/4.0/

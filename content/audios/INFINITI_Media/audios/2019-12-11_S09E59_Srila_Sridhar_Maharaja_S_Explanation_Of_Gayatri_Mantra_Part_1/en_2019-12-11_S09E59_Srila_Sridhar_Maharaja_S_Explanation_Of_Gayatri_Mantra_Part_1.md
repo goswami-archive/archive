@@ -11,8 +11,6 @@ audio:
 duration: '00:37:08'
 video:
   youtube: https://www.youtube.com/watch?v=rPDxqGoKtYQ
-image:
-  desktop: en_2019-12-11_S09E59_Srila_Sridhar_Maharaja_S_Explanation_Of_Gayatri_Mantra_Part_1.jpg
 slug: en-2019-12-11-s09e59-srila-sridhar-maharaja-s-explanation-of-gayatri-mantra-part-1
 status: draft
 license: https://creativecommons.org/licenses/by-nc-sa/4.0/

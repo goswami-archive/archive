@@ -11,8 +11,6 @@ audio:
 duration: '01:12:54'
 video:
   youtube: https://www.youtube.com/watch?v=LHdqrtft_Gg
-image:
-  desktop: en_2019-11-15_S09E54_The_Significance_Of_Nimai_Pandit_S_Pastimes.jpg
 slug: en-2019-11-15-s09e54-the-significance-of-nimai-pandit-s-pastimes
 status: draft
 license: https://creativecommons.org/licenses/by-nc-sa/4.0/

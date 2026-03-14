@@ -11,8 +11,6 @@ audio:
 duration: '01:20:35'
 video:
   youtube: https://www.youtube.com/watch?v=cMo6ig5oNcY
-image:
-  desktop: en_2019-07-23_S09E10_Life_Experience_What_To_Believe_And_How_To_Believe.jpg
 slug: en-2019-07-23-s09e10-life-experience-what-to-believe-and-how-to-believe
 status: draft
 license: https://creativecommons.org/licenses/by-nc-sa/4.0/

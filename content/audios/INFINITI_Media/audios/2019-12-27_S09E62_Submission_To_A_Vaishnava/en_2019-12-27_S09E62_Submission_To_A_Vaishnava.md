@@ -11,8 +11,6 @@ audio:
 duration: '01:14:02'
 video:
   youtube: https://www.youtube.com/watch?v=3V3RUXkBNv4
-image:
-  desktop: en_2019-12-27_S09E62_Submission_To_A_Vaishnava.jpg
 slug: en-2019-12-27-s09e62-submission-to-a-vaishnava
 status: draft
 license: https://creativecommons.org/licenses/by-nc-sa/4.0/

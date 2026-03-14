@@ -11,8 +11,6 @@ audio:
 duration: '01:14:00'
 video:
   youtube: https://www.youtube.com/watch?v=0T6Ei5juXe0
-image:
-  desktop: en_2019-04-24_S09E23_The_Krishna_Nam_Lover_Glory_Of_Krishnadas_Babaji_Maharaja.jpg
 slug: en-2019-04-24-s09e23-the-krishna-nam-lover-glory-of-krishnadas-babaji-maharaja
 status: draft
 license: https://creativecommons.org/licenses/by-nc-sa/4.0/

@@ -11,8 +11,6 @@ audio:
 duration: '01:17:52'
 video:
   youtube: https://www.youtube.com/watch?v=tT5Z6qiCxOk
-image:
-  desktop: en_2019-05-03_S09E26_When_The_Lord_Steals_Your_Heart_Srila_Gadadhar_Pandit.jpg
 slug: en-2019-05-03-s09e26-when-the-lord-steals-your-heart-srila-gadadhar-pandit
 status: draft
 license: https://creativecommons.org/licenses/by-nc-sa/4.0/

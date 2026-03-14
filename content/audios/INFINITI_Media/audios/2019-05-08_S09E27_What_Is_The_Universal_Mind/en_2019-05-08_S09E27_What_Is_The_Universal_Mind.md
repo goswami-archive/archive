@@ -11,8 +11,6 @@ audio:
 duration: '01:29:58'
 video:
   youtube: https://www.youtube.com/watch?v=XCAYk3kzei8
-image:
-  desktop: en_2019-05-08_S09E27_What_Is_The_Universal_Mind.jpg
 slug: en-2019-05-08-s09e27-what-is-the-universal-mind
 status: draft
 license: https://creativecommons.org/licenses/by-nc-sa/4.0/

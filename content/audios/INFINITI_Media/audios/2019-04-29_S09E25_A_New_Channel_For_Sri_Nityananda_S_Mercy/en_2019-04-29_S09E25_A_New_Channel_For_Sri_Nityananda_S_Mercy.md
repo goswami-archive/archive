@@ -11,8 +11,6 @@ audio:
 duration: '01:09:46'
 video:
   youtube: https://www.youtube.com/watch?v=CtOJAzP80b8
-image:
-  desktop: en_2019-04-29_S09E25_A_New_Channel_For_Sri_Nityananda_S_Mercy.jpg
 slug: en-2019-04-29-s09e25-a-new-channel-for-sri-nityananda-s-mercy
 status: draft
 license: https://creativecommons.org/licenses/by-nc-sa/4.0/

@@ -11,8 +11,6 @@ audio:
 duration: '01:03:10'
 video:
   youtube: https://www.youtube.com/watch?v=caEMY1N9rG4
-image:
-  desktop: en_2019-07-23_S09E11_The_Vaishnava_S_Grace.jpg
 slug: en-2019-07-23-s09e11-the-vaishnava-s-grace
 status: draft
 license: https://creativecommons.org/licenses/by-nc-sa/4.0/

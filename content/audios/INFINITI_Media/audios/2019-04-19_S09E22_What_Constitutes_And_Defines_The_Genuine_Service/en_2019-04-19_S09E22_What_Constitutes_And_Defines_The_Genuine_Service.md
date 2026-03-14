@@ -11,8 +11,6 @@ audio:
 duration: '01:27:05'
 video:
   youtube: https://www.youtube.com/watch?v=nVYR2-AQwi8
-image:
-  desktop: en_2019-04-19_S09E22_What_Constitutes_And_Defines_The_Genuine_Service.jpg
 slug: en-2019-04-19-s09e22-what-constitutes-and-defines-the-genuine-service
 status: draft
 license: https://creativecommons.org/licenses/by-nc-sa/4.0/

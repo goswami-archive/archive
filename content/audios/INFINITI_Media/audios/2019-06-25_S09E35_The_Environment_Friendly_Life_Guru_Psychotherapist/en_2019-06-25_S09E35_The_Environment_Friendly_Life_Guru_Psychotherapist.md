@@ -11,8 +11,6 @@ audio:
 duration: '01:14:23'
 video:
   youtube: https://www.youtube.com/watch?v=4AMGKHLcy_k
-image:
-  desktop: en_2019-06-25_S09E35_The_Environment_Friendly_Life_Guru_Psychotherapist.jpg
 slug: en-2019-06-25-s09e35-the-environment-friendly-life-guru-psychotherapist
 status: draft
 license: https://creativecommons.org/licenses/by-nc-sa/4.0/

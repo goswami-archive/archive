@@ -11,8 +11,6 @@ audio:
 duration: '01:03:32'
 video:
   youtube: https://www.youtube.com/watch?v=mX0_2denduc
-image:
-  desktop: en_2019-03-27_S09E16_An_Invitation_For_The_Heart_Eater.jpg
 slug: en-2019-03-27-s09e16-an-invitation-for-the-heart-eater
 status: draft
 license: https://creativecommons.org/licenses/by-nc-sa/4.0/

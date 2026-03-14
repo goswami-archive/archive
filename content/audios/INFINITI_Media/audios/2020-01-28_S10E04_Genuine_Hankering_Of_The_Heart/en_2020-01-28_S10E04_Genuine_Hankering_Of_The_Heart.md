@@ -11,8 +11,6 @@ audio:
 duration: '01:06:46'
 video:
   youtube: https://www.youtube.com/watch?v=BCB-XcJuP2E
-image:
-  desktop: en_2020-01-28_S10E04_Genuine_Hankering_Of_The_Heart.jpg
 slug: en-2020-01-28-s10e04-genuine-hankering-of-the-heart
 status: draft
 license: https://creativecommons.org/licenses/by-nc-sa/4.0/

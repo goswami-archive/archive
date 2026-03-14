@@ -11,8 +11,6 @@ audio:
 duration: '01:14:21'
 video:
   youtube: https://www.youtube.com/watch?v=n6R3QGq2OlE
-image:
-  desktop: en_2019-05-27_S09E30_Control_Your_Emotions.jpg
 slug: en-2019-05-27-s09e30-control-your-emotions
 status: draft
 license: https://creativecommons.org/licenses/by-nc-sa/4.0/

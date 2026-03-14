@@ -11,8 +11,6 @@ audio:
 duration: '01:16:01'
 video:
   youtube: https://www.youtube.com/watch?v=3IpeYp4q24E
-image:
-  desktop: en_2019-06-14_S09E33_The_Ropes_Of_Mercy.jpg
 slug: en-2019-06-14-s09e33-the-ropes-of-mercy
 status: draft
 license: https://creativecommons.org/licenses/by-nc-sa/4.0/

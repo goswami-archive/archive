@@ -11,8 +11,6 @@ audio:
 duration: '01:11:54'
 video:
   youtube: https://www.youtube.com/watch?v=JMMXHil_7Ro
-image:
-  desktop: en_2020-02-04_S10E06_The_Disappearance_Of_Madhava_Acharya_And_Ramanuja_Acharya.jpg
 slug: en-2020-02-04-s10e06-the-disappearance-of-madhava-acharya-and-ramanuja-acharya
 status: draft
 license: https://creativecommons.org/licenses/by-nc-sa/4.0/
