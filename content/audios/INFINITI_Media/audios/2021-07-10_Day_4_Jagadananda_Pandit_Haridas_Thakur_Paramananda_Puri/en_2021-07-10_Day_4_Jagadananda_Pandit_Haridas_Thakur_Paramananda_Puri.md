@@ -1,19 +1,20 @@
 ---
 type: post
 lang: en
-title: 'Day 4. Jagadananda Pandit, Haridas Thakur, Paramananda Puri • B.S. Goswami & B.R. Madhusudan'
+title: 'Day 4. Jagadananda Pandit, Haridas Thakur, Paramananda Puri'
 authors:
   - Bhakti Sudhir Goswami Maharaj
+  - Bhakti Ranjan Madhusudan Maharaj
 date: '2021-07-10'
 audio:
-  file: en_2021-07-10_Day_4_Jagadananda_Pandit_Haridas_Thakur_Paramananda_Puri_B_S_Goswami_B_R_Madhusudan.mp3
+  file: en_2021-07-10_Day_4_Jagadananda_Pandit_Haridas_Thakur_Paramananda_Puri.mp3
   youtube: https://www.youtube.com/watch?v=332Gkoi04aw
 duration: '01:52:46'
 video:
   youtube: https://www.youtube.com/watch?v=332Gkoi04aw
 image:
-  desktop: en_2021-07-10_Day_4_Jagadananda_Pandit_Haridas_Thakur_Paramananda_Puri_B_S_Goswami_B_R_Madhusudan.jpg
-slug: en-2021-07-10-day-4-jagadananda-pandit-haridas-thakur-paramananda-puri-b-s-goswami-b-r-madhusudan
+  desktop: en_2021-07-10_Day_4_Jagadananda_Pandit_Haridas_Thakur_Paramananda_Puri.jpg
+slug: en-2021-07-10-day-4-jagadananda-pandit-haridas-thakur-paramananda-puri
 status: draft
 license: https://creativecommons.org/licenses/by-nc-sa/4.0/
 ---

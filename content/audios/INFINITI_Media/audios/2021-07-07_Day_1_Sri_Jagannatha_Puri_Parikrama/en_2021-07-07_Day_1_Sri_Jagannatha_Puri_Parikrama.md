@@ -7,14 +7,14 @@ authors:
   - Bhakti Ranjan Madhusudan Maharaj
 date: '2021-07-07'
 audio:
-  file: en_2021-07-07_Day_1_Sri_Jagannatha_Puri_Parikrama_Bhakti_Ranjan_Madhusudan.mp3
+  file: en_2021-07-07_Day_1_Sri_Jagannatha_Puri_Parikrama.mp3
   youtube: https://www.youtube.com/watch?v=2_CIizwrdag
 duration: '01:45:24'
 video:
   youtube: https://www.youtube.com/watch?v=2_CIizwrdag
 image:
-  desktop: en_2021-07-07_Day_1_Sri_Jagannatha_Puri_Parikrama_Bhakti_Ranjan_Madhusudan.jpg
-slug: en-2021-07-07-day-1-sri-jagannatha-puri-parikrama-bhakti-ranjan-madhusudan
+  desktop: en_2021-07-07_Day_1_Sri_Jagannatha_Puri_Parikrama.jpg
+slug: en-2021-07-07-day-1-sri-jagannatha-puri-parikrama
 status: draft
 license: https://creativecommons.org/licenses/by-nc-sa/4.0/
 ---
