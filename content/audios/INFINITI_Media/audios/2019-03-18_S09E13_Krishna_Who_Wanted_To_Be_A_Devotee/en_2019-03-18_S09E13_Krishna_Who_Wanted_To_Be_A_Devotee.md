@@ -11,8 +11,6 @@ audio:
 duration: '01:12:22'
 video:
   youtube: https://www.youtube.com/watch?v=zayzYcnUykw
-image:
-  desktop: en_2019-03-18_S09E13_Krishna_Who_Wanted_To_Be_A_Devotee.jpg
 slug: en-2019-03-18-s09e13-krishna-who-wanted-to-be-a-devotee
 status: draft
 license: https://creativecommons.org/licenses/by-nc-sa/4.0/
