@@ -11,8 +11,6 @@ audio:
 duration: '01:15:49'
 video:
   youtube: https://www.youtube.com/watch?v=Y7tNo2wvgiI
-image:
-  desktop: en_2022-08-05_Golden_Volcano_Of_Divine_Love_Cruelty_In_Sweetness.jpg
 slug: en-2022-08-05-golden-volcano-of-divine-love-cruelty-in-sweetness
 status: draft
 license: https://creativecommons.org/licenses/by-nc-sa/4.0/

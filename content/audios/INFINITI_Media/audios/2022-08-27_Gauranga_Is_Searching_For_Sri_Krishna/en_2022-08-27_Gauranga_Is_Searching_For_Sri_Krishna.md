@@ -11,8 +11,6 @@ audio:
 duration: '01:08:00'
 video:
   youtube: https://www.youtube.com/watch?v=h8repCSPxpA
-image:
-  desktop: en_2022-08-27_Gauranga_Is_Searching_For_Sri_Krishna.jpg
 slug: en-2022-08-27-gauranga-is-searching-for-sri-krishna
 status: draft
 license: https://creativecommons.org/licenses/by-nc-sa/4.0/

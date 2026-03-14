@@ -11,8 +11,6 @@ audio:
 duration: '01:13:38'
 video:
   youtube: https://www.youtube.com/watch?v=f3fl0Hho09g
-image:
-  desktop: en_2022-10-06_Divine_Yin_And_Yang_Search_For_The_Pleasure_Personified.jpg
 slug: en-2022-10-06-divine-yin-and-yang-search-for-the-pleasure-personified
 status: draft
 license: https://creativecommons.org/licenses/by-nc-sa/4.0/

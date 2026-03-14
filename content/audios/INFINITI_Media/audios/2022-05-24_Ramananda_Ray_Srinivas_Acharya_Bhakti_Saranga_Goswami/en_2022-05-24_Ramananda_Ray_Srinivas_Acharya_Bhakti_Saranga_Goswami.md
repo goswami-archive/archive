@@ -11,8 +11,6 @@ audio:
 duration: '01:15:26'
 video:
   youtube: https://www.youtube.com/watch?v=mr36f8Xwnkw
-image:
-  desktop: en_2022-05-24_Ramananda_Ray_Srinivas_Acharya_Bhakti_Saranga_Goswami.jpg
 slug: en-2022-05-24-ramananda-ray-srinivas-acharya-bhakti-saranga-goswami
 status: draft
 license: https://creativecommons.org/licenses/by-nc-sa/4.0/

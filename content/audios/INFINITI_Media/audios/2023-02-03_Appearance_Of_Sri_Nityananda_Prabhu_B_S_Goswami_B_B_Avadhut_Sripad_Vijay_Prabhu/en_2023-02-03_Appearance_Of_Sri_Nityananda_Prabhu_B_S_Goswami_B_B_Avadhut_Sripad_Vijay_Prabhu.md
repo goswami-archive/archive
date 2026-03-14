@@ -12,7 +12,7 @@ duration: '01:49:42'
 video:
   youtube: https://www.youtube.com/watch?v=RnALlUQKAnE
 image:
-  desktop: en_2023-02-03_Appearance_Of_Sri_Nityananda_Prabhu_B_S_Goswami_B_B_Avadhut_Sripad_Vijay_Prabhu.jpg
+  desktop: en_2023-02-03_Appearance_Of_Sri_Nityananda_Prabhu_B_S_Goswami_B_B_Avadhut_Sripad_Vijay_Prabhu.webp
 slug: en-2023-02-03-appearance-of-sri-nityananda-prabhu-b-s-goswami-b-b-avadhut-sripad-vijay-prabhu
 status: draft
 license: https://creativecommons.org/licenses/by-nc-sa/4.0/

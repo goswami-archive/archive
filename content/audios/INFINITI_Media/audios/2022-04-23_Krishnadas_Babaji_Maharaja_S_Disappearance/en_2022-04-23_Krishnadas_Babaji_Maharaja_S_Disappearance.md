@@ -11,8 +11,6 @@ audio:
 duration: '01:12:39'
 video:
   youtube: https://www.youtube.com/watch?v=dh_nBmRDPn4
-image:
-  desktop: en_2022-04-23_Krishnadas_Babaji_Maharaja_S_Disappearance.jpg
 slug: en-2022-04-23-krishnadas-babaji-maharaja-s-disappearance
 status: draft
 license: https://creativecommons.org/licenses/by-nc-sa/4.0/
