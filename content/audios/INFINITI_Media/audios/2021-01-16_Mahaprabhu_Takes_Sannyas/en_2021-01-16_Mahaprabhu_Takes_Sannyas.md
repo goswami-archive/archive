@@ -11,8 +11,6 @@ audio:
 duration: '01:15:26'
 video:
   youtube: https://www.youtube.com/watch?v=zDGMt1-Bgbg
-image:
-  desktop: en_2021-01-16_Mahaprabhu_Takes_Sannyas.jpg
 slug: en-2021-01-16-mahaprabhu-takes-sannyas
 status: draft
 license: https://creativecommons.org/licenses/by-nc-sa/4.0/

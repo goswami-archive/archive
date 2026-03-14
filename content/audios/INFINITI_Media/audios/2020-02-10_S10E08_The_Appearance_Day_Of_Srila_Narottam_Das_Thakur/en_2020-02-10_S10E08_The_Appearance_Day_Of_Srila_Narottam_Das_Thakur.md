@@ -11,8 +11,6 @@ audio:
 duration: '01:04:32'
 video:
   youtube: https://www.youtube.com/watch?v=EPZO83UCBg4
-image:
-  desktop: en_2020-02-10_S10E08_The_Appearance_Day_Of_Srila_Narottam_Das_Thakur.jpg
 slug: en-2020-02-10-s10e08-the-appearance-day-of-srila-narottam-das-thakur
 status: draft
 license: https://creativecommons.org/licenses/by-nc-sa/4.0/

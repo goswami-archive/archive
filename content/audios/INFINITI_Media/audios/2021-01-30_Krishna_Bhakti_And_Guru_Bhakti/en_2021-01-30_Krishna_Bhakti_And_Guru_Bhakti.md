@@ -11,8 +11,6 @@ audio:
 duration: '01:12:38'
 video:
   youtube: https://www.youtube.com/watch?v=ahFINOIHHSA
-image:
-  desktop: en_2021-01-30_Krishna_Bhakti_And_Guru_Bhakti.jpg
 slug: en-2021-01-30-krishna-bhakti-and-guru-bhakti
 status: draft
 license: https://creativecommons.org/licenses/by-nc-sa/4.0/

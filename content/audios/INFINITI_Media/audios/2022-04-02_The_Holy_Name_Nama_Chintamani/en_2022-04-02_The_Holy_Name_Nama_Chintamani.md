@@ -11,8 +11,6 @@ audio:
 duration: '01:15:12'
 video:
   youtube: https://www.youtube.com/watch?v=2AyKkD_z57o
-image:
-  desktop: en_2022-04-02_The_Holy_Name_Nama_Chintamani.jpg
 slug: en-2022-04-02-the-holy-name-nama-chintamani
 status: draft
 license: https://creativecommons.org/licenses/by-nc-sa/4.0/

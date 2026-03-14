@@ -11,8 +11,6 @@ audio:
 duration: '01:14:16'
 video:
   youtube: https://www.youtube.com/watch?v=QVMNwibcR_4
-image:
-  desktop: en_2021-02-03_Hurled_Down_To_Vaikuntha.jpg
 slug: en-2021-02-03-hurled-down-to-vaikuntha
 status: draft
 license: https://creativecommons.org/licenses/by-nc-sa/4.0/

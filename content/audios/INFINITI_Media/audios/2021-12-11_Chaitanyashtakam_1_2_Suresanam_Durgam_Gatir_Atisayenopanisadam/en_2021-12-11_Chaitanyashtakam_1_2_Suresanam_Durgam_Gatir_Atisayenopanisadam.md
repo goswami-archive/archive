@@ -11,8 +11,6 @@ audio:
 duration: '01:23:45'
 video:
   youtube: https://www.youtube.com/watch?v=8HlvBbUF8Fg
-image:
-  desktop: en_2021-12-11_Chaitanyashtakam_1_2_Suresanam_Durgam_Gatir_Atisayenopanisadam.jpg
 slug: en-2021-12-11-chaitanyashtakam-1-2-suresanam-durgam-gatir-atisayenopanisadam
 status: draft
 license: https://creativecommons.org/licenses/by-nc-sa/4.0/

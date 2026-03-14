@@ -11,8 +11,6 @@ audio:
 duration: '00:59:58'
 video:
   youtube: https://www.youtube.com/watch?v=oEcJmPwaRIY
-image:
-  desktop: en_2020-07-15_S10E39_How_To_Subdue_The_Energy_Of_Lust.jpg
 slug: en-2020-07-15-s10e39-how-to-subdue-the-energy-of-lust
 status: draft
 license: https://creativecommons.org/licenses/by-nc-sa/4.0/

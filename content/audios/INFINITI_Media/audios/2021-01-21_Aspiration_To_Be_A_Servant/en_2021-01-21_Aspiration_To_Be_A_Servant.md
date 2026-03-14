@@ -11,8 +11,6 @@ audio:
 duration: '01:09:48'
 video:
   youtube: https://www.youtube.com/watch?v=og-oj0FdQus
-image:
-  desktop: en_2021-01-21_Aspiration_To_Be_A_Servant.jpg
 slug: en-2021-01-21-aspiration-to-be-a-servant
 status: draft
 license: https://creativecommons.org/licenses/by-nc-sa/4.0/

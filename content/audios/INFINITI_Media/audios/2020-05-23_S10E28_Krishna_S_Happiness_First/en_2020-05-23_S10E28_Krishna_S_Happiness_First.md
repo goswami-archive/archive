@@ -11,8 +11,6 @@ audio:
 duration: '00:58:54'
 video:
   youtube: https://www.youtube.com/watch?v=RkjLb5-y7Bw
-image:
-  desktop: en_2020-05-23_S10E28_Krishna_S_Happiness_First.jpg
 slug: en-2020-05-23-s10e28-krishna-s-happiness-first
 status: draft
 license: https://creativecommons.org/licenses/by-nc-sa/4.0/

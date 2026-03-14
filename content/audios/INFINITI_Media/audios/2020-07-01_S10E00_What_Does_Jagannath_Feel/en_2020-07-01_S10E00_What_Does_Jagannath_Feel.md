@@ -11,8 +11,6 @@ audio:
 duration: '01:21:27'
 video:
   youtube: https://www.youtube.com/watch?v=Uw1vyX7c5fA
-image:
-  desktop: en_2020-07-01_S10E00_What_Does_Jagannath_Feel.jpg
 slug: en-2020-07-01-s10e00-what-does-jagannath-feel
 status: draft
 license: https://creativecommons.org/licenses/by-nc-sa/4.0/

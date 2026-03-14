@@ -11,8 +11,6 @@ audio:
 duration: '01:12:30'
 video:
   youtube: https://www.youtube.com/watch?v=bDJfRkb_S6A
-image:
-  desktop: en_2021-09-29_How_To_Become_A_Fallen_Soul.jpg
 slug: en-2021-09-29-how-to-become-a-fallen-soul
 status: draft
 license: https://creativecommons.org/licenses/by-nc-sa/4.0/

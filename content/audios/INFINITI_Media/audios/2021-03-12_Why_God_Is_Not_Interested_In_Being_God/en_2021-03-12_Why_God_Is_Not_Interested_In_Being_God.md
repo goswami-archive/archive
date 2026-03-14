@@ -11,8 +11,6 @@ audio:
 duration: '00:51:13'
 video:
   youtube: https://www.youtube.com/watch?v=VL4_W1yMc94
-image:
-  desktop: en_2021-03-12_Why_God_Is_Not_Interested_In_Being_God.jpg
 slug: en-2021-03-12-why-god-is-not-interested-in-being-god
 status: draft
 license: https://creativecommons.org/licenses/by-nc-sa/4.0/

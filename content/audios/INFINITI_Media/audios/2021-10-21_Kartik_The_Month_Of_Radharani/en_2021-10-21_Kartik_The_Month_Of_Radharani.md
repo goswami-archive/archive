@@ -11,8 +11,6 @@ audio:
 duration: '01:10:13'
 video:
   youtube: https://www.youtube.com/watch?v=nWM5nzqUxls
-image:
-  desktop: en_2021-10-21_Kartik_The_Month_Of_Radharani.jpg
 slug: en-2021-10-21-kartik-the-month-of-radharani
 status: draft
 license: https://creativecommons.org/licenses/by-nc-sa/4.0/

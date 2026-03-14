@@ -11,8 +11,6 @@ audio:
 duration: '00:56:00'
 video:
   youtube: https://www.youtube.com/watch?v=OIEoP6TrmXk
-image:
-  desktop: en_2020-06-03_S10E31_Can_You_Ask_Krishna_To_Solve_Your_Problems.jpg
 slug: en-2020-06-03-s10e31-can-you-ask-krishna-to-solve-your-problems
 status: draft
 license: https://creativecommons.org/licenses/by-nc-sa/4.0/

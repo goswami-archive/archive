@@ -11,8 +11,6 @@ audio:
 duration: '01:19:05'
 video:
   youtube: https://www.youtube.com/watch?v=rnT1HNkg3Y8
-image:
-  desktop: en_2020-03-27_S10E17_The_Humility_Of_A_Vaishnava_Heart.jpg
 slug: en-2020-03-27-s10e17-the-humility-of-a-vaishnava-heart
 status: draft
 license: https://creativecommons.org/licenses/by-nc-sa/4.0/

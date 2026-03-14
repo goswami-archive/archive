@@ -11,8 +11,6 @@ audio:
 duration: '01:21:40'
 video:
   youtube: https://www.youtube.com/watch?v=xReq1MU-ihs
-image:
-  desktop: en_2020-10-14_Dive_Deep_Into_Reality_With.jpg
 slug: en-2020-10-14-dive-deep-into-reality-with
 status: draft
 license: https://creativecommons.org/licenses/by-nc-sa/4.0/

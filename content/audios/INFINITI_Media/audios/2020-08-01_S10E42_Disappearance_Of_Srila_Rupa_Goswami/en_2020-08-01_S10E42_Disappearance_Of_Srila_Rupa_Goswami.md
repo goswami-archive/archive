@@ -11,8 +11,6 @@ audio:
 duration: '01:19:38'
 video:
   youtube: https://www.youtube.com/watch?v=Jrvlk1oWQxw
-image:
-  desktop: en_2020-08-01_S10E42_Disappearance_Of_Srila_Rupa_Goswami.jpg
 slug: en-2020-08-01-s10e42-disappearance-of-srila-rupa-goswami
 status: draft
 license: https://creativecommons.org/licenses/by-nc-sa/4.0/

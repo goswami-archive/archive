@@ -11,8 +11,6 @@ audio:
 duration: '01:08:56'
 video:
   youtube: https://www.youtube.com/watch?v=XIHPykUtxQk
-image:
-  desktop: en_2021-12-08_The_Proper_View_Of_Krishna_Comes_From_His_Devotees.jpg
 slug: en-2021-12-08-the-proper-view-of-krishna-comes-from-his-devotees
 status: draft
 license: https://creativecommons.org/licenses/by-nc-sa/4.0/

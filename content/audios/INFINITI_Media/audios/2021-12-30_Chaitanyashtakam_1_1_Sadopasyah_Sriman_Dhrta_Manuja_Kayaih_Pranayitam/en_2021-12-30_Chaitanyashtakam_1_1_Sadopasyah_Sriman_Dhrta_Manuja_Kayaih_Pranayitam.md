@@ -11,8 +11,6 @@ audio:
 duration: '01:12:45'
 video:
   youtube: https://www.youtube.com/watch?v=FsQk75RXZDw
-image:
-  desktop: en_2021-12-30_Chaitanyashtakam_1_1_Sadopasyah_Sriman_Dhrta_Manuja_Kayaih_Pranayitam.jpg
 slug: en-2021-12-30-chaitanyashtakam-1-1-sadopasyah-sriman-dhrta-manuja-kayaih-pranayitam
 status: draft
 license: https://creativecommons.org/licenses/by-nc-sa/4.0/

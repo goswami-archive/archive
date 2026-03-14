@@ -11,8 +11,6 @@ audio:
 duration: '01:07:26'
 video:
   youtube: https://www.youtube.com/watch?v=kX0MOoE5WZc
-image:
-  desktop: en_2020-07-08_S10E37_The_Doors_Of_Vaikuntha.jpg
 slug: en-2020-07-08-s10e37-the-doors-of-vaikuntha
 status: draft
 license: https://creativecommons.org/licenses/by-nc-sa/4.0/

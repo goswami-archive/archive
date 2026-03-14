@@ -11,10 +11,8 @@ audio:
 duration: '00:11:38'
 video:
   youtube: https://www.youtube.com/watch?v=uaJLvhaRnLM
-status: draft
 slug: en-2020-12-05-dive-deep-into-reality
-image:
-  desktop: en_2020-12-05_Dive_Deep_Into_Reality.jpg
+status: draft
 license: https://creativecommons.org/licenses/by-nc-sa/4.0/
 ---
 

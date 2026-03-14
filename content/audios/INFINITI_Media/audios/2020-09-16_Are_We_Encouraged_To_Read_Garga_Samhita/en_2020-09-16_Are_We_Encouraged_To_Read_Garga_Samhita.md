@@ -11,8 +11,6 @@ audio:
 duration: '01:06:34'
 video:
   youtube: https://www.youtube.com/watch?v=izQosqxiWms
-image:
-  desktop: en_2020-09-16_Are_We_Encouraged_To_Read_Garga_Samhita.jpg
 slug: en-2020-09-16-are-we-encouraged-to-read-garga-samhita
 status: draft
 license: https://creativecommons.org/licenses/by-nc-sa/4.0/

@@ -11,8 +11,6 @@ audio:
 duration: '01:08:54'
 video:
   youtube: https://www.youtube.com/watch?v=cOXchYRKG2Q
-image:
-  desktop: en_2020-02-27_S10E11_Recognizing_Devotion_In_Others.jpg
 slug: en-2020-02-27-s10e11-recognizing-devotion-in-others
 status: draft
 license: https://creativecommons.org/licenses/by-nc-sa/4.0/

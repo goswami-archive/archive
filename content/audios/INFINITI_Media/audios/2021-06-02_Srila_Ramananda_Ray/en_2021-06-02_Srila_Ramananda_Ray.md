@@ -11,8 +11,6 @@ audio:
 duration: '01:13:10'
 video:
   youtube: https://www.youtube.com/watch?v=VcNpBWPcM5w
-image:
-  desktop: en_2021-06-02_Srila_Ramananda_Ray.jpg
 slug: en-2021-06-02-srila-ramananda-ray
 status: draft
 license: https://creativecommons.org/licenses/by-nc-sa/4.0/

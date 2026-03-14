@@ -11,8 +11,6 @@ audio:
 duration: '01:21:34'
 video:
   youtube: https://www.youtube.com/watch?v=WzsfVnZpC_g
-image:
-  desktop: en_2022-01-22_Mercy_To_The_Fallen.jpg
 slug: en-2022-01-22-mercy-to-the-fallen
 status: draft
 license: https://creativecommons.org/licenses/by-nc-sa/4.0/

@@ -11,8 +11,6 @@ audio:
 duration: '01:20:47'
 video:
   youtube: https://www.youtube.com/watch?v=7x5j9Pw0hvw
-image:
-  desktop: en_2022-01-05_Chaitanyashtakam_1_3_Svarupam_Bibhrano_Jagad_Atulam_Advaita_Dayitah.jpg
 slug: en-2022-01-05-chaitanyashtakam-1-3-svarupam-bibhrano-jagad-atulam-advaita-dayitah
 status: draft
 license: https://creativecommons.org/licenses/by-nc-sa/4.0/

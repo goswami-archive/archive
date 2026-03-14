@@ -11,8 +11,6 @@ audio:
 duration: '01:13:14'
 video:
   youtube: https://www.youtube.com/watch?v=CtvqjJWEd_4
-image:
-  desktop: en_2021-06-05_The_Shelter_Of_Sri_Upadeshamrita_For_The_Unqualified.jpg
 slug: en-2021-06-05-the-shelter-of-sri-upadeshamrita-for-the-unqualified
 status: draft
 license: https://creativecommons.org/licenses/by-nc-sa/4.0/

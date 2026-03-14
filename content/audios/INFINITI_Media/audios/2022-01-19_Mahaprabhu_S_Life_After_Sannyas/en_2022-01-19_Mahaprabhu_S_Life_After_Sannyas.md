@@ -11,8 +11,6 @@ audio:
 duration: '00:47:23'
 video:
   youtube: https://www.youtube.com/watch?v=dx5OEGgDEU4
-image:
-  desktop: en_2022-01-19_Mahaprabhu_S_Life_After_Sannyas.jpg
 slug: en-2022-01-19-mahaprabhu-s-life-after-sannyas
 status: draft
 license: https://creativecommons.org/licenses/by-nc-sa/4.0/
