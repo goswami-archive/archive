@@ -7,14 +7,14 @@ authors:
   - Bhakti Ranjan Madhusudan Maharaj
 date: '2017-03-15'
 audio:
-  file: en_2017-03-15_Sri_Krishna_Chaitanya_S_Appearance_Srila_Goswami_Maharaja_Srila_Madhusudan_Maharaja.mp3
+  file: en_2017-03-15_Sri_Krishna_Chaitanyas_Appearance.mp3
   youtube: https://www.youtube.com/watch?v=1iwaN8Q6-vM
 duration: '01:09:16'
 video:
   youtube: https://www.youtube.com/watch?v=1iwaN8Q6-vM
 image:
-  desktop: en_2017-03-15_Sri_Krishna_Chaitanya_S_Appearance_Srila_Goswami_Maharaja_Srila_Madhusudan_Maharaja.jpg
-slug: en-2017-03-15-sri-krishna-chaitanya-s-appearance-srila-goswami-maharaja-srila-madhusudan-maharaja
+  desktop: en_2017-03-15_Sri_Krishna_Chaitanyas_Appearance.jpg
+slug: en-2017-03-15-sri-krishna-chaitanyas-appearance
 status: draft
 license: https://creativecommons.org/licenses/by-nc-sa/4.0/
 ---

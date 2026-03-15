@@ -6,14 +6,14 @@ authors:
   - Bhakti Sudhir Goswami Maharaj
 date: '2021-07-24'
 audio:
-  file: en_2021-07-24_Appearance_Festival_Of_Om_Vishnupad_Srila_Bhakti_Bimal_Avadhut_Maharaja.mp3
+  file: en_2021-07-24_Appearance_Festival_Of_Srila_Bhakti_Bimal_Avadhut_Maharaja.mp3
   youtube: https://www.youtube.com/watch?v=dZFmT5G-MEg
 duration: '01:42:05'
 video:
   youtube: https://www.youtube.com/watch?v=dZFmT5G-MEg
 image:
-  desktop: en_2021-07-24_Appearance_Festival_Of_Om_Vishnupad_Srila_Bhakti_Bimal_Avadhut_Maharaja.jpg
-slug: en-2021-07-24-appearance-festival-of-om-vishnupad-srila-bhakti-bimal-avadhut-maharaja
+  desktop: en_2021-07-24_Appearance_Festival_Of_Srila_Bhakti_Bimal_Avadhut_Maharaja.jpg
+slug: en-2021-07-24-appearance-festival-of-srila-bhakti-bimal-avadhut-maharaja
 status: draft
 license: https://creativecommons.org/licenses/by-nc-sa/4.0/
 ---

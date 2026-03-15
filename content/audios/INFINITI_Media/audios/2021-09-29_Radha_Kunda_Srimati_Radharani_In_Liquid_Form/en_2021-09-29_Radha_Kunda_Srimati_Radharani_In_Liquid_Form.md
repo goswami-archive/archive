@@ -7,14 +7,14 @@ authors:
   - Bhakti Ranjan Madhusudan Maharaj
 date: '2021-09-29'
 audio:
-  file: en_2021-09-29_Radha_Kunda_Srimati_Radharani_In_Liquid_Form_Bhakti_Ranjan_Madhusudan.mp3
+  file: en_2021-09-29_Radha_Kunda_Srimati_Radharani_In_Liquid_Form.mp3
   youtube: https://www.youtube.com/watch?v=sC4dp45w1LA
 duration: '00:43:05'
 video:
   youtube: https://www.youtube.com/watch?v=sC4dp45w1LA
 image:
-  desktop: en_2021-09-29_Radha_Kunda_Srimati_Radharani_In_Liquid_Form_Bhakti_Ranjan_Madhusudan.jpg
-slug: en-2021-09-29-radha-kunda-srimati-radharani-in-liquid-form-bhakti-ranjan-madhusudan
+  desktop: en_2021-09-29_Radha_Kunda_Srimati_Radharani_In_Liquid_Form.jpg
+slug: en-2021-09-29-radha-kunda-srimati-radharani-in-liquid-form
 status: draft
 license: https://creativecommons.org/licenses/by-nc-sa/4.0/
 ---
