@@ -7,14 +7,14 @@ authors:
   - Bhakti Ranjan Madhusudan Maharaj
 date: '2020-08-26'
 audio:
-  file: en_2020-08-26_S10E51_The_Audacity_To_Chastise_Krishna_Bhakti_Ranjan_Madhusudan.mp3
+  file: en_2020-08-26_S10E51_The_Audacity_To_Chastise_Krishna.mp3
   youtube: https://www.youtube.com/watch?v=AFDu4l8-0Hs
 duration: '01:23:41'
 video:
   youtube: https://www.youtube.com/watch?v=AFDu4l8-0Hs
 image:
-  desktop: en_2020-08-26_S10E51_The_Audacity_To_Chastise_Krishna_Bhakti_Ranjan_Madhusudan.jpg
-slug: en-2020-08-26-s10e51-the-audacity-to-chastise-krishna-bhakti-ranjan-madhusudan
+  desktop: en_2020-08-26_S10E51_The_Audacity_To_Chastise_Krishna.jpg
+slug: en-2020-08-26-s10-e51-the-audacity-to-chastise-krishna
 status: draft
 license: https://creativecommons.org/licenses/by-nc-sa/4.0/
 ---

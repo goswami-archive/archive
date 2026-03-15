@@ -7,14 +7,14 @@ authors:
   - Bhakti Bimal Avadhut Maharaj
 date: '2020-03-05'
 audio:
-  file: en_2020-03-05_S10E12_Adhivas_Festival_Of_Sri_Nabadwip_Dham_Parikrama_Swami_Avadhut.mp3
+  file: en_2020-03-05_S10E12_Adhivas_Festival_Of_Sri_Nabadwip_Dham_Parikrama.mp3
   youtube: https://www.youtube.com/watch?v=viMCgt081Io
 duration: '01:26:34'
 video:
   youtube: https://www.youtube.com/watch?v=viMCgt081Io
 image:
-  desktop: en_2020-03-05_S10E12_Adhivas_Festival_Of_Sri_Nabadwip_Dham_Parikrama_Swami_Avadhut.jpg
-slug: en-2020-03-05-s10e12-adhivas-festival-of-sri-nabadwip-dham-parikrama-swami-avadhut
+  desktop: en_2020-03-05_S10E12_Adhivas_Festival_Of_Sri_Nabadwip_Dham_Parikrama.jpg
+slug: en-2020-03-05-s10-e12-adhivas-festival-of-sri-nabadwip-dham-parikrama
 status: draft
 license: https://creativecommons.org/licenses/by-nc-sa/4.0/
 ---

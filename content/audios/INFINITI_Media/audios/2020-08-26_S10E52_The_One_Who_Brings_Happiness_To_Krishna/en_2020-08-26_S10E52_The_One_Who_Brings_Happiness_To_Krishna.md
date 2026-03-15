@@ -7,14 +7,14 @@ authors:
   - Bhakti Ranjan Madhusudan Maharaj
 date: '2020-08-26'
 audio:
-  file: en_2020-08-26_S10E52_The_One_Who_Brings_Happiness_To_Krishna_Bhakti_Ranjan_Madhusudan.mp3
+  file: en_2020-08-26_S10E52_The_One_Who_Brings_Happiness_To_Krishna.mp3
   youtube: https://www.youtube.com/watch?v=AXdj3PLFK9g
 duration: '01:19:40'
 video:
   youtube: https://www.youtube.com/watch?v=AXdj3PLFK9g
 image:
-  desktop: en_2020-08-26_S10E52_The_One_Who_Brings_Happiness_To_Krishna_Bhakti_Ranjan_Madhusudan.jpg
-slug: en-2020-08-26-s10e52-the-one-who-brings-happiness-to-krishna-bhakti-ranjan-madhusudan
+  desktop: en_2020-08-26_S10E52_The_One_Who_Brings_Happiness_To_Krishna.jpg
+slug: en-2020-08-26-s10-e52-the-one-who-brings-happiness-to-krishna
 status: draft
 license: https://creativecommons.org/licenses/by-nc-sa/4.0/
 ---

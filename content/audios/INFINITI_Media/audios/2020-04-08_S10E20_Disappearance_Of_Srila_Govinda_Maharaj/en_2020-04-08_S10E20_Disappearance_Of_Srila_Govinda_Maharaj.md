@@ -7,14 +7,14 @@ authors:
   - Bhakti Ranjan Madhusudan Maharaj
 date: '2020-04-08'
 audio:
-  file: en_2020-04-08_S10E20_Disappearance_Of_Srila_Govinda_Maharaj_Bhakti_Ranjan_Madhusudan.mp3
+  file: en_2020-04-08_S10E20_Disappearance_Of_Srila_Govinda_Maharaj.mp3
   youtube: https://www.youtube.com/watch?v=p4h0axdB7XU
 duration: '02:05:24'
 video:
   youtube: https://www.youtube.com/watch?v=p4h0axdB7XU
 image:
-  desktop: en_2020-04-08_S10E20_Disappearance_Of_Srila_Govinda_Maharaj_Bhakti_Ranjan_Madhusudan.jpg
-slug: en-2020-04-08-s10e20-disappearance-of-srila-govinda-maharaj-bhakti-ranjan-madhusudan
+  desktop: en_2020-04-08_S10E20_Disappearance_Of_Srila_Govinda_Maharaj.jpg
+slug: en-2020-04-08-s10-e20-disappearance-of-srila-govinda-maharaj
 status: draft
 license: https://creativecommons.org/licenses/by-nc-sa/4.0/
 ---

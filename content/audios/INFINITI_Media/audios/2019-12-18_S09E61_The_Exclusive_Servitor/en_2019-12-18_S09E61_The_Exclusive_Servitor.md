@@ -7,14 +7,14 @@ authors:
   - Bhakti Ranjan Madhusudan Maharaj
 date: '2019-12-18'
 audio:
-  file: en_2019-12-18_S09E61_The_Exclusive_Servitor_Bhakti_Ranjan_Madhusudan.mp3
+  file: en_2019-12-18_S09E61_The_Exclusive_Servitor.mp3
   youtube: https://www.youtube.com/watch?v=DDaq2pfK18k
 duration: '01:24:52'
 video:
   youtube: https://www.youtube.com/watch?v=DDaq2pfK18k
 image:
-  desktop: en_2019-12-18_S09E61_The_Exclusive_Servitor_Bhakti_Ranjan_Madhusudan.jpg
-slug: en-2019-12-18-s09e61-the-exclusive-servitor-bhakti-ranjan-madhusudan
+  desktop: en_2019-12-18_S09E61_The_Exclusive_Servitor.jpg
+slug: en-2019-12-18-s09-e61-the-exclusive-servitor
 status: draft
 license: https://creativecommons.org/licenses/by-nc-sa/4.0/
 ---

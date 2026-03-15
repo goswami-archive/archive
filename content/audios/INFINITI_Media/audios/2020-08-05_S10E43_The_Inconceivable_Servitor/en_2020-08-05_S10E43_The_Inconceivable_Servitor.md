@@ -7,14 +7,14 @@ authors:
   - Bhakti Ranjan Madhusudan Maharaj
 date: '2020-08-05'
 audio:
-  file: en_2020-08-05_S10E43_The_Inconceivable_Servitor_Bhakti_Ranjan_Madhusudan.mp3
+  file: en_2020-08-05_S10E43_The_Inconceivable_Servitor.mp3
   youtube: https://www.youtube.com/watch?v=GQWYyy8x3ns
 duration: '01:31:03'
 video:
   youtube: https://www.youtube.com/watch?v=GQWYyy8x3ns
 image:
-  desktop: en_2020-08-05_S10E43_The_Inconceivable_Servitor_Bhakti_Ranjan_Madhusudan.jpg
-slug: en-2020-08-05-s10e43-the-inconceivable-servitor-bhakti-ranjan-madhusudan
+  desktop: en_2020-08-05_S10E43_The_Inconceivable_Servitor.jpg
+slug: en-2020-08-05-s10-e43-the-inconceivable-servitor
 status: draft
 license: https://creativecommons.org/licenses/by-nc-sa/4.0/
 ---

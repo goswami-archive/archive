@@ -7,14 +7,14 @@ authors:
   - Bhakti Bimal Avadhut Maharaj
 date: '2020-03-07'
 audio:
-  file: en_2020-03-07_S10E13_The_Disappearance_Day_Of_Madhavendra_Puri_Swami_Avadhut.mp3
+  file: en_2020-03-07_S10E13_The_Disappearance_Day_Of_Madhavendra_Puri.mp3
   youtube: https://www.youtube.com/watch?v=azoo7It7K7Q
 duration: '01:10:07'
 video:
   youtube: https://www.youtube.com/watch?v=azoo7It7K7Q
 image:
-  desktop: en_2020-03-07_S10E13_The_Disappearance_Day_Of_Madhavendra_Puri_Swami_Avadhut.jpg
-slug: en-2020-03-07-s10e13-the-disappearance-day-of-madhavendra-puri-swami-avadhut
+  desktop: en_2020-03-07_S10E13_The_Disappearance_Day_Of_Madhavendra_Puri.jpg
+slug: en-2020-03-07-s10-e13-the-disappearance-day-of-madhavendra-puri
 status: draft
 license: https://creativecommons.org/licenses/by-nc-sa/4.0/
 ---

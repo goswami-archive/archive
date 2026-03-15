@@ -7,14 +7,14 @@ authors:
   - Bhakti Pavan Janardan Maharaj
 date: '2018-06-07'
 audio:
-  file: en_2018-06-07_Congratulations_To_Sripad_Vijay_Raman_Prabhu_Bhakti_Pavan_Janardan.mp3
+  file: en_2018-06-07_Congratulations_To_Sripad_Vijay_Raman_Prabhu.mp3
   youtube: https://www.youtube.com/watch?v=afkXgPYxlwc
 duration: '00:06:48'
 video:
   youtube: https://www.youtube.com/watch?v=afkXgPYxlwc
 image:
-  desktop: en_2018-06-07_Congratulations_To_Sripad_Vijay_Raman_Prabhu_Bhakti_Pavan_Janardan.jpg
-slug: en-2018-06-07-congratulations-to-sripad-vijay-raman-prabhu-bhakti-pavan-janardan
+  desktop: en_2018-06-07_Congratulations_To_Sripad_Vijay_Raman_Prabhu.jpg
+slug: en-2018-06-07-congratulations-to-sripad-vijay-raman-prabhu
 status: draft
 license: https://creativecommons.org/licenses/by-nc-sa/4.0/
 ---

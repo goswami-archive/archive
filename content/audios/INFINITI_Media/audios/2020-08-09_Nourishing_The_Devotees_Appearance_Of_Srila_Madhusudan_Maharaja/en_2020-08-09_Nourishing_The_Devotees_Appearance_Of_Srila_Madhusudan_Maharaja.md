@@ -1,19 +1,19 @@
 ---
 type: post
 lang: en
-title: 'Nourishing the Devotees. Appearance of Srila Madhusudan Maharaja • Gupta Govardhan'
+title: 'Nourishing the Devotees. Appearance of Srila Madhusudan Maharaja'
 authors:
   - Bhakti Sudhir Goswami Maharaj
 date: '2020-08-09'
 audio:
-  file: en_2020-08-09_Nourishing_The_Devotees_Appearance_Of_Srila_Madhusudan_Maharaja_Gupta_Govardhan.mp3
+  file: en_2020-08-09_Nourishing_The_Devotees_Appearance_Of_Srila_Madhusudan_Maharaja.mp3
   youtube: https://www.youtube.com/watch?v=kGtp0SoXgVg
 duration: '01:47:40'
 video:
   youtube: https://www.youtube.com/watch?v=kGtp0SoXgVg
 image:
-  desktop: en_2020-08-09_Nourishing_The_Devotees_Appearance_Of_Srila_Madhusudan_Maharaja_Gupta_Govardhan.jpg
-slug: en-2020-08-09-nourishing-the-devotees-appearance-of-srila-madhusudan-maharaja-gupta-govardhan
+  desktop: en_2020-08-09_Nourishing_The_Devotees_Appearance_Of_Srila_Madhusudan_Maharaja.jpg
+slug: en-2020-08-09-nourishing-the-devotees-appearance-of-srila-madhusudan-maharaja
 status: draft
 license: https://creativecommons.org/licenses/by-nc-sa/4.0/
 ---

@@ -7,14 +7,14 @@ authors:
   - Bhakti Ranjan Madhusudan Maharaj
 date: '2020-07-31'
 audio:
-  file: en_2020-07-31_The_Fountainhead_Of_The_Rupanuga_Line_Bhakti_Ranjan_Madhusudan.mp3
+  file: en_2020-07-31_The_Fountainhead_Of_The_Rupanuga_Line.mp3
   youtube: https://www.youtube.com/watch?v=N3kZh-HF7Qk
 duration: '00:37:26'
 video:
   youtube: https://www.youtube.com/watch?v=N3kZh-HF7Qk
 image:
-  desktop: en_2020-07-31_The_Fountainhead_Of_The_Rupanuga_Line_Bhakti_Ranjan_Madhusudan.jpg
-slug: en-2020-07-31-the-fountainhead-of-the-rupanuga-line-bhakti-ranjan-madhusudan
+  desktop: en_2020-07-31_The_Fountainhead_Of_The_Rupanuga_Line.jpg
+slug: en-2020-07-31-the-fountainhead-of-the-rupanuga-line
 status: draft
 license: https://creativecommons.org/licenses/by-nc-sa/4.0/
 ---

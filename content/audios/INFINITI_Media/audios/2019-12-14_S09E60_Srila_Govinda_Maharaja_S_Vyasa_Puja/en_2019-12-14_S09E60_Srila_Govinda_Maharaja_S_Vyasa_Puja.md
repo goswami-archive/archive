@@ -7,14 +7,14 @@ authors:
   - Bhakti Ranjan Madhusudan Maharaj
 date: '2019-12-14'
 audio:
-  file: en_2019-12-14_S09E60_Srila_Govinda_Maharaja_S_Vyasa_Puja_Bhakti_Ranjan_Madhusudan.mp3
+  file: en_2019-12-14_S09E60_Srila_Govinda_Maharaja_S_Vyasa_Puja.mp3
   youtube: https://www.youtube.com/watch?v=GxigvJeAkBQ
 duration: '01:43:07'
 video:
   youtube: https://www.youtube.com/watch?v=GxigvJeAkBQ
 image:
-  desktop: en_2019-12-14_S09E60_Srila_Govinda_Maharaja_S_Vyasa_Puja_Bhakti_Ranjan_Madhusudan.jpg
-slug: en-2019-12-14-s09e60-srila-govinda-maharaja-s-vyasa-puja-bhakti-ranjan-madhusudan
+  desktop: en_2019-12-14_S09E60_Srila_Govinda_Maharaja_S_Vyasa_Puja.jpg
+slug: en-2019-12-14-s09-e60-srila-govinda-maharaja-s-vyasa-puja
 status: draft
 license: https://creativecommons.org/licenses/by-nc-sa/4.0/
 ---

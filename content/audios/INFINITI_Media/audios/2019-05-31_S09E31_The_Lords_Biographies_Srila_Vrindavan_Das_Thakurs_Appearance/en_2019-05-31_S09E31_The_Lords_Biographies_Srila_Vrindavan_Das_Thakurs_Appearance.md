@@ -6,14 +6,14 @@ authors:
   - Bhakti Sudhir Goswami Maharaj
 date: '2019-05-31'
 audio:
-  file: en_2019-05-31_S09E31_The_Lord_S_Biographies_Srila_Vrindavan_Das_Thakur_S_Appearance.mp3
+  file: en_2019-05-31_S09E31_The_Lords_Biographies_Srila_Vrindavan_Das_Thakurs_Appearance.mp3
   youtube: https://www.youtube.com/watch?v=-QB1U1uE9q0
 duration: '01:15:39'
 video:
   youtube: https://www.youtube.com/watch?v=-QB1U1uE9q0
 image:
-  desktop: en_2019-05-31_S09E31_The_Lord_S_Biographies_Srila_Vrindavan_Das_Thakur_S_Appearance.jpg
-slug: en-2019-05-31-s09e31-the-lord-s-biographies-srila-vrindavan-das-thakur-s-appearance
+  desktop: en_2019-05-31_S09E31_The_Lords_Biographies_Srila_Vrindavan_Das_Thakurs_Appearance.jpg
+slug: en-2019-05-31-s09-e31-the-lords-biographies-srila-vrindavan-das-thakurs-appearance
 status: draft
 license: https://creativecommons.org/licenses/by-nc-sa/4.0/
 ---
