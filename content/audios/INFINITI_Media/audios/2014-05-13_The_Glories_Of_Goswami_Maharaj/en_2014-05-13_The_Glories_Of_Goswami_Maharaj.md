@@ -1,19 +1,20 @@
 ---
 type: post
 lang: en
-title: 'The Glories of Srila Bhakti Sudhir Goswami Maharaj • Srila B.S. Govinda Dev-Goswami Maharaj'
+title: 'The Glories of Srila Bhakti Sudhir Goswami Maharaj'
 authors:
   - Bhakti Sudhir Goswami Maharaj
+  - Bhakti Sundar Govinda Dev Goswami Maharaj
 date: '2014-05-13'
 audio:
-  file: en_2014-05-13_The_Glories_Of_Srila_Maharaj_Srila_B_S_Govinda_Dev_Goswami_Maharaj.mp3
+  file: en_2014-05-13_The_Glories_Of_Goswami_Maharaj.mp3
   youtube: https://www.youtube.com/watch?v=4W48FwdwY-8
 duration: '00:03:33'
 video:
   youtube: https://www.youtube.com/watch?v=4W48FwdwY-8
 image:
-  desktop: en_2014-05-13_The_Glories_Of_Srila_Maharaj_Srila_B_S_Govinda_Dev_Goswami_Maharaj.jpg
-slug: en-2014-05-13-the-glories-of-srila-maharaj-srila-b-s-govinda-dev-goswami-maharaj
+  desktop: en_2014-05-13_The_Glories_Of_Goswami_Maharaj.jpg
+slug: en-2014-05-13-the-glories-of-goswami-maharaj
 status: draft
 license: https://creativecommons.org/licenses/by-nc-sa/4.0/
 ---
