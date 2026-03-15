@@ -14,14 +14,14 @@ authors:
   - Sri Hari Das Prabhu
 date: '2021-01-01'
 audio:
-  file: en_2021-01-01_Sri_Vyasa_Puja_The_Stories_Of_Srila_Gurudeva_S_Disciples_And_Others.mp3
+  file: en_2021-01-01_Sri_Vyasa_Puja_The_Stories_Of_Srila_Gurudevas_Disciples.mp3
   youtube: https://www.youtube.com/watch?v=I9jyMf50eOE
 duration: '01:37:11'
 video:
   youtube: https://www.youtube.com/watch?v=I9jyMf50eOE
 image:
-  desktop: en_2021-01-01_Sri_Vyasa_Puja_The_Stories_Of_Srila_Gurudeva_S_Disciples_And_Others.jpg
-slug: en-2021-01-01-sri-vyasa-puja-the-stories-of-srila-gurudeva-s-disciples-and-others
+  desktop: en_2021-01-01_Sri_Vyasa_Puja_The_Stories_Of_Srila_Gurudevas_Disciples.jpg
+slug: en-2021-01-01-sri-vyasa-puja-the-stories-of-srila-gurudevas-disciples
 status: draft
 license: https://creativecommons.org/licenses/by-nc-sa/4.0/
 ---

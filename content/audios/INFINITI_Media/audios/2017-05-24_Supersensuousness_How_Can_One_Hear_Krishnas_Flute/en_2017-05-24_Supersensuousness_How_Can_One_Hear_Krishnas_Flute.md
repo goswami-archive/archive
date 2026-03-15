@@ -6,14 +6,14 @@ authors:
   - Bhakti Sudhir Goswami Maharaj
 date: '2017-05-24'
 audio:
-  file: en_2017-05-24_Supersensuousness_How_Can_One_Hear_Krishna_S_Flute.mp3
+  file: en_2017-05-24_Supersensuousness_How_Can_One_Hear_Krishnas_Flute.mp3
   youtube: https://www.youtube.com/watch?v=fuWR1AtmRlc
 duration: '01:11:12'
 video:
   youtube: https://www.youtube.com/watch?v=fuWR1AtmRlc
 image:
-  desktop: en_2017-05-24_Supersensuousness_How_Can_One_Hear_Krishna_S_Flute.jpg
-slug: en-2017-05-24-supersensuousness-how-can-one-hear-krishna-s-flute
+  desktop: en_2017-05-24_Supersensuousness_How_Can_One_Hear_Krishnas_Flute.jpg
+slug: en-2017-05-24-supersensuousness-how-can-one-hear-krishnas-flute
 status: draft
 license: https://creativecommons.org/licenses/by-nc-sa/4.0/
 ---

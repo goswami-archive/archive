@@ -8,14 +8,14 @@ authors:
   - Bhakti Bimal Avadhut Maharaj
 date: '2021-01-03'
 audio:
-  file: en_2021-01-03_Disappearance_Festival_Of_Srila_Bhakti_Siddhanta_Saraswati_Thakur_Others.mp3
+  file: en_2021-01-03_Disappearance_Festival_Of_Srila_Saraswati_Thakur.mp3
   youtube: https://www.youtube.com/watch?v=cCKOYj-Egrk
 duration: '01:44:40'
 video:
   youtube: https://www.youtube.com/watch?v=cCKOYj-Egrk
 image:
-  desktop: en_2021-01-03_Disappearance_Festival_Of_Srila_Bhakti_Siddhanta_Saraswati_Thakur_Others.jpg
-slug: en-2021-01-03-disappearance-festival-of-srila-bhakti-siddhanta-saraswati-thakur-others
+  desktop: en_2021-01-03_Disappearance_Festival_Of_Srila_Saraswati_Thakur.jpg
+slug: en-2021-01-03-disappearance-festival-of-srila-saraswati-thakur
 status: draft
 license: https://creativecommons.org/licenses/by-nc-sa/4.0/
 ---
