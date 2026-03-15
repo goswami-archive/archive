@@ -11,7 +11,6 @@ export interface BaseFrontMatter {
   type: string;
   lang: string;
   title: string;
-  authors: string[];
   description?: string;
   slug: string;
   image?: {
@@ -23,6 +22,11 @@ export interface BaseFrontMatter {
 
 export interface CategoryMatter extends BaseFrontMatter {
   type: 'category';
+}
+
+export interface PlaylistMatter extends BaseFrontMatter {
+  type: 'playlist';
+  items: string[];
 }
 
 export interface PostMatter extends BaseFrontMatter {
@@ -77,6 +81,9 @@ export function writePost(file: string, markdown: Markdown<PostMatter>) {
     };
   }
 
+  // escape YAML single quotes
+  markdown.frontMatter.title = markdown.frontMatter.title.replaceAll("'", "''");
+
   const result = render(templates.post, markdown);
   fs.writeFileSync(file, result);
 }
@@ -84,6 +91,14 @@ export function writePost(file: string, markdown: Markdown<PostMatter>) {
 export function writeCategory(
   file: string,
   markdown: Markdown<CategoryMatter>
+) {
+  const result = render(templates.category, markdown);
+  fs.writeFileSync(file, result);
+}
+
+export function writePlaylist(
+  file: string,
+  markdown: Markdown<PlaylistMatter>
 ) {
   const result = render(templates.category, markdown);
   fs.writeFileSync(file, result);
