@@ -1,9 +1,10 @@
 ---
 type: post
 lang: en
-title: 'Srila Bhakti Sudhir Goswami Maharaja • Sri Vyasa Puja • Srila Madhusudan Maharaja and the devotees'
+title: 'Sri Vyasa Puja'
 authors:
   - Bhakti Sudhir Goswami Maharaj
+  - Bhakti Ranjan Madhusudan Maharaj
 date: '2021-05-22'
 audio:
   file: en_2021-05-22_Srila_Maharaja_Sri_Vyasa_Puja_Srila_Madhusudan_Maharaja_And_The_Devotees.mp3
